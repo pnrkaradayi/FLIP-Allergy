@@ -1,0 +1,24 @@
+# data (public, downloaded by the user; see flip_allergy/data_raw/README.md)
+flip_allergy/data_raw/*
+!flip_allergy/data_raw/README.md
+flip_allergy/doc_nhanes/
+flip_allergy/results_so_far/
+flip_allergy/analysis/data/
+
+# intermediate and per-patient outputs, run logs
+flip_allergy/analysis/results/*.pkl
+flip_allergy/analysis/results/*.npy
+flip_allergy/analysis/results/*_log.txt
+flip_allergy/analysis/results/*_records.csv
+
+# generated figures and tables
+manuscript/figures/*
+manuscript/tables/*
+!manuscript/figures/.gitkeep
+!manuscript/tables/.gitkeep
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

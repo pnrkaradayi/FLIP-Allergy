@@ -1,0 +1,7 @@
+,0
+outcome,y_allergic_disease
+tau,-0.6747485721948179
+t_prob,0.3374343728541929
+auc_test_full,0.6568251161500589
+n_nonzero,16
+prevalence_train,0.24904735982580295

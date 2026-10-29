@@ -1,0 +1,21 @@
+study,method,target,published_tests,flip_tests,kind,achieved,prev_full,prev_naive,prev_corrected,achieved_unw,n
+Gergen 2009,FLIP adaptive,identify 92.8% of atopic,6.0,4.328873581585061,read-off on test split (weighted),,,,,,
+Gergen 2009,FLIP adaptive,identify 92.8% of atopic,6.0,4.2769625385978784,"certified on calibration (alpha=0.072, delta=0.1)",0.9230893715573979,,,,,
+Gergen 2009,FLIP adaptive,identify 99.2% of atopic,11.0,7.184540563713199,read-off on test split (weighted),,,,,,
+Gergen 2009,FLIP adaptive,identify 99.2% of atopic,11.0,7.232856732180964,"certified on calibration (alpha=0.008, delta=0.1)",0.9956467959735215,,,,,
+Gergen 2009,FLIP adaptive + total IgE,identify 92.8% of atopic,6.0,4.1756988221792595,read-off on test split (weighted),,,,,,
+Gergen 2009,FLIP adaptive + total IgE,identify 92.8% of atopic,6.0,4.520493631581208,"certified on calibration (alpha=0.072, delta=0.1)",0.9526121111949588,,,,,
+Gergen 2009,FLIP adaptive + total IgE,identify 99.2% of atopic,11.0,8.344866466974025,read-off on test split (weighted),,,,,,
+Gergen 2009,FLIP adaptive + total IgE,identify 99.2% of atopic,11.0,7.71592944059268,"certified on calibration (alpha=0.008, delta=0.1)",0.9910332861448535,,,,,
+Gergen 2009,"Fixed panel, weighted greedy (Gergen 2009)",6-allergen panel,6.0,6.0,test split,0.9333932584738984,,,,,
+Gergen 2009,"Fixed panel, weighted greedy (Gergen 2009)",11-allergen panel,11.0,11.0,test split,0.9826622000442902,,,,,
+Salo 2014,"FLIP (adaptive, no total IgE)",certified miss rate <= 0.05,19.0,6.809362632200542,"test split, survey-weighted",,0.4621189380604599,0.4450111329333912,0.4612822064714187,,
+Salo 2014,"FLIP (adaptive, no total IgE)",certified miss rate <= 0.01,19.0,9.911948308116706,"test split, survey-weighted",,0.4621189380604599,0.46078106181065087,0.46269670953820863,,
+Salo 2014,FLIP (total IgE + adaptive),certified miss rate <= 0.05,19.0,6.322439875590032,"test split, survey-weighted",,0.4621189380604599,0.44841038873200345,0.46828525670791576,,
+Salo 2014,FLIP (total IgE + adaptive),certified miss rate <= 0.01,19.0,9.403171307008192,"test split, survey-weighted",,0.4621189380604599,0.45856171519664224,0.4614274225450066,,
+Salo 2014 (1-5 y),FLIP adaptive,certified miss rate <= 0.05,9.0,5.477536289248425,"4-fold rotating cross-fit, survey-weighted",0.9892687180479168,36.26046581767459,,36.72974620578192,0.9823529411764705,855.0
+Salo 2014 (1-5 y),FLIP adaptive,certified miss rate <= 0.1,9.0,4.265642502591906,"4-fold rotating cross-fit, survey-weighted",0.9681841742667365,36.26046581767459,,37.741408196101,0.95,855.0
+Salo 2014 (1-5 y),FLIP adaptive + total IgE,certified miss rate <= 0.05,9.0,5.945690571873352,"4-fold rotating cross-fit, survey-weighted",0.9691055217562662,36.26046581767459,,36.37442577570249,0.9735294117647059,855.0
+Salo 2014 (1-5 y),FLIP adaptive + total IgE,certified miss rate <= 0.1,9.0,4.516729607559085,"4-fold rotating cross-fit, survey-weighted",0.9420685185320553,36.26046581767459,,37.45115670283503,0.9352941176470588,855.0
+Arbes 2005,FLIP adaptive (skin prick),certified miss rate <= 0.05,10.0,3.369037029173058,"test split, survey-weighted",0.9538678099066943,0.5256799790287775,0.5014292103079769,0.5306913814495391,,
+Arbes 2005,FLIP adaptive (skin prick),certified miss rate <= 0.01,10.0,4.849294551427603,"test split, survey-weighted",0.987899955760555,0.5256799790287775,0.5193192280267389,0.5232351934131947,,

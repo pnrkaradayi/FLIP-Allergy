@@ -1,0 +1,364 @@
+dataset,method,mean_tests,sensitivity
+spt,"FLIP (adaptive, in-domain)",5.7117083946980856,1.0
+spt,"FLIP (adaptive, in-domain)",5.708762886597938,1.0
+spt,"FLIP (adaptive, in-domain)",5.656848306332843,1.0
+spt,"FLIP (adaptive, in-domain)",5.604933726067746,1.0
+spt,"FLIP (adaptive, in-domain)",5.553019145802651,1.0
+spt,"FLIP (adaptive, in-domain)",5.501104565537555,1.0
+spt,"FLIP (adaptive, in-domain)",5.44918998527246,1.0
+spt,"FLIP (adaptive, in-domain)",5.397275405007364,1.0
+spt,"FLIP (adaptive, in-domain)",5.345360824742268,0.9993127147766323
+spt,"FLIP (adaptive, in-domain)",5.293446244477172,0.9979381443298969
+spt,"FLIP (adaptive, in-domain)",5.241531664212077,0.9972508591065292
+spt,"FLIP (adaptive, in-domain)",5.189617083946981,0.9965635738831615
+spt,"FLIP (adaptive, in-domain)",5.138070692194404,0.9965635738831615
+spt,"FLIP (adaptive, in-domain)",5.0861561119293075,0.9965635738831615
+spt,"FLIP (adaptive, in-domain)",5.034241531664212,0.9958762886597938
+spt,"FLIP (adaptive, in-domain)",4.982326951399116,0.9945017182130584
+spt,"FLIP (adaptive, in-domain)",4.930412371134021,0.9945017182130584
+spt,"FLIP (adaptive, in-domain)",4.878497790868925,0.993127147766323
+spt,"FLIP (adaptive, in-domain)",4.826583210603829,0.9924398625429554
+spt,"FLIP (adaptive, in-domain)",4.774668630338733,0.9917525773195877
+spt,"FLIP (adaptive, in-domain)",4.722754050073638,0.99106529209622
+spt,"FLIP (adaptive, in-domain)",4.670839469808542,0.9903780068728523
+spt,"FLIP (adaptive, in-domain)",4.618924889543446,0.9896907216494846
+spt,"FLIP (adaptive, in-domain)",4.56701030927835,0.9896907216494846
+spt,"FLIP (adaptive, in-domain)",4.515095729013255,0.9896907216494846
+spt,"FLIP (adaptive, in-domain)",4.463181148748159,0.9876288659793815
+spt,"FLIP (adaptive, in-domain)",4.411266568483064,0.9869415807560138
+spt,"FLIP (adaptive, in-domain)",4.359351988217967,0.9855670103092784
+spt,"FLIP (adaptive, in-domain)",4.307437407952872,0.9848797250859107
+spt,"FLIP (adaptive, in-domain)",4.255522827687776,0.9835051546391752
+spt,"FLIP (adaptive, in-domain)",4.203608247422681,0.9814432989690721
+spt,"FLIP (adaptive, in-domain)",4.151693667157585,0.9800687285223367
+spt,"FLIP (adaptive, in-domain)",4.100147275405007,0.979381443298969
+spt,"FLIP (adaptive, in-domain)",4.0482326951399115,0.9786941580756013
+spt,"FLIP (adaptive, in-domain)",3.996318114874816,0.977319587628866
+spt,"FLIP (adaptive, in-domain)",3.9444035346097204,0.9766323024054983
+spt,"FLIP (adaptive, in-domain)",3.8924889543446244,0.9766323024054983
+spt,"FLIP (adaptive, in-domain)",3.840574374079529,0.9752577319587629
+spt,"FLIP (adaptive, in-domain)",3.788659793814433,0.9752577319587629
+spt,"FLIP (adaptive, in-domain)",3.7367452135493373,0.9718213058419244
+spt,"FLIP (adaptive, in-domain)",3.6848306332842413,0.9697594501718213
+spt,"FLIP (adaptive, in-domain)",3.6329160530191458,0.9670103092783505
+spt,"FLIP (adaptive, in-domain)",3.5810014727540502,0.9649484536082474
+spt,"FLIP (adaptive, in-domain)",3.5290868924889542,0.9621993127147767
+spt,"FLIP (adaptive, in-domain)",3.4771723122238587,0.9608247422680413
+spt,"FLIP (adaptive, in-domain)",3.4252577319587627,0.9594501718213059
+spt,"FLIP (adaptive, in-domain)",3.373343151693667,0.9573883161512028
+spt,"FLIP (adaptive, in-domain)",3.3214285714285716,0.9560137457044674
+spt,"FLIP (adaptive, in-domain)",3.2695139911634756,0.9539518900343642
+spt,"FLIP (adaptive, in-domain)",3.21759941089838,0.9518900343642611
+spt,"FLIP (adaptive, in-domain)",3.165684830633284,0.9491408934707903
+spt,"FLIP (adaptive, in-domain)",3.1137702503681886,0.9470790378006873
+spt,"FLIP (adaptive, in-domain)",3.062223858615611,0.9450171821305842
+spt,"FLIP (adaptive, in-domain)",3.0103092783505154,0.9429553264604811
+spt,"FLIP (adaptive, in-domain)",2.95839469808542,0.9402061855670103
+spt,"FLIP (adaptive, in-domain)",2.906480117820324,0.9374570446735395
+spt,"FLIP (adaptive, in-domain)",2.8545655375552283,0.9333333333333333
+spt,"FLIP (adaptive, in-domain)",2.8026509572901324,0.9278350515463918
+spt,"FLIP (adaptive, in-domain)",2.750736377025037,0.9271477663230241
+spt,"FLIP (adaptive, in-domain)",2.6988217967599413,0.9223367697594502
+spt,"FLIP (adaptive, in-domain)",2.6469072164948453,0.9182130584192439
+spt,"FLIP (adaptive, in-domain)",2.5949926362297497,0.9147766323024055
+spt,"FLIP (adaptive, in-domain)",2.5430780559646537,0.9085910652920962
+spt,"FLIP (adaptive, in-domain)",2.491163475699558,0.90446735395189
+spt,"FLIP (adaptive, in-domain)",2.4392488954344627,0.8982817869415808
+spt,"FLIP (adaptive, in-domain)",2.3873343151693667,0.8900343642611683
+spt,"FLIP (adaptive, in-domain)",2.335419734904271,0.8831615120274914
+spt,"FLIP (adaptive, in-domain)",2.283505154639175,0.8742268041237113
+spt,"FLIP (adaptive, in-domain)",2.2315905743740796,0.8680412371134021
+spt,"FLIP (adaptive, in-domain)",2.1796759941089836,0.8584192439862544
+spt,"FLIP (adaptive, in-domain)",2.127761413843888,0.852233676975945
+spt,"FLIP (adaptive, in-domain)",2.0758468335787925,0.8426116838487973
+spt,"FLIP (adaptive, in-domain)",2.024300441826215,0.8309278350515463
+spt,"FLIP (adaptive, in-domain)",1.9723858615611194,0.8185567010309278
+spt,"FLIP (adaptive, in-domain)",1.9204712812960236,0.8020618556701031
+spt,"FLIP (adaptive, in-domain)",1.8685567010309279,0.7890034364261168
+spt,"FLIP (adaptive, in-domain)",1.816642120765832,0.7786941580756014
+spt,"FLIP (adaptive, in-domain)",1.7647275405007363,0.7690721649484535
+spt,"FLIP (adaptive, in-domain)",1.7128129602356406,0.7560137457044673
+spt,"FLIP (adaptive, in-domain)",1.660898379970545,0.7415807560137457
+spt,"FLIP (adaptive, in-domain)",1.6089837997054492,0.7312714776632303
+spt,"FLIP (adaptive, in-domain)",1.5570692194403535,0.7168384879725086
+spt,"FLIP (adaptive, in-domain)",1.5051546391752577,0.7024054982817869
+spt,"FLIP (adaptive, in-domain)",1.453240058910162,0.6872852233676976
+spt,"FLIP (adaptive, in-domain)",1.4013254786450662,0.6735395189003437
+spt,"FLIP (adaptive, in-domain)",1.3494108983799706,0.6577319587628866
+spt,"FLIP (adaptive, in-domain)",1.2974963181148749,0.6398625429553264
+spt,"FLIP (adaptive, in-domain)",1.245581737849779,0.6268041237113402
+spt,"FLIP (adaptive, in-domain)",1.1936671575846833,0.6158075601374571
+spt,"FLIP (adaptive, in-domain)",1.1417525773195876,0.5979381443298969
+spt,"FLIP (adaptive, in-domain)",1.0898379970544918,0.579381443298969
+spt,"FLIP (adaptive, in-domain)",1.0379234167893963,0.5580756013745705
+spt,"FLIP (adaptive, in-domain)",0.9863770250368189,0.534020618556701
+spt,"FLIP (adaptive, in-domain)",0.9344624447717231,0.5085910652920962
+spt,"FLIP (adaptive, in-domain)",0.8825478645066274,0.48797250859106533
+spt,"FLIP (adaptive, in-domain)",0.8306332842415317,0.46735395189003437
+spt,"FLIP (adaptive, in-domain)",0.7787187039764359,0.4481099656357388
+spt,"FLIP (adaptive, in-domain)",0.7260677466863034,0.42680412371134024
+spt,"FLIP (adaptive, in-domain)",0.6741531664212077,0.4048109965635739
+spt,"FLIP (adaptive, in-domain)",0.6226067746686303,0.3848797250859106
+spt,"FLIP (adaptive, in-domain)",0.5706921944035346,0.3594501718213059
+spt,"FLIP (adaptive, in-domain)",0.5191458026509573,0.3264604810996563
+spt,"FLIP (adaptive, in-domain)",0.46723122238586157,0.2955326460481099
+spt,"FLIP (adaptive, in-domain)",0.41494845360824745,0.26254295532646044
+spt,"FLIP (adaptive, in-domain)",0.3630338733431517,0.23230240549828174
+spt,"FLIP (adaptive, in-domain)",0.3114874815905744,0.20481099656357393
+spt,"FLIP (adaptive, in-domain)",0.25957290132547867,0.17182130584192434
+spt,"FLIP (adaptive, in-domain)",0.20765832106038293,0.13608247422680408
+spt,"FLIP (adaptive, in-domain)",0.1557437407952872,0.10103092783505152
+spt,"FLIP (adaptive, in-domain)",0.10346097201767304,0.06597938144329896
+spt,"FLIP (adaptive, in-domain)",0.05154639175257732,0.03436426116838487
+spt,"FLIP (adaptive, in-domain)",0.0,0.0
+spt,"FLIP (adaptive, structure transported from serum)",5.5942562592047125,0.9965635738831615
+spt,"FLIP (adaptive, structure transported from serum)",5.5699558173784975,0.9958762886597938
+spt,"FLIP (adaptive, structure transported from serum)",5.518041237113402,0.9958762886597938
+spt,"FLIP (adaptive, structure transported from serum)",5.465758468335788,0.9951890034364261
+spt,"FLIP (adaptive, structure transported from serum)",5.4138438880706925,0.9945017182130584
+spt,"FLIP (adaptive, structure transported from serum)",5.361561119293078,0.9938144329896907
+spt,"FLIP (adaptive, structure transported from serum)",5.309646539027982,0.9938144329896907
+spt,"FLIP (adaptive, structure transported from serum)",5.257731958762887,0.9938144329896907
+spt,"FLIP (adaptive, structure transported from serum)",5.205449189985273,0.993127147766323
+spt,"FLIP (adaptive, structure transported from serum)",5.153534609720177,0.993127147766323
+spt,"FLIP (adaptive, structure transported from serum)",5.101620029455081,0.993127147766323
+spt,"FLIP (adaptive, structure transported from serum)",5.049337260677467,0.993127147766323
+spt,"FLIP (adaptive, structure transported from serum)",4.997422680412371,0.9917525773195877
+spt,"FLIP (adaptive, structure transported from serum)",4.945139911634757,0.9917525773195877
+spt,"FLIP (adaptive, structure transported from serum)",4.893225331369662,0.9917525773195877
+spt,"FLIP (adaptive, structure transported from serum)",4.841310751104565,0.9917525773195877
+spt,"FLIP (adaptive, structure transported from serum)",4.789027982326951,0.9903780068728523
+spt,"FLIP (adaptive, structure transported from serum)",4.737113402061856,0.9890034364261169
+spt,"FLIP (adaptive, structure transported from serum)",4.68519882179676,0.9876288659793815
+spt,"FLIP (adaptive, structure transported from serum)",4.632916053019146,0.9855670103092784
+spt,"FLIP (adaptive, structure transported from serum)",4.58100147275405,0.9855670103092784
+spt,"FLIP (adaptive, structure transported from serum)",4.528718703976436,0.9848797250859107
+spt,"FLIP (adaptive, structure transported from serum)",4.47680412371134,0.984192439862543
+spt,"FLIP (adaptive, structure transported from serum)",4.424889543446245,0.9835051546391752
+spt,"FLIP (adaptive, structure transported from serum)",4.37260677466863,0.9828178694158075
+spt,"FLIP (adaptive, structure transported from serum)",4.320692194403534,0.9828178694158075
+spt,"FLIP (adaptive, structure transported from serum)",4.268777614138439,0.9828178694158075
+spt,"FLIP (adaptive, structure transported from serum)",4.216494845360825,0.9814432989690721
+spt,"FLIP (adaptive, structure transported from serum)",4.164580265095729,0.9814432989690721
+spt,"FLIP (adaptive, structure transported from serum)",4.1122974963181145,0.9814432989690721
+spt,"FLIP (adaptive, structure transported from serum)",4.060382916053019,0.9807560137457044
+spt,"FLIP (adaptive, structure transported from serum)",4.008468335787923,0.9786941580756013
+spt,"FLIP (adaptive, structure transported from serum)",3.9561855670103094,0.9780068728522336
+spt,"FLIP (adaptive, structure transported from serum)",3.9042709867452134,0.9780068728522336
+spt,"FLIP (adaptive, structure transported from serum)",3.8519882179675995,0.9759450171821306
+spt,"FLIP (adaptive, structure transported from serum)",3.8000736377025035,0.9718213058419244
+spt,"FLIP (adaptive, structure transported from serum)",3.748159057437408,0.9697594501718213
+spt,"FLIP (adaptive, structure transported from serum)",3.695876288659794,0.9676975945017182
+spt,"FLIP (adaptive, structure transported from serum)",3.643961708394698,0.9649484536082474
+spt,"FLIP (adaptive, structure transported from serum)",3.5920471281296025,0.9628865979381444
+spt,"FLIP (adaptive, structure transported from serum)",3.539764359351988,0.961512027491409
+spt,"FLIP (adaptive, structure transported from serum)",3.4878497790868925,0.9587628865979382
+spt,"FLIP (adaptive, structure transported from serum)",3.435567010309278,0.9567010309278351
+spt,"FLIP (adaptive, structure transported from serum)",3.3836524300441826,0.9539518900343642
+spt,"FLIP (adaptive, structure transported from serum)",3.331737849779087,0.9505154639175257
+spt,"FLIP (adaptive, structure transported from serum)",3.2794550810014726,0.947766323024055
+spt,"FLIP (adaptive, structure transported from serum)",3.227540500736377,0.9402061855670103
+spt,"FLIP (adaptive, structure transported from serum)",3.175625920471281,0.9367697594501718
+spt,"FLIP (adaptive, structure transported from serum)",3.123343151693667,0.934020618556701
+spt,"FLIP (adaptive, structure transported from serum)",3.0714285714285716,0.9298969072164949
+spt,"FLIP (adaptive, structure transported from serum)",3.0191458026509572,0.9243986254295533
+spt,"FLIP (adaptive, structure transported from serum)",2.9672312223858617,0.9230240549828179
+spt,"FLIP (adaptive, structure transported from serum)",2.9153166421207657,0.9202749140893471
+spt,"FLIP (adaptive, structure transported from serum)",2.8630338733431517,0.9182130584192439
+spt,"FLIP (adaptive, structure transported from serum)",2.8111192930780557,0.9120274914089347
+spt,"FLIP (adaptive, structure transported from serum)",2.75920471281296,0.9099656357388316
+spt,"FLIP (adaptive, structure transported from serum)",2.7069219440353463,0.9072164948453608
+spt,"FLIP (adaptive, structure transported from serum)",2.6550073637702503,0.9051546391752577
+spt,"FLIP (adaptive, structure transported from serum)",2.6027245949926363,0.9030927835051547
+spt,"FLIP (adaptive, structure transported from serum)",2.5508100147275403,0.8982817869415808
+spt,"FLIP (adaptive, structure transported from serum)",2.4988954344624448,0.8982817869415808
+spt,"FLIP (adaptive, structure transported from serum)",2.446612665684831,0.8900343642611683
+spt,"FLIP (adaptive, structure transported from serum)",2.394698085419735,0.8872852233676976
+spt,"FLIP (adaptive, structure transported from serum)",2.3427835051546393,0.8845360824742268
+spt,"FLIP (adaptive, structure transported from serum)",2.290500736377025,0.8783505154639175
+spt,"FLIP (adaptive, structure transported from serum)",2.2385861561119293,0.8694158075601375
+spt,"FLIP (adaptive, structure transported from serum)",2.186303387334315,0.8652920962199313
+spt,"FLIP (adaptive, structure transported from serum)",2.1343888070692194,0.8556701030927836
+spt,"FLIP (adaptive, structure transported from serum)",2.082474226804124,0.8481099656357388
+spt,"FLIP (adaptive, structure transported from serum)",2.0301914580265095,0.831615120274914
+spt,"FLIP (adaptive, structure transported from serum)",1.978276877761414,0.822680412371134
+spt,"FLIP (adaptive, structure transported from serum)",1.9259941089837997,0.8048109965635739
+spt,"FLIP (adaptive, structure transported from serum)",1.874079528718704,0.7931271477663231
+spt,"FLIP (adaptive, structure transported from serum)",1.8221649484536082,0.7835051546391752
+spt,"FLIP (adaptive, structure transported from serum)",1.769882179675994,0.7738831615120275
+spt,"FLIP (adaptive, structure transported from serum)",1.7179675994108983,0.7580756013745704
+spt,"FLIP (adaptive, structure transported from serum)",1.6660530191458027,0.7415807560137457
+spt,"FLIP (adaptive, structure transported from serum)",1.6137702503681886,0.7312714776632303
+spt,"FLIP (adaptive, structure transported from serum)",1.5618556701030928,0.7209621993127148
+spt,"FLIP (adaptive, structure transported from serum)",1.5095729013254786,0.7079037800687284
+spt,"FLIP (adaptive, structure transported from serum)",1.4576583210603828,0.6893470790378007
+spt,"FLIP (adaptive, structure transported from serum)",1.405743740795287,0.6762886597938145
+spt,"FLIP (adaptive, structure transported from serum)",1.3534609720176731,0.659106529209622
+spt,"FLIP (adaptive, structure transported from serum)",1.3015463917525774,0.6426116838487972
+spt,"FLIP (adaptive, structure transported from serum)",1.2496318114874816,0.6316151202749141
+spt,"FLIP (adaptive, structure transported from serum)",1.1973490427098674,0.6164948453608248
+spt,"FLIP (adaptive, structure transported from serum)",1.1454344624447717,0.5993127147766323
+spt,"FLIP (adaptive, structure transported from serum)",1.0931516936671575,0.5807560137457044
+spt,"FLIP (adaptive, structure transported from serum)",1.041237113402062,0.5539518900343643
+spt,"FLIP (adaptive, structure transported from serum)",0.9893225331369662,0.5326460481099656
+spt,"FLIP (adaptive, structure transported from serum)",0.937039764359352,0.5092783505154639
+spt,"FLIP (adaptive, structure transported from serum)",0.8847569955817378,0.4900343642611684
+spt,"FLIP (adaptive, structure transported from serum)",0.8332106038291606,0.46735395189003437
+spt,"FLIP (adaptive, structure transported from serum)",0.7809278350515464,0.4467353951890034
+spt,"FLIP (adaptive, structure transported from serum)",0.7290132547864506,0.42886597938144333
+spt,"FLIP (adaptive, structure transported from serum)",0.6767304860088366,0.4061855670103093
+spt,"FLIP (adaptive, structure transported from serum)",0.6244477172312224,0.3855670103092783
+spt,"FLIP (adaptive, structure transported from serum)",0.572901325478645,0.3621993127147767
+spt,"FLIP (adaptive, structure transported from serum)",0.520618556701031,0.327147766323024
+spt,"FLIP (adaptive, structure transported from serum)",0.4683357879234168,0.2996563573883162
+spt,"FLIP (adaptive, structure transported from serum)",0.4164212076583211,0.2639175257731958
+spt,"FLIP (adaptive, structure transported from serum)",0.3634020618556701,0.23298969072164943
+spt,"FLIP (adaptive, structure transported from serum)",0.31111929307805597,0.20618556701030932
+spt,"FLIP (adaptive, structure transported from serum)",0.25920471281296026,0.17044673539518895
+spt,"FLIP (adaptive, structure transported from serum)",0.20839469808541974,0.13608247422680408
+spt,"FLIP (adaptive, structure transported from serum)",0.1561119293078056,0.10240549828178691
+spt,"FLIP (adaptive, structure transported from serum)",0.10419734904270987,0.06460481099656357
+spt,"FLIP (adaptive, structure transported from serum)",0.05228276877761414,0.033676975945017174
+spt,"FLIP (adaptive, structure transported from serum)",0.0,0.0
+spt,Ablation: no cross-reactivity (diagonal),5.745581737849779,1.0
+spt,Ablation: no cross-reactivity (diagonal),5.740058910162003,1.0
+spt,Ablation: no cross-reactivity (diagonal),5.687776141384389,0.9993127147766323
+spt,Ablation: no cross-reactivity (diagonal),5.6358615611192935,0.9993127147766323
+spt,Ablation: no cross-reactivity (diagonal),5.583578792341679,0.9993127147766323
+spt,Ablation: no cross-reactivity (diagonal),5.531296023564065,0.9993127147766323
+spt,Ablation: no cross-reactivity (diagonal),5.479013254786451,0.9993127147766323
+spt,Ablation: no cross-reactivity (diagonal),5.427098674521355,0.9993127147766323
+spt,Ablation: no cross-reactivity (diagonal),5.37481590574374,0.9979381443298969
+spt,Ablation: no cross-reactivity (diagonal),5.322533136966126,0.9972508591065292
+spt,Ablation: no cross-reactivity (diagonal),5.2702503681885124,0.9965635738831615
+spt,Ablation: no cross-reactivity (diagonal),5.218335787923417,0.9965635738831615
+spt,Ablation: no cross-reactivity (diagonal),5.166053019145803,0.9958762886597938
+spt,Ablation: no cross-reactivity (diagonal),5.113770250368188,0.9945017182130584
+spt,Ablation: no cross-reactivity (diagonal),5.061855670103093,0.9945017182130584
+spt,Ablation: no cross-reactivity (diagonal),5.009572901325479,0.9945017182130584
+spt,Ablation: no cross-reactivity (diagonal),4.957290132547865,0.9924398625429554
+spt,Ablation: no cross-reactivity (diagonal),4.905007363770251,0.9917525773195877
+spt,Ablation: no cross-reactivity (diagonal),4.853092783505154,0.9903780068728523
+spt,Ablation: no cross-reactivity (diagonal),4.80081001472754,0.9903780068728523
+spt,Ablation: no cross-reactivity (diagonal),4.748527245949926,0.9903780068728523
+spt,Ablation: no cross-reactivity (diagonal),4.696612665684831,0.9903780068728523
+spt,Ablation: no cross-reactivity (diagonal),4.644329896907217,0.9883161512027492
+spt,Ablation: no cross-reactivity (diagonal),4.592047128129602,0.9862542955326461
+spt,Ablation: no cross-reactivity (diagonal),4.539764359351988,0.9855670103092784
+spt,Ablation: no cross-reactivity (diagonal),4.4878497790868925,0.9848797250859107
+spt,Ablation: no cross-reactivity (diagonal),4.435567010309279,0.9835051546391752
+spt,Ablation: no cross-reactivity (diagonal),4.383284241531665,0.9814432989690721
+spt,Ablation: no cross-reactivity (diagonal),4.33100147275405,0.9786941580756013
+spt,Ablation: no cross-reactivity (diagonal),4.279086892488954,0.9766323024054983
+spt,Ablation: no cross-reactivity (diagonal),4.22680412371134,0.9731958762886598
+spt,Ablation: no cross-reactivity (diagonal),4.174521354933726,0.9697594501718213
+spt,Ablation: no cross-reactivity (diagonal),4.12260677466863,0.9683848797250859
+spt,Ablation: no cross-reactivity (diagonal),4.070324005891016,0.9676975945017182
+spt,Ablation: no cross-reactivity (diagonal),4.018041237113402,0.9663230240549828
+spt,Ablation: no cross-reactivity (diagonal),3.965758468335788,0.9656357388316151
+spt,Ablation: no cross-reactivity (diagonal),3.913843888070692,0.9642611683848797
+spt,Ablation: no cross-reactivity (diagonal),3.861561119293078,0.963573883161512
+spt,Ablation: no cross-reactivity (diagonal),3.8092783505154637,0.9628865979381444
+spt,Ablation: no cross-reactivity (diagonal),3.757363770250368,0.961512027491409
+spt,Ablation: no cross-reactivity (diagonal),3.705081001472754,0.961512027491409
+spt,Ablation: no cross-reactivity (diagonal),3.65279823269514,0.9601374570446736
+spt,Ablation: no cross-reactivity (diagonal),3.600515463917526,0.9594501718213059
+spt,Ablation: no cross-reactivity (diagonal),3.54860088365243,0.9567010309278351
+spt,Ablation: no cross-reactivity (diagonal),3.496318114874816,0.9532646048109965
+spt,Ablation: no cross-reactivity (diagonal),3.444035346097202,0.9518900343642611
+spt,Ablation: no cross-reactivity (diagonal),3.3917525773195876,0.9484536082474226
+spt,Ablation: no cross-reactivity (diagonal),3.339837997054492,0.9457044673539519
+spt,Ablation: no cross-reactivity (diagonal),3.2875552282768776,0.9415807560137457
+spt,Ablation: no cross-reactivity (diagonal),3.2352724594992637,0.9395189003436426
+spt,Ablation: no cross-reactivity (diagonal),3.1833578792341677,0.9360824742268041
+spt,Ablation: no cross-reactivity (diagonal),3.1310751104565537,0.9326460481099657
+spt,Ablation: no cross-reactivity (diagonal),3.07879234167894,0.9312714776632303
+spt,Ablation: no cross-reactivity (diagonal),3.0265095729013254,0.9264604810996564
+spt,Ablation: no cross-reactivity (diagonal),2.97459499263623,0.9243986254295533
+spt,Ablation: no cross-reactivity (diagonal),2.9223122238586154,0.9202749140893471
+spt,Ablation: no cross-reactivity (diagonal),2.8700294550810015,0.9161512027491409
+spt,Ablation: no cross-reactivity (diagonal),2.818114874815906,0.9127147766323024
+spt,Ablation: no cross-reactivity (diagonal),2.7658321060382915,0.9099656357388316
+spt,Ablation: no cross-reactivity (diagonal),2.7135493372606776,0.9065292096219931
+spt,Ablation: no cross-reactivity (diagonal),2.661266568483063,0.9030927835051547
+spt,Ablation: no cross-reactivity (diagonal),2.6093519882179677,0.8982817869415808
+spt,Ablation: no cross-reactivity (diagonal),2.5570692194403533,0.8920962199312714
+spt,Ablation: no cross-reactivity (diagonal),2.5047864506627393,0.8804123711340206
+spt,Ablation: no cross-reactivity (diagonal),2.4525036818851254,0.8742268041237113
+spt,Ablation: no cross-reactivity (diagonal),2.4005891016200294,0.8666666666666667
+spt,Ablation: no cross-reactivity (diagonal),2.3483063328424154,0.859106529209622
+spt,Ablation: no cross-reactivity (diagonal),2.296023564064801,0.8515463917525773
+spt,Ablation: no cross-reactivity (diagonal),2.2441089837997055,0.845360824742268
+spt,Ablation: no cross-reactivity (diagonal),2.1918262150220915,0.8350515463917526
+spt,Ablation: no cross-reactivity (diagonal),2.139543446244477,0.8274914089347079
+spt,Ablation: no cross-reactivity (diagonal),2.087260677466863,0.8151202749140893
+spt,Ablation: no cross-reactivity (diagonal),2.035346097201767,0.8048109965635739
+spt,Ablation: no cross-reactivity (diagonal),1.9830633284241532,0.7958762886597939
+spt,Ablation: no cross-reactivity (diagonal),1.930780559646539,0.7807560137457045
+spt,Ablation: no cross-reactivity (diagonal),1.8788659793814433,0.7690721649484535
+spt,Ablation: no cross-reactivity (diagonal),1.826583210603829,0.7580756013745704
+spt,Ablation: no cross-reactivity (diagonal),1.774300441826215,0.7470790378006873
+spt,Ablation: no cross-reactivity (diagonal),1.722017673048601,0.7326460481099657
+spt,Ablation: no cross-reactivity (diagonal),1.6701030927835052,0.7209621993127148
+spt,Ablation: no cross-reactivity (diagonal),1.617820324005891,0.70446735395189
+spt,Ablation: no cross-reactivity (diagonal),1.5655375552282769,0.6955326460481099
+spt,Ablation: no cross-reactivity (diagonal),1.5132547864506627,0.6790378006872853
+spt,Ablation: no cross-reactivity (diagonal),1.461340206185567,0.6632302405498282
+spt,Ablation: no cross-reactivity (diagonal),1.409057437407953,0.6432989690721649
+spt,Ablation: no cross-reactivity (diagonal),1.3567746686303388,0.6329896907216495
+spt,Ablation: no cross-reactivity (diagonal),1.304860088365243,0.6151202749140894
+spt,Ablation: no cross-reactivity (diagonal),1.2525773195876289,0.6
+spt,Ablation: no cross-reactivity (diagonal),1.2002945508100147,0.5862542955326461
+spt,Ablation: no cross-reactivity (diagonal),1.1480117820324005,0.5670103092783505
+spt,Ablation: no cross-reactivity (diagonal),1.096097201767305,0.5443298969072166
+spt,Ablation: no cross-reactivity (diagonal),1.0438144329896908,0.5298969072164949
+spt,Ablation: no cross-reactivity (diagonal),0.9915316642120766,0.5147766323024054
+spt,Ablation: no cross-reactivity (diagonal),0.9396170839469808,0.5017182130584192
+spt,Ablation: no cross-reactivity (diagonal),0.8873343151693667,0.48453608247422686
+spt,Ablation: no cross-reactivity (diagonal),0.8350515463917526,0.4646048109965636
+spt,Ablation: no cross-reactivity (diagonal),0.7827687776141384,0.4494845360824742
+spt,Ablation: no cross-reactivity (diagonal),0.7304860088365243,0.42405498281786946
+spt,Ablation: no cross-reactivity (diagonal),0.6785714285714286,0.39725085910652924
+spt,Ablation: no cross-reactivity (diagonal),0.625920471281296,0.3725085910652921
+spt,Ablation: no cross-reactivity (diagonal),0.5736377025036818,0.340893470790378
+spt,Ablation: no cross-reactivity (diagonal),0.5220913107511046,0.3120274914089347
+spt,Ablation: no cross-reactivity (diagonal),0.4690721649484536,0.2804123711340206
+spt,Ablation: no cross-reactivity (diagonal),0.4167893961708395,0.2508591065292096
+spt,Ablation: no cross-reactivity (diagonal),0.36561119293078054,0.22680412371134018
+spt,Ablation: no cross-reactivity (diagonal),0.3133284241531664,0.19999999999999996
+spt,Ablation: no cross-reactivity (diagonal),0.2610456553755523,0.17044673539518895
+spt,Ablation: no cross-reactivity (diagonal),0.20839469808541974,0.13951890034364256
+spt,Ablation: no cross-reactivity (diagonal),0.1568483063328424,0.1037800687285223
+spt,Ablation: no cross-reactivity (diagonal),0.10456553755522828,0.06323024054982818
+spt,Ablation: no cross-reactivity (diagonal),0.05228276877761414,0.03298969072164948
+spt,Ablation: no cross-reactivity (diagonal),0.0,0.0
+spt,Fixed panel: greedy set cover,1.0,0.5223367697594502
+spt,Fixed panel: greedy set cover,2.0,0.747766323024055
+spt,Fixed panel: greedy set cover,3.0,0.881786941580756
+spt,Fixed panel: greedy set cover,4.0,0.9388316151202749
+spt,Fixed panel: greedy set cover,5.0,0.9594501718213059
+spt,Fixed panel: greedy set cover,6.0,0.9759450171821306
+spt,Fixed panel: greedy set cover,7.0,0.9848797250859107
+spt,Fixed panel: greedy set cover,8.0,0.9917525773195877
+spt,Fixed panel: greedy set cover,9.0,0.9972508591065292
+spt,Fixed panel: greedy set cover,10.0,1.0
+spt,Fixed panel: most prevalent,1.0,0.5223367697594502
+spt,Fixed panel: most prevalent,2.0,0.747766323024055
+spt,Fixed panel: most prevalent,3.0,0.881786941580756
+spt,Fixed panel: most prevalent,4.0,0.9388316151202749
+spt,Fixed panel: most prevalent,5.0,0.947766323024055
+spt,Fixed panel: most prevalent,6.0,0.9553264604810997
+spt,Fixed panel: most prevalent,7.0,0.9738831615120275
+spt,Fixed panel: most prevalent,8.0,0.9917525773195877
+spt,Fixed panel: most prevalent,9.0,0.9951890034364261
+spt,Fixed panel: most prevalent,10.0,1.0
+spt,"Sequential, greedy order, stop at first positive",1.0,0.5223367697594502
+spt,"Sequential, greedy order, stop at first positive",1.720176730486009,0.747766323024055
+spt,"Sequential, greedy order, stop at first positive",2.3195876288659796,0.881786941580756
+spt,"Sequential, greedy order, stop at first positive",2.84720176730486,0.9388316151202749
+spt,"Sequential, greedy order, stop at first positive",3.344256259204713,0.9594501718213059
+spt,"Sequential, greedy order, stop at first positive",3.8302650957290134,0.9759450171821306
+spt,"Sequential, greedy order, stop at first positive",4.307437407952872,0.9848797250859107
+spt,"Sequential, greedy order, stop at first positive",4.779823269513991,0.9917525773195877
+spt,"Sequential, greedy order, stop at first positive",5.248527245949926,0.9972508591065292
+spt,"Sequential, greedy order, stop at first positive",5.714285714285714,1.0

@@ -1,0 +1,8 @@
+rule,decided,errors_among_decided
+Ratio rules (Arzt-Gradwohl 2026; thresholds chosen in-sample),0.7437437437437437,0.0026917900403768957
+"Decision model + FLIP completions, cross-fitted, error <= 0.3%",0.7987987987987988,0.002506265664160401
+"Decision model + FLIP completions, cross-fitted, error <= 1.0%",0.955955955955956,0.009424083769633508
+"Decision model + FLIP completions, cross-fitted, error <= 2.0%",0.998998998998999,0.01903807615230461
+"Decision model, all patients",1.0,0.02002002002002002
+patients with >= 1 test not done,0.4494494494494494,
+of these: undone tests could change the decision (flip prob. > 0.05),0.035634743875278395,

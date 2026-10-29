@@ -1,0 +1,35 @@
+study,dataset,quantity,published,reproduced,note
+Martinroche 2026,Allergen Chip Challenge,"sensitised patients, % (n = 4271)",84.0,83.35284476703349,any component >= 0.3; agreement with the database label 99.4%
+Fontanella 2018,MAAS,number of active components (> 0.30 in >= 5% of sensitised children),44,41.0,paper's list: 44 components; overlap 41
+Fontanella 2018,MAAS,"children sensitised to >= 1 active component, %",46.2,46.85466377440347,n = 461
+Fontanella 2018,MAAS,"AUROC for asthma, penalised logistic regression on components",0.73,0.7235162374020156,"5x repeated 5-fold CV, n = 455 with asthma status"
+Arzt-Gradwohl 2026,Graz venom,bee venom-allergic patients with complete test data,112,112.0,
+Arzt-Gradwohl 2026,Graz venom,vespid venom-allergic patients with complete test data,460,462.0,
+Arzt-Gradwohl 2026,Graz venom,"sensitivity of bee venom sIgE, cut-off 0.35, %",85.7,85.71428571428571,
+Arzt-Gradwohl 2026,Graz venom,"sensitivity of bee venom sIgE, dual cut-off, %",94.6,94.64285714285714,
+Arzt-Gradwohl 2026,Graz venom,"sensitivity of vespid venom sIgE, cut-off 0.35, %",92.2,92.64069264069265,
+Arzt-Gradwohl 2026,Graz venom,"sensitivity of vespid venom sIgE, dual cut-off, %",97.0,96.96969696969697,
+Arzt-Gradwohl 2026,Graz venom,"ratio rule vespid/bee >= 2.68 in double-positive patients: sensitivity, %",59.3,59.2896174863388,n = 366; specificity 100.0% (published 100)
+Arzt-Gradwohl 2026,Graz venom,"ratio rule bee/vespid >= 5.34 in double-positive patients: sensitivity, %",50.6,50.588235294117645,n = 85; specificity 100.0% (published 100)
+Arzt-Gradwohl 2026,Graz venom,"culprit correctly identified by the ratio rules, bee, %",58.4,58.42105263157895,
+Arzt-Gradwohl 2026,Graz venom,"culprit correctly identified by the ratio rules, vespid, %",77.9,77.87391841779974,
+Guo 2026,Chinese asthmatic children,"D2 sensitisation in the South, %",72.0,71.01449275362319,n = 207
+Guo 2026,Chinese asthmatic children,"w6 sensitisation in the North, %",53.0,53.35120643431635,n = 373
+Guo 2026,Chinese asthmatic children,"w7 sensitisation in the North, %",50.0,50.134048257372655,n = 373
+Smoldovskaya 2018,Moscow biochip,"adjusted OR, Cat dander sIgE, Asthma vs Upper airway disorders",1.808,1.6567907528697585,logistic regression adjusted for age and sex
+Smoldovskaya 2018,Moscow biochip,"adjusted OR, Dog dander sIgE, Asthma vs Upper airway disorders",2.225,2.2677748425805233,logistic regression adjusted for age and sex
+Smoldovskaya 2018,Moscow biochip,"adjusted OR, Cat dander sIgE, Asthma vs Dermatitis",2.344,2.5520782372109174,logistic regression adjusted for age and sex
+Smoldovskaya 2018,Moscow biochip,"adjusted OR, Dog dander sIgE, Asthma vs Dermatitis",2.401,2.4968313753532736,logistic regression adjusted for age and sex
+Smoldovskaya 2018,Moscow biochip,"adjusted OR, Alder sIgE, Asthma vs Dermatitis",2.98,2.5371117991521532,logistic regression adjusted for age and sex
+Zhakparov 2026,SOS-ALL,children with antibody data (of 217),-,152.0,"AD 78, healthy 74"
+Zhakparov 2026,SOS-ALL,random-forest accuracy for AD (published: questionnaire + antibodies),0.81,0.8552631578947368,"ours: antibodies only, 5x repeated 5-fold CV"
+Quinlan 1996,Thyroid (allhypo),"C4.5 error, five classes, ten 10-fold CVs, %",0.48,1.00454717696097,ours: CART decision tree
+Diaconis & Efron 1983 (Gong),Hepatitis,"classification accuracy, %",80.0,83.87096774193547,"ours: L1 logistic, median imputation, 5x5-fold CV"
+Smith 1988,Pima diabetes,sensitivity = specificity at the crossover point,0.76,0.744776119402985,"ours: L1 logistic, 4-fold CV (576/192 as in the paper), 10 repeats"
+Qin 2020,Chronic kidney disease,"random-forest accuracy, %",99.75,98.75,"KNN imputation on the whole data before 4-fold CV, as published"
+Knaus 1995,SUPPORT,AUROC for 180-day mortality (validation),0.78,0.7443232994443886,"ours: L1 logistic, normal fill-in values, random half-splits"
+Detrano 1989,"Heart disease, Hungary","accuracy of the Cleveland model, %",77,84.35374149659864,ours with MissForest-type imputation; 100% of patients missing >= 1 test
+Detrano 1989,"Heart disease, Switzerland","accuracy of the Cleveland model, %",81,81.30081300813008,ours with MissForest-type imputation; 100% of patients missing >= 1 test
+Detrano 1989,"Heart disease, Long Beach VA","accuracy of the Cleveland model, %",79,72.0,ours with MissForest-type imputation; 100% of patients missing >= 1 test
+Che 2018,PhysioNet 2012,"AUROC, logistic regression with mean imputation (LR-Mean)",0.7423,0.8072169689756972,"ours: L1 logistic on 48-h summaries, 5-fold CV"
+Che 2018,PhysioNet 2012,"AUROC, GRU-D (best published model)",0.8424,0.8331665866981233,"ours: random forest on 48-h summaries, 5-fold CV"

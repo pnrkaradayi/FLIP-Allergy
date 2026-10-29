@@ -1,0 +1,599 @@
+n_d1 7266
+n_d2 11932
+sens_d1 0.4832
+sens_d2 0.5028
+cens_cells 0.8818
+prev_ad 0.244
+age_med_d1 28.0
+struct_n_train 3674.0
+struct_n_calib 1794.0
+struct_censored_allergen_cells_train 0.8819
+struct_latent_minus_naive_median 0.1728
+struct_frac_pairs_larger_after_correction 1.0
+struct_factor_params 69.0
+struct_free_params 210.0
+struct_factor_vs_free_offdiag_rmse 0.0752
+struct_transport_spearman 0.8316
+struct_transport_pearson 0.9227
+t1_tau -0.6747
+t1_tprob 0.3374
+t1_auc_full 0.6568
+t1_nonzero 16
+t1_MAR_Fraction missing_auroc 0.7042
+t1_MAR_Fraction missing_auprc 0.1603
+t1_MAR_Fraction missing_aurc 0.0404
+t1_MAR_Kim et al. 2026_auroc 0.7456
+t1_MAR_Kim et al. 2026_auprc 0.1889
+t1_MAR_Kim et al. 2026_aurc 0.0342
+t1_MAR_Conditional SD only_auroc 0.7577
+t1_MAR_Conditional SD only_auprc 0.1954
+t1_MAR_Conditional SD only_aurc 0.0324
+t1_MAR_Margin only_auroc 0.8496
+t1_MAR_Margin only_auprc 0.3302
+t1_MAR_Margin only_aurc 0.0218
+t1_MAR_Multiple imputation_auroc 0.9111
+t1_MAR_Multiple imputation_auprc 0.6446
+t1_MAR_Multiple imputation_aurc 0.0179
+t1_MAR_FLIP v1 (Gaussian)_auroc 0.9432
+t1_MAR_FLIP v1 (Gaussian)_auprc 0.694
+t1_MAR_FLIP v1 (Gaussian)_aurc 0.0113
+t1_MAR_FLIP, free covariance_auroc 0.9656
+t1_MAR_FLIP, free covariance_auprc 0.8048
+t1_MAR_FLIP, free covariance_aurc 0.0093
+t1_MAR_FLIP_auroc 0.9647
+t1_MAR_FLIP_auprc 0.7995
+t1_MAR_FLIP_aurc 0.0095
+t1_MAR_fliprate 0.0831
+t1_MNAR_Fraction missing_auroc 0.7019
+t1_MNAR_Fraction missing_auprc 0.1287
+t1_MNAR_Fraction missing_aurc 0.0339
+t1_MNAR_Kim et al. 2026_auroc 0.7369
+t1_MNAR_Kim et al. 2026_auprc 0.1406
+t1_MNAR_Kim et al. 2026_aurc 0.0277
+t1_MNAR_Conditional SD only_auroc 0.7478
+t1_MNAR_Conditional SD only_auprc 0.1411
+t1_MNAR_Conditional SD only_aurc 0.026
+t1_MNAR_Margin only_auroc 0.8991
+t1_MNAR_Margin only_auprc 0.3386
+t1_MNAR_Margin only_aurc 0.0119
+t1_MNAR_Multiple imputation_auroc 0.9616
+t1_MNAR_Multiple imputation_auprc 0.7352
+t1_MNAR_Multiple imputation_aurc 0.0087
+t1_MNAR_FLIP v1 (Gaussian)_auroc 0.9694
+t1_MNAR_FLIP v1 (Gaussian)_auprc 0.7531
+t1_MNAR_FLIP v1 (Gaussian)_aurc 0.0064
+t1_MNAR_FLIP, free covariance_auroc 0.9891
+t1_MNAR_FLIP, free covariance_auprc 0.9112
+t1_MNAR_FLIP, free covariance_aurc 0.0051
+t1_MNAR_FLIP_auroc 0.9879
+t1_MNAR_FLIP_auprc 0.9057
+t1_MNAR_FLIP_aurc 0.0052
+t1_MNAR_fliprate 0.0687
+t1_MAR_Multiple imputation_ece_raw 0.0194
+t1_MAR_Multiple imputation_ece_cal 0.0116
+t1_MAR_FLIP v1 (Gaussian)_ece_raw 0.0162
+t1_MAR_FLIP v1 (Gaussian)_ece_cal 0.0098
+t1_MAR_FLIP, free covariance_ece_raw 0.0086
+t1_MAR_FLIP, free covariance_ece_cal 0.0082
+t1_MAR_FLIP_ece_raw 0.008
+t1_MAR_FLIP_ece_cal 0.0086
+t1_MNAR_Multiple imputation_ece_raw 0.0182
+t1_MNAR_Multiple imputation_ece_cal 0.0085
+t1_MNAR_FLIP v1 (Gaussian)_ece_raw 0.0159
+t1_MNAR_FLIP v1 (Gaussian)_ece_cal 0.0069
+t1_MNAR_FLIP, free covariance_ece_raw 0.0094
+t1_MNAR_FLIP, free covariance_ece_cal 0.0061
+t1_MNAR_FLIP_ece_raw 0.0116
+t1_MNAR_FLIP_ece_cal 0.006
+t1_MAR_Fraction missing_cov_0.01 0.0
+t1_MAR_Fraction missing_viol_0.01 0.0
+t1_MAR_Fraction missing_real_0.01 None
+t1_MAR_Fraction missing_cov_0.02 0.0
+t1_MAR_Fraction missing_viol_0.02 0.0
+t1_MAR_Fraction missing_real_0.02 0.0031
+t1_MAR_Fraction missing_cov_0.05 0.5448
+t1_MAR_Fraction missing_viol_0.05 0.1
+t1_MAR_Fraction missing_real_0.05 0.0389
+t1_MAR_Fraction missing_mondrian_cov 0.0
+t1_MAR_Kim et al. 2026_cov_0.01 0.0
+t1_MAR_Kim et al. 2026_viol_0.01 0.0
+t1_MAR_Kim et al. 2026_real_0.01 0.0063
+t1_MAR_Kim et al. 2026_cov_0.02 0.1777
+t1_MAR_Kim et al. 2026_viol_0.02 0.0
+t1_MAR_Kim et al. 2026_real_0.02 0.0034
+t1_MAR_Kim et al. 2026_cov_0.05 0.6151
+t1_MAR_Kim et al. 2026_viol_0.05 0.2
+t1_MAR_Kim et al. 2026_real_0.05 0.0398
+t1_MAR_Kim et al. 2026_mondrian_cov 0.0
+t1_MAR_Margin only_cov_0.01 0.0
+t1_MAR_Margin only_viol_0.01 0.05
+t1_MAR_Margin only_real_0.01 0.0038
+t1_MAR_Margin only_cov_0.02 0.5698
+t1_MAR_Margin only_viol_0.02 0.1
+t1_MAR_Margin only_real_0.02 0.0131
+t1_MAR_Margin only_cov_0.05 0.8771
+t1_MAR_Margin only_viol_0.05 0.45
+t1_MAR_Margin only_real_0.05 0.0491
+t1_MAR_Margin only_mondrian_cov 0.0
+t1_MAR_Multiple imputation_cov_0.01 0.0
+t1_MAR_Multiple imputation_viol_0.01 0.15
+t1_MAR_Multiple imputation_real_0.01 0.0103
+t1_MAR_Multiple imputation_cov_0.02 0.7695
+t1_MAR_Multiple imputation_viol_0.02 0.05
+t1_MAR_Multiple imputation_real_0.02 0.0148
+t1_MAR_Multiple imputation_cov_0.05 0.9463
+t1_MAR_Multiple imputation_viol_0.05 0.2
+t1_MAR_Multiple imputation_real_0.05 0.0432
+t1_MAR_Multiple imputation_mondrian_cov 0.0
+t1_MAR_FLIP v1 (Gaussian)_cov_0.01 0.6318
+t1_MAR_FLIP v1 (Gaussian)_viol_0.01 0.15
+t1_MAR_FLIP v1 (Gaussian)_real_0.01 0.0056
+t1_MAR_FLIP v1 (Gaussian)_cov_0.02 0.8103
+t1_MAR_FLIP v1 (Gaussian)_viol_0.02 0.1
+t1_MAR_FLIP v1 (Gaussian)_real_0.02 0.0149
+t1_MAR_FLIP v1 (Gaussian)_cov_0.05 0.9505
+t1_MAR_FLIP v1 (Gaussian)_viol_0.05 0.2
+t1_MAR_FLIP v1 (Gaussian)_real_0.05 0.0449
+t1_MAR_FLIP v1 (Gaussian)_mondrian_cov 0.0
+t1_MAR_FLIP, free covariance_cov_0.01 0.7747
+t1_MAR_FLIP, free covariance_viol_0.01 0.1
+t1_MAR_FLIP, free covariance_real_0.01 0.0058
+t1_MAR_FLIP, free covariance_cov_0.02 0.8721
+t1_MAR_FLIP, free covariance_viol_0.02 0.0
+t1_MAR_FLIP, free covariance_real_0.02 0.0149
+t1_MAR_FLIP, free covariance_cov_0.05 0.9488
+t1_MAR_FLIP, free covariance_viol_0.05 0.15
+t1_MAR_FLIP, free covariance_real_0.05 0.0406
+t1_MAR_FLIP, free covariance_mondrian_cov 0.2672
+t1_MAR_FLIP_cov_0.01 0.7553
+t1_MAR_FLIP_viol_0.01 0.05
+t1_MAR_FLIP_real_0.01 0.0051
+t1_MAR_FLIP_cov_0.02 0.8671
+t1_MAR_FLIP_viol_0.02 0.05
+t1_MAR_FLIP_real_0.02 0.0152
+t1_MAR_FLIP_cov_0.05 0.9483
+t1_MAR_FLIP_viol_0.05 0.05
+t1_MAR_FLIP_real_0.05 0.0411
+t1_MAR_FLIP_mondrian_cov 0.2589
+t1_MAR_FLIP (posterior decision)_cov_0.01 0.7667
+t1_MAR_FLIP (posterior decision)_viol_0.01 0.05
+t1_MAR_FLIP (posterior decision)_real_0.01 0.0049
+t1_MAR_FLIP (posterior decision)_cov_0.02 0.8946
+t1_MAR_FLIP (posterior decision)_viol_0.02 0.05
+t1_MAR_FLIP (posterior decision)_real_0.02 0.0165
+t1_MAR_FLIP (posterior decision)_cov_0.05 0.9942
+t1_MAR_FLIP (posterior decision)_viol_0.05 0.0
+t1_MAR_FLIP (posterior decision)_real_0.05 0.0397
+t1_MAR_FLIP (posterior decision)_mondrian_cov 0.2689
+t1_MNAR_Fraction missing_cov_0.01 0.0
+t1_MNAR_Fraction missing_viol_0.01 0.0
+t1_MNAR_Fraction missing_real_0.01 None
+t1_MNAR_Fraction missing_cov_0.02 0.0
+t1_MNAR_Fraction missing_viol_0.02 0.0
+t1_MNAR_Fraction missing_real_0.02 0.0149
+t1_MNAR_Fraction missing_cov_0.05 0.6137
+t1_MNAR_Fraction missing_viol_0.05 0.0
+t1_MNAR_Fraction missing_real_0.05 0.0357
+t1_MNAR_Fraction missing_mondrian_cov 0.0
+t1_MNAR_Kim et al. 2026_cov_0.01 0.0
+t1_MNAR_Kim et al. 2026_viol_0.01 0.0
+t1_MNAR_Kim et al. 2026_real_0.01 0.0074
+t1_MNAR_Kim et al. 2026_cov_0.02 0.2889
+t1_MNAR_Kim et al. 2026_viol_0.02 0.0
+t1_MNAR_Kim et al. 2026_real_0.02 0.0087
+t1_MNAR_Kim et al. 2026_cov_0.05 0.777
+t1_MNAR_Kim et al. 2026_viol_0.05 0.2
+t1_MNAR_Kim et al. 2026_real_0.05 0.0458
+t1_MNAR_Kim et al. 2026_mondrian_cov 0.0
+t1_MNAR_Margin only_cov_0.01 0.6785
+t1_MNAR_Margin only_viol_0.01 0.1
+t1_MNAR_Margin only_real_0.01 0.006
+t1_MNAR_Margin only_cov_0.02 0.7722
+t1_MNAR_Margin only_viol_0.02 0.1
+t1_MNAR_Margin only_real_0.02 0.0146
+t1_MNAR_Margin only_cov_0.05 0.9263
+t1_MNAR_Margin only_viol_0.05 0.1
+t1_MNAR_Margin only_real_0.05 0.0444
+t1_MNAR_Margin only_mondrian_cov 0.2344
+t1_MNAR_Multiple imputation_cov_0.01 0.7681
+t1_MNAR_Multiple imputation_viol_0.01 0.0
+t1_MNAR_Multiple imputation_real_0.01 0.0047
+t1_MNAR_Multiple imputation_cov_0.02 0.9113
+t1_MNAR_Multiple imputation_viol_0.02 0.0
+t1_MNAR_Multiple imputation_real_0.02 0.014
+t1_MNAR_Multiple imputation_cov_0.05 0.9686
+t1_MNAR_Multiple imputation_viol_0.05 0.2
+t1_MNAR_Multiple imputation_real_0.05 0.0419
+t1_MNAR_Multiple imputation_mondrian_cov 0.0
+t1_MNAR_FLIP v1 (Gaussian)_cov_0.01 0.8051
+t1_MNAR_FLIP v1 (Gaussian)_viol_0.01 0.0
+t1_MNAR_FLIP v1 (Gaussian)_real_0.01 0.0039
+t1_MNAR_FLIP v1 (Gaussian)_cov_0.02 0.9171
+t1_MNAR_FLIP v1 (Gaussian)_viol_0.02 0.0
+t1_MNAR_FLIP v1 (Gaussian)_real_0.02 0.0161
+t1_MNAR_FLIP v1 (Gaussian)_cov_0.05 0.9714
+t1_MNAR_FLIP v1 (Gaussian)_viol_0.05 0.1
+t1_MNAR_FLIP v1 (Gaussian)_real_0.05 0.0432
+t1_MNAR_FLIP v1 (Gaussian)_mondrian_cov 0.2219
+t1_MNAR_FLIP, free covariance_cov_0.01 0.8938
+t1_MNAR_FLIP, free covariance_viol_0.01 0.0
+t1_MNAR_FLIP, free covariance_real_0.01 0.0052
+t1_MNAR_FLIP, free covariance_cov_0.02 0.9363
+t1_MNAR_FLIP, free covariance_viol_0.02 0.0
+t1_MNAR_FLIP, free covariance_real_0.02 0.014
+t1_MNAR_FLIP, free covariance_cov_0.05 0.9694
+t1_MNAR_FLIP, free covariance_viol_0.05 0.0
+t1_MNAR_FLIP, free covariance_real_0.05 0.0398
+t1_MNAR_FLIP, free covariance_mondrian_cov 0.3963
+t1_MNAR_FLIP_cov_0.01 0.8921
+t1_MNAR_FLIP_viol_0.01 0.1
+t1_MNAR_FLIP_real_0.01 0.0046
+t1_MNAR_FLIP_cov_0.02 0.9355
+t1_MNAR_FLIP_viol_0.02 0.0
+t1_MNAR_FLIP_real_0.02 0.0127
+t1_MNAR_FLIP_cov_0.05 0.9705
+t1_MNAR_FLIP_viol_0.05 0.1
+t1_MNAR_FLIP_real_0.05 0.0394
+t1_MNAR_FLIP_mondrian_cov 0.3896
+t1_MNAR_FLIP (posterior decision)_cov_0.01 0.9166
+t1_MNAR_FLIP (posterior decision)_viol_0.01 0.0
+t1_MNAR_FLIP (posterior decision)_real_0.01 0.006
+t1_MNAR_FLIP (posterior decision)_cov_0.02 0.9761
+t1_MNAR_FLIP (posterior decision)_viol_0.02 0.0
+t1_MNAR_FLIP (posterior decision)_real_0.02 0.012
+t1_MNAR_FLIP (posterior decision)_cov_0.05 0.9997
+t1_MNAR_FLIP (posterior decision)_viol_0.05 0.0
+t1_MNAR_FLIP (posterior decision)_real_0.05 0.0206
+t1_MNAR_FLIP (posterior decision)_mondrian_cov 0.512
+acq_posterior_one panel per patient_Random panel_MAR 0.0306
+acqcert_posterior_one panel per patient_Random panel_MAR 0.9196
+acq_posterior_one panel per patient_Random panel_MNAR 0.0139
+acqcert_posterior_one panel per patient_Random panel_MNAR 0.985
+acq_posterior_one panel per patient_Kim: most important missing panel_MAR 0.0184
+acqcert_posterior_one panel per patient_Kim: most important missing panel_MAR 0.9469
+acq_posterior_one panel per patient_Kim: most important missing panel_MNAR 0.0086
+acqcert_posterior_one panel per patient_Kim: most important missing panel_MNAR 0.9869
+acq_posterior_one panel per patient_FLIP-VOI_MAR 0.0175
+acqcert_posterior_one panel per patient_FLIP-VOI_MAR 0.9502
+acq_posterior_one panel per patient_FLIP-VOI_MNAR 0.0078
+acqcert_posterior_one panel per patient_FLIP-VOI_MNAR 0.9936
+acq_posterior_budget 10%_No extra testing_MAR 0.0417
+acqcert_posterior_budget 10%_No extra testing_MAR 0.8946
+acq_posterior_budget 10%_No extra testing_MNAR 0.0209
+acqcert_posterior_budget 10%_No extra testing_MNAR 0.9761
+acq_posterior_budget 10%_Kim rank + Kim panel_MAR 0.0375
+acqcert_posterior_budget 10%_Kim rank + Kim panel_MAR 0.9046
+acq_posterior_budget 10%_Kim rank + Kim panel_MNAR 0.0186
+acqcert_posterior_budget 10%_Kim rank + Kim panel_MNAR 0.9783
+acq_posterior_budget 10%_Margin rank + Kim panel_MAR 0.0328
+acqcert_posterior_budget 10%_Margin rank + Kim panel_MAR 0.9138
+acq_posterior_budget 10%_Margin rank + Kim panel_MNAR 0.0145
+acqcert_posterior_budget 10%_Margin rank + Kim panel_MNAR 0.9825
+acq_posterior_budget 10%_FLIP-VOI: expected flips_MAR 0.0253
+acqcert_posterior_budget 10%_FLIP-VOI: expected flips_MAR 0.9435
+acq_posterior_budget 10%_FLIP-VOI: expected flips_MNAR 0.0108
+acqcert_posterior_budget 10%_FLIP-VOI: expected flips_MNAR 0.9947
+acq_posterior_budget 10%_FLIP-VOI: certified decisions_MAR 0.0334
+acqcert_posterior_budget 10%_FLIP-VOI: certified decisions_MAR 0.9366
+acq_posterior_budget 10%_FLIP-VOI: certified decisions_MNAR 0.0156
+acqcert_posterior_budget 10%_FLIP-VOI: certified decisions_MNAR 0.9947
+acq_imputed_one panel per patient_Random panel_MAR 0.0615
+acq_imputed_one panel per patient_Random panel_MNAR 0.0484
+acq_imputed_one panel per patient_Kim: most important missing panel_MAR 0.0314
+acq_imputed_one panel per patient_Kim: most important missing panel_MNAR 0.0234
+acq_imputed_one panel per patient_FLIP-VOI_MAR 0.0412
+acq_imputed_one panel per patient_FLIP-VOI_MNAR 0.0334
+acq_imputed_budget 10%_No extra testing_MAR 0.0831
+acq_imputed_budget 10%_No extra testing_MNAR 0.0687
+acq_imputed_budget 10%_Kim rank + Kim panel_MAR 0.072
+acq_imputed_budget 10%_Kim rank + Kim panel_MNAR 0.0598
+acq_imputed_budget 10%_Margin rank + Kim panel_MAR 0.0514
+acq_imputed_budget 10%_Margin rank + Kim panel_MNAR 0.0348
+acq_imputed_budget 10%_FLIP-VOI: expected flips_MAR 0.0512
+acq_imputed_budget 10%_FLIP-VOI: expected flips_MNAR 0.0381
+acq_imputed_budget 10%_FLIP-VOI: certified decisions_MAR 0.0609
+acq_imputed_budget 10%_FLIP-VOI: certified decisions_MNAR 0.0476
+sens_y_current_asthma_MAR_1.0_flip_auroc 0.9507
+sens_y_current_asthma_MAR_1.0_kim_auroc 0.7393
+sens_y_current_asthma_MAR_1.0_flip_cov 0.9049
+sens_y_current_asthma_MNAR_1.0_flip_auroc 0.9823
+sens_y_current_asthma_MNAR_1.0_kim_auroc 0.7363
+sens_y_current_asthma_MNAR_1.0_flip_cov 0.9638
+sens_y_allergic_disease_scale_MAR_0.5_flip_auroc 0.9795
+sens_y_allergic_disease_scale_MAR_0.5_kim_auroc 0.8232
+sens_y_allergic_disease_scale_MAR_0.5_flip_cov 0.9633
+sens_y_allergic_disease_scale_MNAR_0.5_flip_auroc 0.9957
+sens_y_allergic_disease_scale_MNAR_0.5_kim_auroc 0.833
+sens_y_allergic_disease_scale_MNAR_0.5_flip_cov 0.9783
+sens_y_allergic_disease_scale_MAR_1.5_flip_auroc 0.9541
+sens_y_allergic_disease_scale_MAR_1.5_kim_auroc 0.6736
+sens_y_allergic_disease_scale_MAR_1.5_flip_cov 0.7289
+sens_y_allergic_disease_scale_MNAR_1.5_flip_auroc 0.9774
+sens_y_allergic_disease_scale_MNAR_1.5_kim_auroc 0.6736
+sens_y_allergic_disease_scale_MNAR_1.5_flip_cov 0.8615
+t2_serum_FLIP (total IgE + adaptive)_0.1_tests 4.3459
+t2_serum_FLIP (total IgE + adaptive)_0.1_sens 0.9232
+t2_serum_FLIP (total IgE + adaptive)_0.1_op lambda=0.1112
+t2_serum_FLIP (total IgE + adaptive)_0.1_nonsens 4.33
+t2_serum_FLIP (total IgE + adaptive)_0.1_sensd 2.3597
+t2_serum_FLIP (total IgE + adaptive)_0.05_tests 6.1285
+t2_serum_FLIP (total IgE + adaptive)_0.05_sens 0.9755
+t2_serum_FLIP (total IgE + adaptive)_0.05_op lambda=0.0428
+t2_serum_FLIP (total IgE + adaptive)_0.05_nonsens 7.6922
+t2_serum_FLIP (total IgE + adaptive)_0.05_sensd 2.559
+t2_serum_FLIP (total IgE + adaptive)_0.025_tests 7.2063
+t2_serum_FLIP (total IgE + adaptive)_0.025_sens 0.9855
+t2_serum_FLIP (total IgE + adaptive)_0.025_op lambda=0.0232
+t2_serum_FLIP (total IgE + adaptive)_0.025_nonsens 9.7967
+t2_serum_FLIP (total IgE + adaptive)_0.025_sensd 2.608
+t2_serum_FLIP (total IgE + adaptive)_0.01_tests 9.0028
+t2_serum_FLIP (total IgE + adaptive)_0.01_sens 0.9955
+t2_serum_FLIP (total IgE + adaptive)_0.01_op lambda=0.0067
+t2_serum_FLIP (total IgE + adaptive)_0.01_nonsens 13.3444
+t2_serum_FLIP (total IgE + adaptive)_0.01_sensd 2.6492
+t2_serum_FLIP (adaptive, no total IgE)_0.1_tests 5.4155
+t2_serum_FLIP (adaptive, no total IgE)_0.1_sens 0.9131
+t2_serum_FLIP (adaptive, no total IgE)_0.1_op lambda=0.0908
+t2_serum_FLIP (adaptive, no total IgE)_0.1_nonsens 6.4811
+t2_serum_FLIP (adaptive, no total IgE)_0.1_sensd 2.3452
+t2_serum_FLIP (adaptive, no total IgE)_0.05_tests 7.5478
+t2_serum_FLIP (adaptive, no total IgE)_0.05_sens 0.9733
+t2_serum_FLIP (adaptive, no total IgE)_0.05_op lambda=0.0343
+t2_serum_FLIP (adaptive, no total IgE)_0.05_nonsens 10.4911
+t2_serum_FLIP (adaptive, no total IgE)_0.05_sensd 2.5958
+t2_serum_FLIP (adaptive, no total IgE)_0.025_tests 8.7414
+t2_serum_FLIP (adaptive, no total IgE)_0.025_sens 0.99
+t2_serum_FLIP (adaptive, no total IgE)_0.025_op lambda=0.0169
+t2_serum_FLIP (adaptive, no total IgE)_0.025_nonsens 12.8233
+t2_serum_FLIP (adaptive, no total IgE)_0.025_sensd 2.6481
+t2_serum_FLIP (adaptive, no total IgE)_0.01_tests 10.3849
+t2_serum_FLIP (adaptive, no total IgE)_0.01_sens 0.9967
+t2_serum_FLIP (adaptive, no total IgE)_0.01_op lambda=0.0046
+t2_serum_FLIP (adaptive, no total IgE)_0.01_nonsens 16.0889
+t2_serum_FLIP (adaptive, no total IgE)_0.01_sensd 2.6659
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.1_tests 4.139
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.1_sens 0.9198
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.1_op lambda=0.1302
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.1_nonsens 4.0178
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.1_sensd 2.2584
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.05_tests 5.9138
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.05_sens 0.9755
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.05_op lambda=0.0514
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.05_nonsens 7.37
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.05_sensd 2.4521
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.025_tests 7.0901
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.025_sens 0.9855
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.025_op lambda=0.0274
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.025_nonsens 9.6656
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.025_sensd 2.5067
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.01_tests 9.1935
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.01_sens 0.9955
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.01_op lambda=0.0069
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.01_nonsens 13.8167
+t2_serum_FLIP (total IgE + adaptive, free covariance)_0.01_sensd 2.5579
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.1_tests 6.8482
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.1_sens 0.8942
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.1_op lambda=0.4447
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.1_nonsens 8.8478
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.1_sensd 2.8419
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.05_tests 8.5645
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.05_sens 0.9399
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.05_op lambda=0.2547
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.05_nonsens 11.9811
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.05_sensd 3.1381
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.025_tests 10.1613
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.025_sens 0.9833
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.025_op lambda=0.0994
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.025_nonsens 15.0211
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.025_sensd 3.2884
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.01_tests 10.9399
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.01_sens 0.9955
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.01_op lambda=0.0459
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.01_nonsens 16.5556
+t2_serum_Ablation: no cross-reactivity (diagonal)_0.01_sensd 3.3096
+t2_serum_Fixed panel: greedy set cover_0.1_tests 7.0
+t2_serum_Fixed panel: greedy set cover_0.1_sens 0.9298
+t2_serum_Fixed panel: greedy set cover_0.1_op k=7
+t2_serum_Fixed panel: greedy set cover_0.1_nonsens 7.0
+t2_serum_Fixed panel: greedy set cover_0.1_sensd 7.0
+t2_serum_Fixed panel: greedy set cover_0.05_tests 10.0
+t2_serum_Fixed panel: greedy set cover_0.05_sens 0.9588
+t2_serum_Fixed panel: greedy set cover_0.05_op k=10
+t2_serum_Fixed panel: greedy set cover_0.05_nonsens 10.0
+t2_serum_Fixed panel: greedy set cover_0.05_sensd 10.0
+t2_serum_Fixed panel: greedy set cover_0.025_tests 12.0
+t2_serum_Fixed panel: greedy set cover_0.025_sens 0.9833
+t2_serum_Fixed panel: greedy set cover_0.025_op k=12
+t2_serum_Fixed panel: greedy set cover_0.025_nonsens 12.0
+t2_serum_Fixed panel: greedy set cover_0.025_sensd 12.0
+t2_serum_Fixed panel: greedy set cover_0.01_tests 16.0
+t2_serum_Fixed panel: greedy set cover_0.01_sens 0.9944
+t2_serum_Fixed panel: greedy set cover_0.01_op k=16
+t2_serum_Fixed panel: greedy set cover_0.01_nonsens 16.0
+t2_serum_Fixed panel: greedy set cover_0.01_sensd 16.0
+t2_serum_Fixed panel: most prevalent_0.1_tests 12.0
+t2_serum_Fixed panel: most prevalent_0.1_sens 0.9343
+t2_serum_Fixed panel: most prevalent_0.1_op k=12
+t2_serum_Fixed panel: most prevalent_0.1_nonsens 12.0
+t2_serum_Fixed panel: most prevalent_0.1_sensd 12.0
+t2_serum_Fixed panel: most prevalent_0.05_tests 14.0
+t2_serum_Fixed panel: most prevalent_0.05_sens 0.9477
+t2_serum_Fixed panel: most prevalent_0.05_op k=14
+t2_serum_Fixed panel: most prevalent_0.05_nonsens 14.0
+t2_serum_Fixed panel: most prevalent_0.05_sensd 14.0
+t2_serum_Fixed panel: most prevalent_0.025_tests 16.0
+t2_serum_Fixed panel: most prevalent_0.025_sens 0.9844
+t2_serum_Fixed panel: most prevalent_0.025_op k=16
+t2_serum_Fixed panel: most prevalent_0.025_nonsens 16.0
+t2_serum_Fixed panel: most prevalent_0.025_sensd 16.0
+t2_serum_Fixed panel: most prevalent_0.01_tests 17.0
+t2_serum_Fixed panel: most prevalent_0.01_sens 0.9989
+t2_serum_Fixed panel: most prevalent_0.01_op k=17
+t2_serum_Fixed panel: most prevalent_0.01_nonsens 17.0
+t2_serum_Fixed panel: most prevalent_0.01_sensd 17.0
+t2_serum_Sequential, greedy order, stop at first positive_0.1_tests 4.7369
+t2_serum_Sequential, greedy order, stop at first positive_0.1_sens 0.9298
+t2_serum_Sequential, greedy order, stop at first positive_0.1_op k=7
+t2_serum_Sequential, greedy order, stop at first positive_0.1_nonsens 7.0
+t2_serum_Sequential, greedy order, stop at first positive_0.1_sensd 2.4688
+t2_serum_Sequential, greedy order, stop at first positive_0.05_tests 6.332
+t2_serum_Sequential, greedy order, stop at first positive_0.05_sens 0.9588
+t2_serum_Sequential, greedy order, stop at first positive_0.05_op k=10
+t2_serum_Sequential, greedy order, stop at first positive_0.05_nonsens 10.0
+t2_serum_Sequential, greedy order, stop at first positive_0.05_sensd 2.6559
+t2_serum_Sequential, greedy order, stop at first positive_0.025_tests 7.3665
+t2_serum_Sequential, greedy order, stop at first positive_0.025_sens 0.9833
+t2_serum_Sequential, greedy order, stop at first positive_0.025_op k=12
+t2_serum_Sequential, greedy order, stop at first positive_0.025_nonsens 12.0
+t2_serum_Sequential, greedy order, stop at first positive_0.025_sensd 2.7227
+t2_serum_Sequential, greedy order, stop at first positive_0.01_tests 9.3943
+t2_serum_Sequential, greedy order, stop at first positive_0.01_sens 0.9944
+t2_serum_Sequential, greedy order, stop at first positive_0.01_op k=16
+t2_serum_Sequential, greedy order, stop at first positive_0.01_nonsens 16.0
+t2_serum_Sequential, greedy order, stop at first positive_0.01_sensd 2.7739
+t2_serum_Total IgE gate + sequential greedy order_0.1_tests 5.2058
+t2_serum_Total IgE gate + sequential greedy order_0.1_sens 0.9198
+t2_serum_Total IgE gate + sequential greedy order_0.1_op IgE>=11.0 kU/L, k=8
+t2_serum_Total IgE gate + sequential greedy order_0.1_nonsens 5.9467
+t2_serum_Total IgE gate + sequential greedy order_0.1_sensd 2.461
+t2_serum_Total IgE gate + sequential greedy order_0.05_tests 6.5773
+t2_serum_Total IgE gate + sequential greedy order_0.05_sens 0.9577
+t2_serum_Total IgE gate + sequential greedy order_0.05_op IgE>=12.3 kU/L, k=12
+t2_serum_Total IgE gate + sequential greedy order_0.05_nonsens 8.5333
+t2_serum_Total IgE gate + sequential greedy order_0.05_sensd 2.6147
+t2_serum_Total IgE gate + sequential greedy order_0.025_tests 7.866
+t2_serum_Total IgE gate + sequential greedy order_0.025_sens 0.9833
+t2_serum_Total IgE gate + sequential greedy order_0.025_op IgE>=4.2 kU/L, k=12
+t2_serum_Total IgE gate + sequential greedy order_0.025_nonsens 11.0
+t2_serum_Total IgE gate + sequential greedy order_0.025_sensd 2.7227
+t2_serum_Total IgE gate + sequential greedy order_0.01_tests 9.8348
+t2_serum_Total IgE gate + sequential greedy order_0.01_sens 0.9967
+t2_serum_Total IgE gate + sequential greedy order_0.01_op IgE>=5.6 kU/L, k=17
+t2_serum_Total IgE gate + sequential greedy order_0.01_nonsens 14.9033
+t2_serum_Total IgE gate + sequential greedy order_0.01_sensd 2.7528
+t2_spt_FLIP (adaptive, in-domain)_0.1_tests 2.7308
+t2_spt_FLIP (adaptive, in-domain)_0.1_sens 0.8997
+t2_spt_FLIP (adaptive, in-domain)_0.1_op lambda=0.1164
+t2_spt_FLIP (adaptive, in-domain)_0.1_nonsens 3.6222
+t2_spt_FLIP (adaptive, in-domain)_0.1_sensd 1.8336
+t2_spt_FLIP (adaptive, in-domain)_0.05_tests 3.5869
+t2_spt_FLIP (adaptive, in-domain)_0.05_sens 0.9586
+t2_spt_FLIP (adaptive, in-domain)_0.05_op lambda=0.0507
+t2_spt_FLIP (adaptive, in-domain)_0.05_nonsens 5.1892
+t2_spt_FLIP (adaptive, in-domain)_0.05_sensd 1.9739
+t2_spt_FLIP (adaptive, in-domain)_0.025_tests 4.2928
+t2_spt_FLIP (adaptive, in-domain)_0.025_sens 0.9786
+t2_spt_FLIP (adaptive, in-domain)_0.025_op lambda=0.0242
+t2_spt_FLIP (adaptive, in-domain)_0.025_nonsens 6.5425
+t2_spt_FLIP (adaptive, in-domain)_0.025_sensd 2.0281
+t2_spt_FLIP (adaptive, in-domain)_0.01_tests 4.9644
+t2_spt_FLIP (adaptive, in-domain)_0.01_sens 0.9933
+t2_spt_FLIP (adaptive, in-domain)_0.01_op lambda=0.0083
+t2_spt_FLIP (adaptive, in-domain)_0.01_nonsens 7.8559
+t2_spt_FLIP (adaptive, in-domain)_0.01_sensd 2.0535
+t2_spt_FLIP (adaptive, structure transported from serum)_0.1_tests 2.9444
+t2_spt_FLIP (adaptive, structure transported from serum)_0.1_sens 0.891
+t2_spt_FLIP (adaptive, structure transported from serum)_0.1_op lambda=0.0880
+t2_spt_FLIP (adaptive, structure transported from serum)_0.1_nonsens 3.9907
+t2_spt_FLIP (adaptive, structure transported from serum)_0.1_sensd 1.891
+t2_spt_FLIP (adaptive, structure transported from serum)_0.05_tests 3.6116
+t2_spt_FLIP (adaptive, structure transported from serum)_0.05_sens 0.9519
+t2_spt_FLIP (adaptive, structure transported from serum)_0.05_op lambda=0.0386
+t2_spt_FLIP (adaptive, structure transported from serum)_0.05_nonsens 5.2005
+t2_spt_FLIP (adaptive, structure transported from serum)_0.05_sensd 2.012
+t2_spt_FLIP (adaptive, structure transported from serum)_0.025_tests 4.4161
+t2_spt_FLIP (adaptive, structure transported from serum)_0.025_sens 0.9799
+t2_spt_FLIP (adaptive, structure transported from serum)_0.025_op lambda=0.0039
+t2_spt_FLIP (adaptive, structure transported from serum)_0.025_nonsens 6.7357
+t2_spt_FLIP (adaptive, structure transported from serum)_0.025_sensd 2.0809
+t2_spt_FLIP (adaptive, structure transported from serum)_0.01_tests 5.437
+t2_spt_FLIP (adaptive, structure transported from serum)_0.01_sens 0.994
+t2_spt_FLIP (adaptive, structure transported from serum)_0.01_op lambda=0.0004
+t2_spt_FLIP (adaptive, structure transported from serum)_0.01_nonsens 8.7397
+t2_spt_FLIP (adaptive, structure transported from serum)_0.01_sensd 2.1123
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.1_tests 2.9664
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.1_sens 0.8991
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.1_op lambda=0.5585
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.1_nonsens 4.0491
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.1_sensd 1.8763
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.05_tests 4.01
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.05_sens 0.9599
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.05_op lambda=0.3738
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.05_nonsens 5.9588
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.05_sensd 2.0481
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.025_tests 4.5863
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.025_sens 0.9833
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.025_op lambda=0.2692
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.025_nonsens 7.0664
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.025_sensd 2.0896
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.01_tests 5.3231
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.01_sens 0.9933
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.01_op lambda=0.1435
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.01_nonsens 8.5126
+t2_spt_Ablation: no cross-reactivity (diagonal)_0.01_sensd 2.1123
+t2_spt_Fixed panel: greedy set cover_0.1_tests 4.0
+t2_spt_Fixed panel: greedy set cover_0.1_sens 0.9265
+t2_spt_Fixed panel: greedy set cover_0.1_op k=4
+t2_spt_Fixed panel: greedy set cover_0.1_nonsens 4.0
+t2_spt_Fixed panel: greedy set cover_0.1_sensd 4.0
+t2_spt_Fixed panel: greedy set cover_0.05_tests 6.0
+t2_spt_Fixed panel: greedy set cover_0.05_sens 0.9726
+t2_spt_Fixed panel: greedy set cover_0.05_op k=6
+t2_spt_Fixed panel: greedy set cover_0.05_nonsens 6.0
+t2_spt_Fixed panel: greedy set cover_0.05_sensd 6.0
+t2_spt_Fixed panel: greedy set cover_0.025_tests 7.0
+t2_spt_Fixed panel: greedy set cover_0.025_sens 0.988
+t2_spt_Fixed panel: greedy set cover_0.025_op k=7
+t2_spt_Fixed panel: greedy set cover_0.025_nonsens 7.0
+t2_spt_Fixed panel: greedy set cover_0.025_sensd 7.0
+t2_spt_Fixed panel: greedy set cover_0.01_tests 8.0
+t2_spt_Fixed panel: greedy set cover_0.01_sens 0.9933
+t2_spt_Fixed panel: greedy set cover_0.01_op k=8
+t2_spt_Fixed panel: greedy set cover_0.01_nonsens 8.0
+t2_spt_Fixed panel: greedy set cover_0.01_sensd 8.0
+t2_spt_Fixed panel: most prevalent_0.1_tests 4.0
+t2_spt_Fixed panel: most prevalent_0.1_sens 0.9265
+t2_spt_Fixed panel: most prevalent_0.1_op k=4
+t2_spt_Fixed panel: most prevalent_0.1_nonsens 4.0
+t2_spt_Fixed panel: most prevalent_0.1_sensd 4.0
+t2_spt_Fixed panel: most prevalent_0.05_tests 6.0
+t2_spt_Fixed panel: most prevalent_0.05_sens 0.9659
+t2_spt_Fixed panel: most prevalent_0.05_op k=6
+t2_spt_Fixed panel: most prevalent_0.05_nonsens 6.0
+t2_spt_Fixed panel: most prevalent_0.05_sensd 6.0
+t2_spt_Fixed panel: most prevalent_0.025_tests 8.0
+t2_spt_Fixed panel: most prevalent_0.025_sens 0.9933
+t2_spt_Fixed panel: most prevalent_0.025_op k=8
+t2_spt_Fixed panel: most prevalent_0.025_nonsens 8.0
+t2_spt_Fixed panel: most prevalent_0.025_sensd 8.0
+t2_spt_Fixed panel: most prevalent_0.01_tests 8.0
+t2_spt_Fixed panel: most prevalent_0.01_sens 0.9933
+t2_spt_Fixed panel: most prevalent_0.01_op k=8
+t2_spt_Fixed panel: most prevalent_0.01_nonsens 8.0
+t2_spt_Fixed panel: most prevalent_0.01_sensd 8.0
+t2_spt_Sequential, greedy order, stop at first positive_0.1_tests 2.9434
+t2_spt_Sequential, greedy order, stop at first positive_0.1_sens 0.9265
+t2_spt_Sequential, greedy order, stop at first positive_0.1_op k=4
+t2_spt_Sequential, greedy order, stop at first positive_0.1_nonsens 4.0
+t2_spt_Sequential, greedy order, stop at first positive_0.1_sensd 1.8797
+t2_spt_Sequential, greedy order, stop at first positive_0.05_tests 4.008
+t2_spt_Sequential, greedy order, stop at first positive_0.05_sens 0.9726
+t2_spt_Sequential, greedy order, stop at first positive_0.05_op k=6
+t2_spt_Sequential, greedy order, stop at first positive_0.05_nonsens 6.0
+t2_spt_Sequential, greedy order, stop at first positive_0.05_sensd 2.0027
+t2_spt_Sequential, greedy order, stop at first positive_0.025_tests 4.5233
+t2_spt_Sequential, greedy order, stop at first positive_0.025_sens 0.988
+t2_spt_Sequential, greedy order, stop at first positive_0.025_op k=7
+t2_spt_Sequential, greedy order, stop at first positive_0.025_nonsens 7.0
+t2_spt_Sequential, greedy order, stop at first positive_0.025_sensd 2.0301
+t2_spt_Sequential, greedy order, stop at first positive_0.01_tests 5.031
+t2_spt_Sequential, greedy order, stop at first positive_0.01_sens 0.9933
+t2_spt_Sequential, greedy order, stop at first positive_0.01_op k=8
+t2_spt_Sequential, greedy order, stop at first positive_0.01_nonsens 8.0
+t2_spt_Sequential, greedy order, stop at first positive_0.01_sensd 2.0421
+dust_r2_max 0.0277
+dust_auc_min 0.4714
+dust_auc_max 0.6206
+dust_other_min 0.8202
+dust_other_max 0.9427
+dust_n 5271

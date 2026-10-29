@@ -1,0 +1,949 @@
+dataset,method,rot,mean_tests,sensitivity
+guo,FLIP adaptive,0,4.63448275862069,1.0
+guo,FLIP adaptive,0,4.572413793103448,1.0
+guo,FLIP adaptive,0,4.503448275862069,1.0
+guo,FLIP adaptive,0,4.43448275862069,1.0
+guo,FLIP adaptive,0,4.36551724137931,1.0
+guo,FLIP adaptive,0,4.296551724137931,1.0
+guo,FLIP adaptive,0,4.227586206896552,1.0
+guo,FLIP adaptive,0,4.165517241379311,1.0
+guo,FLIP adaptive,0,4.096551724137931,1.0
+guo,FLIP adaptive,0,4.027586206896552,1.0
+guo,FLIP adaptive,0,3.9586206896551723,1.0
+guo,FLIP adaptive,0,3.889655172413793,1.0
+guo,FLIP adaptive,0,3.820689655172414,1.0
+guo,FLIP adaptive,0,3.7517241379310344,1.0
+guo,FLIP adaptive,0,3.682758620689655,1.0
+guo,FLIP adaptive,0,3.613793103448276,1.0
+guo,FLIP adaptive,0,3.5517241379310347,1.0
+guo,FLIP adaptive,0,3.4827586206896552,1.0
+guo,FLIP adaptive,0,3.413793103448276,1.0
+guo,FLIP adaptive,0,3.3448275862068964,1.0
+guo,FLIP adaptive,0,3.2758620689655173,1.0
+guo,FLIP adaptive,0,3.206896551724138,1.0
+guo,FLIP adaptive,0,3.1379310344827585,1.0
+guo,FLIP adaptive,0,3.0689655172413794,1.0
+guo,FLIP adaptive,0,3.0,1.0
+guo,FLIP adaptive,0,2.9379310344827587,0.9911504424778761
+guo,FLIP adaptive,0,2.8689655172413793,0.9823008849557522
+guo,FLIP adaptive,0,2.8,0.9823008849557522
+guo,FLIP adaptive,0,2.731034482758621,0.9823008849557522
+guo,FLIP adaptive,0,2.6620689655172414,0.9823008849557522
+guo,FLIP adaptive,0,2.593103448275862,0.9823008849557522
+guo,FLIP adaptive,0,2.524137931034483,0.9823008849557522
+guo,FLIP adaptive,0,2.4551724137931035,0.9823008849557522
+guo,FLIP adaptive,0,2.393103448275862,0.9734513274336283
+guo,FLIP adaptive,0,2.3241379310344827,0.9646017699115044
+guo,FLIP adaptive,0,2.2551724137931033,0.9646017699115044
+guo,FLIP adaptive,0,2.1862068965517243,0.9646017699115044
+guo,FLIP adaptive,0,2.117241379310345,0.9646017699115044
+guo,FLIP adaptive,0,2.0482758620689654,0.9646017699115044
+guo,FLIP adaptive,0,1.9793103448275862,0.9557522123893806
+guo,FLIP adaptive,0,1.910344827586207,0.9557522123893806
+guo,FLIP adaptive,0,1.8413793103448275,0.9469026548672567
+guo,FLIP adaptive,0,1.7793103448275862,0.9469026548672567
+guo,FLIP adaptive,0,1.710344827586207,0.9469026548672567
+guo,FLIP adaptive,0,1.6413793103448275,0.9203539823008849
+guo,FLIP adaptive,0,1.5724137931034483,0.9203539823008849
+guo,FLIP adaptive,0,1.5034482758620689,0.8938053097345133
+guo,FLIP adaptive,0,1.4344827586206896,0.8761061946902655
+guo,FLIP adaptive,0,1.3655172413793104,0.8672566371681416
+guo,FLIP adaptive,0,1.296551724137931,0.8672566371681416
+guo,FLIP adaptive,0,1.2275862068965517,0.8495575221238938
+guo,FLIP adaptive,0,1.1655172413793105,0.831858407079646
+guo,FLIP adaptive,0,1.096551724137931,0.8141592920353982
+guo,FLIP adaptive,0,1.0275862068965518,0.7876106194690266
+guo,FLIP adaptive,0,0.9586206896551724,0.752212389380531
+guo,FLIP adaptive,0,0.8896551724137931,0.7168141592920354
+guo,FLIP adaptive,0,0.8206896551724138,0.6548672566371682
+guo,FLIP adaptive,0,0.7517241379310344,0.6106194690265487
+guo,FLIP adaptive,0,0.6827586206896552,0.5752212389380531
+guo,FLIP adaptive,0,0.6137931034482759,0.504424778761062
+guo,FLIP adaptive,0,0.5517241379310345,0.4601769911504425
+guo,FLIP adaptive,0,0.4827586206896552,0.4424778761061947
+guo,FLIP adaptive,0,0.4068965517241379,0.3982300884955752
+guo,FLIP adaptive,0,0.3448275862068966,0.35398230088495575
+guo,FLIP adaptive,0,0.27586206896551724,0.3097345132743363
+guo,FLIP adaptive,0,0.20689655172413793,0.2566371681415929
+guo,FLIP adaptive,0,0.13793103448275862,0.16814159292035402
+guo,FLIP adaptive,0,0.06896551724137931,0.07964601769911506
+guo,FLIP adaptive,0,0.0,0.0
+guo,"FLIP adaptive, free covariance",0,4.931034482758621,1.0
+guo,"FLIP adaptive, free covariance",0,4.882758620689655,1.0
+guo,"FLIP adaptive, free covariance",0,4.813793103448276,1.0
+guo,"FLIP adaptive, free covariance",0,4.744827586206896,1.0
+guo,"FLIP adaptive, free covariance",0,4.675862068965517,1.0
+guo,"FLIP adaptive, free covariance",0,4.606896551724138,1.0
+guo,"FLIP adaptive, free covariance",0,4.537931034482758,1.0
+guo,"FLIP adaptive, free covariance",0,4.468965517241379,1.0
+guo,"FLIP adaptive, free covariance",0,4.4,1.0
+guo,"FLIP adaptive, free covariance",0,4.3310344827586205,1.0
+guo,"FLIP adaptive, free covariance",0,4.2620689655172415,1.0
+guo,"FLIP adaptive, free covariance",0,4.1931034482758625,1.0
+guo,"FLIP adaptive, free covariance",0,4.124137931034483,1.0
+guo,"FLIP adaptive, free covariance",0,4.055172413793104,1.0
+guo,"FLIP adaptive, free covariance",0,3.986206896551724,1.0
+guo,"FLIP adaptive, free covariance",0,3.9172413793103447,1.0
+guo,"FLIP adaptive, free covariance",0,3.8482758620689657,1.0
+guo,"FLIP adaptive, free covariance",0,3.779310344827586,1.0
+guo,"FLIP adaptive, free covariance",0,3.703448275862069,1.0
+guo,"FLIP adaptive, free covariance",0,3.6413793103448278,1.0
+guo,"FLIP adaptive, free covariance",0,3.579310344827586,1.0
+guo,"FLIP adaptive, free covariance",0,3.510344827586207,1.0
+guo,"FLIP adaptive, free covariance",0,3.4413793103448276,1.0
+guo,"FLIP adaptive, free covariance",0,3.372413793103448,1.0
+guo,"FLIP adaptive, free covariance",0,3.303448275862069,1.0
+guo,"FLIP adaptive, free covariance",0,3.2344827586206897,1.0
+guo,"FLIP adaptive, free covariance",0,3.1655172413793102,1.0
+guo,"FLIP adaptive, free covariance",0,3.0965517241379312,1.0
+guo,"FLIP adaptive, free covariance",0,3.027586206896552,1.0
+guo,"FLIP adaptive, free covariance",0,2.9586206896551723,1.0
+guo,"FLIP adaptive, free covariance",0,2.889655172413793,1.0
+guo,"FLIP adaptive, free covariance",0,2.820689655172414,1.0
+guo,"FLIP adaptive, free covariance",0,2.7517241379310344,1.0
+guo,"FLIP adaptive, free covariance",0,2.682758620689655,0.9823008849557522
+guo,"FLIP adaptive, free covariance",0,2.613793103448276,0.9823008849557522
+guo,"FLIP adaptive, free covariance",0,2.5448275862068965,0.9823008849557522
+guo,"FLIP adaptive, free covariance",0,2.475862068965517,0.9734513274336283
+guo,"FLIP adaptive, free covariance",0,2.406896551724138,0.9734513274336283
+guo,"FLIP adaptive, free covariance",0,2.3379310344827586,0.9734513274336283
+guo,"FLIP adaptive, free covariance",0,2.268965517241379,0.9646017699115044
+guo,"FLIP adaptive, free covariance",0,2.2,0.9646017699115044
+guo,"FLIP adaptive, free covariance",0,2.1310344827586207,0.9646017699115044
+guo,"FLIP adaptive, free covariance",0,2.0620689655172413,0.9646017699115044
+guo,"FLIP adaptive, free covariance",0,1.993103448275862,0.9469026548672567
+guo,"FLIP adaptive, free covariance",0,1.9241379310344828,0.9469026548672567
+guo,"FLIP adaptive, free covariance",0,1.8551724137931034,0.9469026548672567
+guo,"FLIP adaptive, free covariance",0,1.793103448275862,0.9469026548672567
+guo,"FLIP adaptive, free covariance",0,1.7241379310344827,0.9380530973451328
+guo,"FLIP adaptive, free covariance",0,1.6551724137931034,0.911504424778761
+guo,"FLIP adaptive, free covariance",0,1.5862068965517242,0.8761061946902655
+guo,"FLIP adaptive, free covariance",0,1.5172413793103448,0.8584070796460177
+guo,"FLIP adaptive, free covariance",0,1.4482758620689655,0.8407079646017699
+guo,"FLIP adaptive, free covariance",0,1.3793103448275863,0.8407079646017699
+guo,"FLIP adaptive, free covariance",0,1.3103448275862069,0.8407079646017699
+guo,"FLIP adaptive, free covariance",0,1.2413793103448276,0.8407079646017699
+guo,"FLIP adaptive, free covariance",0,1.1724137931034482,0.8230088495575221
+guo,"FLIP adaptive, free covariance",0,1.103448275862069,0.8053097345132744
+guo,"FLIP adaptive, free covariance",0,1.0344827586206897,0.7964601769911505
+guo,"FLIP adaptive, free covariance",0,0.9655172413793104,0.7610619469026548
+guo,"FLIP adaptive, free covariance",0,0.896551724137931,0.6991150442477876
+guo,"FLIP adaptive, free covariance",0,0.8275862068965517,0.6725663716814159
+guo,"FLIP adaptive, free covariance",0,0.7586206896551724,0.6194690265486726
+guo,"FLIP adaptive, free covariance",0,0.6896551724137931,0.584070796460177
+guo,"FLIP adaptive, free covariance",0,0.6206896551724138,0.5575221238938053
+guo,"FLIP adaptive, free covariance",0,0.5517241379310345,0.49557522123893805
+guo,"FLIP adaptive, free covariance",0,0.4827586206896552,0.4424778761061947
+guo,"FLIP adaptive, free covariance",0,0.41379310344827586,0.4070796460176991
+guo,"FLIP adaptive, free covariance",0,0.3448275862068966,0.3893805309734514
+guo,"FLIP adaptive, free covariance",0,0.27586206896551724,0.3097345132743363
+guo,"FLIP adaptive, free covariance",0,0.20689655172413793,0.24778761061946908
+guo,"FLIP adaptive, free covariance",0,0.13793103448275862,0.17699115044247793
+guo,"FLIP adaptive, free covariance",0,0.06896551724137931,0.08849557522123896
+guo,"FLIP adaptive, free covariance",0,0.0,0.0
+guo,Ablation: no cross-reactivity (diagonal),0,5.386206896551724,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,5.317241379310345,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,5.248275862068965,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,5.179310344827586,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,5.110344827586207,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,5.0344827586206895,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.9655172413793105,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.896551724137931,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.820689655172414,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.751724137931035,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.682758620689655,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.613793103448276,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.537931034482758,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.468965517241379,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.4,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.324137931034483,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.255172413793104,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.186206896551724,1.0
+guo,Ablation: no cross-reactivity (diagonal),0,4.117241379310345,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),0,4.041379310344827,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),0,3.972413793103448,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),0,3.9034482758620688,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),0,3.8344827586206898,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),0,3.7586206896551726,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),0,3.689655172413793,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),0,3.6206896551724137,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),0,3.5448275862068965,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),0,3.475862068965517,0.9823008849557522
+guo,Ablation: no cross-reactivity (diagonal),0,3.406896551724138,0.9823008849557522
+guo,Ablation: no cross-reactivity (diagonal),0,3.3379310344827586,0.9823008849557522
+guo,Ablation: no cross-reactivity (diagonal),0,3.2620689655172415,0.9823008849557522
+guo,Ablation: no cross-reactivity (diagonal),0,3.193103448275862,0.9823008849557522
+guo,Ablation: no cross-reactivity (diagonal),0,3.1241379310344826,0.9823008849557522
+guo,Ablation: no cross-reactivity (diagonal),0,3.0482758620689654,0.9823008849557522
+guo,Ablation: no cross-reactivity (diagonal),0,2.9793103448275864,0.9823008849557522
+guo,Ablation: no cross-reactivity (diagonal),0,2.910344827586207,0.9823008849557522
+guo,Ablation: no cross-reactivity (diagonal),0,2.8413793103448275,0.9823008849557522
+guo,Ablation: no cross-reactivity (diagonal),0,2.7655172413793103,0.9646017699115044
+guo,Ablation: no cross-reactivity (diagonal),0,2.696551724137931,0.9646017699115044
+guo,Ablation: no cross-reactivity (diagonal),0,2.627586206896552,0.9646017699115044
+guo,Ablation: no cross-reactivity (diagonal),0,2.5586206896551724,0.9557522123893806
+guo,Ablation: no cross-reactivity (diagonal),0,2.4827586206896552,0.9557522123893806
+guo,Ablation: no cross-reactivity (diagonal),0,2.413793103448276,0.9557522123893806
+guo,Ablation: no cross-reactivity (diagonal),0,2.3448275862068964,0.9469026548672567
+guo,Ablation: no cross-reactivity (diagonal),0,2.268965517241379,0.9380530973451328
+guo,Ablation: no cross-reactivity (diagonal),0,2.2,0.911504424778761
+guo,Ablation: no cross-reactivity (diagonal),0,2.1310344827586207,0.9026548672566371
+guo,Ablation: no cross-reactivity (diagonal),0,2.0620689655172413,0.9026548672566371
+guo,Ablation: no cross-reactivity (diagonal),0,1.986206896551724,0.8761061946902655
+guo,Ablation: no cross-reactivity (diagonal),0,1.9172413793103449,0.8584070796460177
+guo,Ablation: no cross-reactivity (diagonal),0,1.8482758620689654,0.831858407079646
+guo,Ablation: no cross-reactivity (diagonal),0,1.7724137931034483,0.8230088495575221
+guo,Ablation: no cross-reactivity (diagonal),0,1.703448275862069,0.8141592920353982
+guo,Ablation: no cross-reactivity (diagonal),0,1.6344827586206896,0.7964601769911505
+guo,Ablation: no cross-reactivity (diagonal),0,1.5655172413793104,0.7787610619469026
+guo,Ablation: no cross-reactivity (diagonal),0,1.4896551724137932,0.7699115044247787
+guo,Ablation: no cross-reactivity (diagonal),0,1.4206896551724137,0.7699115044247787
+guo,Ablation: no cross-reactivity (diagonal),0,1.3517241379310345,0.752212389380531
+guo,Ablation: no cross-reactivity (diagonal),0,1.282758620689655,0.752212389380531
+guo,Ablation: no cross-reactivity (diagonal),0,1.206896551724138,0.752212389380531
+guo,Ablation: no cross-reactivity (diagonal),0,1.1379310344827587,0.7168141592920354
+guo,Ablation: no cross-reactivity (diagonal),0,1.0620689655172413,0.663716814159292
+guo,Ablation: no cross-reactivity (diagonal),0,0.993103448275862,0.6283185840707964
+guo,Ablation: no cross-reactivity (diagonal),0,0.9241379310344827,0.6106194690265487
+guo,Ablation: no cross-reactivity (diagonal),0,0.8482758620689655,0.5929203539823009
+guo,Ablation: no cross-reactivity (diagonal),0,0.7862068965517242,0.584070796460177
+guo,Ablation: no cross-reactivity (diagonal),0,0.7103448275862069,0.5221238938053097
+guo,Ablation: no cross-reactivity (diagonal),0,0.6413793103448275,0.4690265486725663
+guo,Ablation: no cross-reactivity (diagonal),0,0.5724137931034483,0.4070796460176991
+guo,Ablation: no cross-reactivity (diagonal),0,0.496551724137931,0.31858407079646023
+guo,Ablation: no cross-reactivity (diagonal),0,0.42758620689655175,0.24778761061946908
+guo,Ablation: no cross-reactivity (diagonal),0,0.3586206896551724,0.19469026548672563
+guo,Ablation: no cross-reactivity (diagonal),0,0.2896551724137931,0.16814159292035402
+guo,Ablation: no cross-reactivity (diagonal),0,0.21379310344827587,0.10619469026548678
+guo,Ablation: no cross-reactivity (diagonal),0,0.12413793103448276,0.053097345132743334
+guo,Ablation: no cross-reactivity (diagonal),0,0.07586206896551724,0.008849557522123908
+guo,Ablation: no cross-reactivity (diagonal),0,0.0,0.0
+guo,Fixed panel: greedy set cover,0,1.0,0.5575221238938053
+guo,Fixed panel: greedy set cover,0,2.0,0.8938053097345132
+guo,Fixed panel: greedy set cover,0,3.0,0.911504424778761
+guo,Fixed panel: greedy set cover,0,4.0,0.9557522123893806
+guo,Fixed panel: greedy set cover,0,5.0,0.9646017699115044
+guo,Fixed panel: greedy set cover,0,6.0,0.9734513274336283
+guo,Fixed panel: greedy set cover,0,7.0,0.9823008849557522
+guo,Fixed panel: greedy set cover,0,8.0,0.9823008849557522
+guo,Fixed panel: greedy set cover,0,9.0,0.9911504424778761
+guo,Fixed panel: greedy set cover,0,10.0,0.9911504424778761
+guo,Fixed panel: greedy set cover,0,11.0,0.9911504424778761
+guo,Fixed panel: greedy set cover,0,12.0,0.9911504424778761
+guo,Fixed panel: greedy set cover,0,13.0,0.9911504424778761
+guo,Fixed panel: greedy set cover,0,14.0,0.9911504424778761
+guo,Fixed panel: greedy set cover,0,15.0,1.0
+guo,Fixed panel: greedy set cover,0,16.0,1.0
+guo,Fixed panel: greedy set cover,0,17.0,1.0
+guo,Fixed panel: greedy set cover,0,18.0,1.0
+guo,FLIP adaptive,1,4.779310344827586,1.0
+guo,FLIP adaptive,1,4.7172413793103445,1.0
+guo,FLIP adaptive,1,4.6482758620689655,1.0
+guo,FLIP adaptive,1,4.5793103448275865,1.0
+guo,FLIP adaptive,1,4.503448275862069,1.0
+guo,FLIP adaptive,1,4.43448275862069,1.0
+guo,FLIP adaptive,1,4.36551724137931,1.0
+guo,FLIP adaptive,1,4.296551724137931,1.0
+guo,FLIP adaptive,1,4.227586206896552,1.0
+guo,FLIP adaptive,1,4.151724137931034,1.0
+guo,FLIP adaptive,1,4.082758620689655,1.0
+guo,FLIP adaptive,1,4.0137931034482754,1.0
+guo,FLIP adaptive,1,3.9448275862068964,1.0
+guo,FLIP adaptive,1,3.8758620689655174,1.0
+guo,FLIP adaptive,1,3.8,1.0
+guo,FLIP adaptive,1,3.731034482758621,1.0
+guo,FLIP adaptive,1,3.6620689655172414,1.0
+guo,FLIP adaptive,1,3.593103448275862,1.0
+guo,FLIP adaptive,1,3.524137931034483,1.0
+guo,FLIP adaptive,1,3.4482758620689653,1.0
+guo,FLIP adaptive,1,3.3793103448275863,1.0
+guo,FLIP adaptive,1,3.310344827586207,1.0
+guo,FLIP adaptive,1,3.2413793103448274,1.0
+guo,FLIP adaptive,1,3.1724137931034484,1.0
+guo,FLIP adaptive,1,3.0965517241379312,1.0
+guo,FLIP adaptive,1,3.027586206896552,1.0
+guo,FLIP adaptive,1,2.9586206896551723,1.0
+guo,FLIP adaptive,1,2.889655172413793,1.0
+guo,FLIP adaptive,1,2.820689655172414,1.0
+guo,FLIP adaptive,1,2.7448275862068967,1.0
+guo,FLIP adaptive,1,2.6758620689655173,0.990990990990991
+guo,FLIP adaptive,1,2.606896551724138,0.990990990990991
+guo,FLIP adaptive,1,2.537931034482759,0.990990990990991
+guo,FLIP adaptive,1,2.4689655172413794,0.990990990990991
+guo,FLIP adaptive,1,2.393103448275862,0.9819819819819819
+guo,FLIP adaptive,1,2.3241379310344827,0.9819819819819819
+guo,FLIP adaptive,1,2.2551724137931033,0.972972972972973
+guo,FLIP adaptive,1,2.1862068965517243,0.972972972972973
+guo,FLIP adaptive,1,2.117241379310345,0.972972972972973
+guo,FLIP adaptive,1,2.0413793103448277,0.972972972972973
+guo,FLIP adaptive,1,1.9724137931034482,0.963963963963964
+guo,FLIP adaptive,1,1.903448275862069,0.963963963963964
+guo,FLIP adaptive,1,1.8344827586206895,0.954954954954955
+guo,FLIP adaptive,1,1.7655172413793103,0.954954954954955
+guo,FLIP adaptive,1,1.6896551724137931,0.9369369369369369
+guo,FLIP adaptive,1,1.6206896551724137,0.9279279279279279
+guo,FLIP adaptive,1,1.5517241379310345,0.9009009009009009
+guo,FLIP adaptive,1,1.4827586206896552,0.8918918918918919
+guo,FLIP adaptive,1,1.4137931034482758,0.8828828828828829
+guo,FLIP adaptive,1,1.3379310344827586,0.8738738738738738
+guo,FLIP adaptive,1,1.2689655172413794,0.8738738738738738
+guo,FLIP adaptive,1,1.2,0.8738738738738738
+guo,FLIP adaptive,1,1.1310344827586207,0.8648648648648649
+guo,FLIP adaptive,1,1.0620689655172413,0.8558558558558559
+guo,FLIP adaptive,1,0.9862068965517241,0.8288288288288288
+guo,FLIP adaptive,1,0.9172413793103448,0.7657657657657657
+guo,FLIP adaptive,1,0.8482758620689655,0.7207207207207207
+guo,FLIP adaptive,1,0.7793103448275862,0.6936936936936937
+guo,FLIP adaptive,1,0.7103448275862069,0.6396396396396397
+guo,FLIP adaptive,1,0.6344827586206897,0.5675675675675675
+guo,FLIP adaptive,1,0.5655172413793104,0.5045045045045045
+guo,FLIP adaptive,1,0.496551724137931,0.4414414414414415
+guo,FLIP adaptive,1,0.42758620689655175,0.3783783783783784
+guo,FLIP adaptive,1,0.3586206896551724,0.32432432432432434
+guo,FLIP adaptive,1,0.2827586206896552,0.26126126126126126
+guo,FLIP adaptive,1,0.21379310344827587,0.2072072072072072
+guo,FLIP adaptive,1,0.14482758620689656,0.15315315315315314
+guo,FLIP adaptive,1,0.07586206896551724,0.08108108108108103
+guo,FLIP adaptive,1,0.0,0.0
+guo,"FLIP adaptive, free covariance",1,5.103448275862069,1.0
+guo,"FLIP adaptive, free covariance",1,5.075862068965518,1.0
+guo,"FLIP adaptive, free covariance",1,5.006896551724138,1.0
+guo,"FLIP adaptive, free covariance",1,4.937931034482759,1.0
+guo,"FLIP adaptive, free covariance",1,4.862068965517241,1.0
+guo,"FLIP adaptive, free covariance",1,4.793103448275862,1.0
+guo,"FLIP adaptive, free covariance",1,4.724137931034483,1.0
+guo,"FLIP adaptive, free covariance",1,4.655172413793103,1.0
+guo,"FLIP adaptive, free covariance",1,4.5793103448275865,1.0
+guo,"FLIP adaptive, free covariance",1,4.510344827586207,1.0
+guo,"FLIP adaptive, free covariance",1,4.441379310344828,1.0
+guo,"FLIP adaptive, free covariance",1,4.372413793103449,1.0
+guo,"FLIP adaptive, free covariance",1,4.303448275862069,1.0
+guo,"FLIP adaptive, free covariance",1,4.227586206896552,1.0
+guo,"FLIP adaptive, free covariance",1,4.158620689655172,1.0
+guo,"FLIP adaptive, free covariance",1,4.089655172413793,1.0
+guo,"FLIP adaptive, free covariance",1,4.020689655172414,1.0
+guo,"FLIP adaptive, free covariance",1,3.9517241379310346,1.0
+guo,"FLIP adaptive, free covariance",1,3.8758620689655174,1.0
+guo,"FLIP adaptive, free covariance",1,3.806896551724138,1.0
+guo,"FLIP adaptive, free covariance",1,3.7379310344827585,1.0
+guo,"FLIP adaptive, free covariance",1,3.668965517241379,1.0
+guo,"FLIP adaptive, free covariance",1,3.593103448275862,1.0
+guo,"FLIP adaptive, free covariance",1,3.524137931034483,1.0
+guo,"FLIP adaptive, free covariance",1,3.4551724137931035,1.0
+guo,"FLIP adaptive, free covariance",1,3.386206896551724,1.0
+guo,"FLIP adaptive, free covariance",1,3.317241379310345,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,3.2413793103448274,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,3.1724137931034484,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,3.103448275862069,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,3.0344827586206895,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,2.9655172413793105,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,2.889655172413793,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,2.820689655172414,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,2.7517241379310344,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,2.682758620689655,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,2.606896551724138,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,2.537931034482759,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,2.4689655172413794,0.990990990990991
+guo,"FLIP adaptive, free covariance",1,2.4,0.9819819819819819
+guo,"FLIP adaptive, free covariance",1,2.331034482758621,0.9819819819819819
+guo,"FLIP adaptive, free covariance",1,2.2551724137931033,0.9819819819819819
+guo,"FLIP adaptive, free covariance",1,2.1862068965517243,0.9819819819819819
+guo,"FLIP adaptive, free covariance",1,2.117241379310345,0.9819819819819819
+guo,"FLIP adaptive, free covariance",1,2.0482758620689654,0.972972972972973
+guo,"FLIP adaptive, free covariance",1,1.9793103448275862,0.972972972972973
+guo,"FLIP adaptive, free covariance",1,1.903448275862069,0.972972972972973
+guo,"FLIP adaptive, free covariance",1,1.8344827586206895,0.972972972972973
+guo,"FLIP adaptive, free covariance",1,1.7655172413793103,0.972972972972973
+guo,"FLIP adaptive, free covariance",1,1.696551724137931,0.972972972972973
+guo,"FLIP adaptive, free covariance",1,1.6206896551724137,0.9459459459459459
+guo,"FLIP adaptive, free covariance",1,1.5517241379310345,0.9369369369369369
+guo,"FLIP adaptive, free covariance",1,1.4827586206896552,0.9279279279279279
+guo,"FLIP adaptive, free covariance",1,1.4137931034482758,0.9099099099099099
+guo,"FLIP adaptive, free covariance",1,1.3448275862068966,0.8828828828828829
+guo,"FLIP adaptive, free covariance",1,1.2689655172413794,0.8828828828828829
+guo,"FLIP adaptive, free covariance",1,1.2,0.8738738738738738
+guo,"FLIP adaptive, free covariance",1,1.1310344827586207,0.8378378378378378
+guo,"FLIP adaptive, free covariance",1,1.0620689655172413,0.8288288288288288
+guo,"FLIP adaptive, free covariance",1,0.993103448275862,0.7927927927927928
+guo,"FLIP adaptive, free covariance",1,0.9172413793103448,0.7477477477477478
+guo,"FLIP adaptive, free covariance",1,0.8482758620689655,0.6846846846846847
+guo,"FLIP adaptive, free covariance",1,0.7793103448275862,0.6486486486486487
+guo,"FLIP adaptive, free covariance",1,0.7103448275862069,0.5945945945945945
+guo,"FLIP adaptive, free covariance",1,0.6344827586206897,0.5495495495495495
+guo,"FLIP adaptive, free covariance",1,0.5655172413793104,0.4864864864864865
+guo,"FLIP adaptive, free covariance",1,0.496551724137931,0.4414414414414415
+guo,"FLIP adaptive, free covariance",1,0.42758620689655175,0.3873873873873874
+guo,"FLIP adaptive, free covariance",1,0.3586206896551724,0.36036036036036034
+guo,"FLIP adaptive, free covariance",1,0.2827586206896552,0.26126126126126126
+guo,"FLIP adaptive, free covariance",1,0.21379310344827587,0.19819819819819817
+guo,"FLIP adaptive, free covariance",1,0.14482758620689656,0.15315315315315314
+guo,"FLIP adaptive, free covariance",1,0.07586206896551724,0.07207207207207211
+guo,"FLIP adaptive, free covariance",1,0.0,0.0
+guo,Ablation: no cross-reactivity (diagonal),1,5.613793103448276,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,5.56551724137931,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,5.496551724137931,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,5.4206896551724135,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,5.344827586206897,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,5.268965517241379,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,5.2,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,5.124137931034483,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,5.048275862068966,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.972413793103448,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.903448275862069,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.827586206896552,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.751724137931035,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.675862068965517,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.606896551724138,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.531034482758621,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.455172413793103,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.379310344827586,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.310344827586207,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.23448275862069,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.158620689655172,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.082758620689655,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,4.0137931034482754,1.0
+guo,Ablation: no cross-reactivity (diagonal),1,3.9379310344827587,0.990990990990991
+guo,Ablation: no cross-reactivity (diagonal),1,3.8620689655172415,0.990990990990991
+guo,Ablation: no cross-reactivity (diagonal),1,3.786206896551724,0.990990990990991
+guo,Ablation: no cross-reactivity (diagonal),1,3.7103448275862068,0.972972972972973
+guo,Ablation: no cross-reactivity (diagonal),1,3.6413793103448278,0.972972972972973
+guo,Ablation: no cross-reactivity (diagonal),1,3.56551724137931,0.972972972972973
+guo,Ablation: no cross-reactivity (diagonal),1,3.489655172413793,0.972972972972973
+guo,Ablation: no cross-reactivity (diagonal),1,3.413793103448276,0.963963963963964
+guo,Ablation: no cross-reactivity (diagonal),1,3.3448275862068964,0.963963963963964
+guo,Ablation: no cross-reactivity (diagonal),1,3.268965517241379,0.963963963963964
+guo,Ablation: no cross-reactivity (diagonal),1,3.193103448275862,0.963963963963964
+guo,Ablation: no cross-reactivity (diagonal),1,3.117241379310345,0.963963963963964
+guo,Ablation: no cross-reactivity (diagonal),1,3.0482758620689654,0.963963963963964
+guo,Ablation: no cross-reactivity (diagonal),1,2.972413793103448,0.963963963963964
+guo,Ablation: no cross-reactivity (diagonal),1,2.896551724137931,0.963963963963964
+guo,Ablation: no cross-reactivity (diagonal),1,2.820689655172414,0.954954954954955
+guo,Ablation: no cross-reactivity (diagonal),1,2.7517241379310344,0.954954954954955
+guo,Ablation: no cross-reactivity (diagonal),1,2.6758620689655173,0.954954954954955
+guo,Ablation: no cross-reactivity (diagonal),1,2.6,0.9459459459459459
+guo,Ablation: no cross-reactivity (diagonal),1,2.524137931034483,0.9369369369369369
+guo,Ablation: no cross-reactivity (diagonal),1,2.4551724137931035,0.9279279279279279
+guo,Ablation: no cross-reactivity (diagonal),1,2.3793103448275863,0.9279279279279279
+guo,Ablation: no cross-reactivity (diagonal),1,2.303448275862069,0.9279279279279279
+guo,Ablation: no cross-reactivity (diagonal),1,2.2275862068965515,0.9099099099099099
+guo,Ablation: no cross-reactivity (diagonal),1,2.1586206896551725,0.9099099099099099
+guo,Ablation: no cross-reactivity (diagonal),1,2.0827586206896553,0.9099099099099099
+guo,Ablation: no cross-reactivity (diagonal),1,2.0068965517241377,0.9099099099099099
+guo,Ablation: no cross-reactivity (diagonal),1,1.9310344827586208,0.9099099099099099
+guo,Ablation: no cross-reactivity (diagonal),1,1.8551724137931034,0.9009009009009009
+guo,Ablation: no cross-reactivity (diagonal),1,1.7862068965517242,0.8918918918918919
+guo,Ablation: no cross-reactivity (diagonal),1,1.710344827586207,0.8828828828828829
+guo,Ablation: no cross-reactivity (diagonal),1,1.6344827586206896,0.8828828828828829
+guo,Ablation: no cross-reactivity (diagonal),1,1.5586206896551724,0.8828828828828829
+guo,Ablation: no cross-reactivity (diagonal),1,1.4896551724137932,0.8738738738738738
+guo,Ablation: no cross-reactivity (diagonal),1,1.4137931034482758,0.8378378378378378
+guo,Ablation: no cross-reactivity (diagonal),1,1.3379310344827586,0.8198198198198199
+guo,Ablation: no cross-reactivity (diagonal),1,1.2620689655172415,0.7927927927927928
+guo,Ablation: no cross-reactivity (diagonal),1,1.193103448275862,0.7567567567567568
+guo,Ablation: no cross-reactivity (diagonal),1,1.1172413793103448,0.7477477477477478
+guo,Ablation: no cross-reactivity (diagonal),1,1.0413793103448277,0.7027027027027026
+guo,Ablation: no cross-reactivity (diagonal),1,0.9655172413793104,0.6666666666666667
+guo,Ablation: no cross-reactivity (diagonal),1,0.896551724137931,0.6396396396396397
+guo,Ablation: no cross-reactivity (diagonal),1,0.8206896551724138,0.5945945945945945
+guo,Ablation: no cross-reactivity (diagonal),1,0.7448275862068966,0.5765765765765766
+guo,Ablation: no cross-reactivity (diagonal),1,0.6689655172413793,0.5675675675675675
+guo,Ablation: no cross-reactivity (diagonal),1,0.6,0.5225225225225225
+guo,Ablation: no cross-reactivity (diagonal),1,0.5172413793103449,0.4504504504504504
+guo,Ablation: no cross-reactivity (diagonal),1,0.4413793103448276,0.3783783783783784
+guo,Ablation: no cross-reactivity (diagonal),1,0.3724137931034483,0.32432432432432434
+guo,Ablation: no cross-reactivity (diagonal),1,0.2827586206896552,0.23423423423423428
+guo,Ablation: no cross-reactivity (diagonal),1,0.20689655172413793,0.18018018018018023
+guo,Ablation: no cross-reactivity (diagonal),1,0.15172413793103448,0.1351351351351351
+guo,Ablation: no cross-reactivity (diagonal),1,0.07586206896551724,0.07207207207207211
+guo,Ablation: no cross-reactivity (diagonal),1,0.0,0.0
+guo,Fixed panel: greedy set cover,1,1.0,0.5495495495495496
+guo,Fixed panel: greedy set cover,1,2.0,0.9279279279279279
+guo,Fixed panel: greedy set cover,1,3.0,0.954954954954955
+guo,Fixed panel: greedy set cover,1,4.0,0.990990990990991
+guo,Fixed panel: greedy set cover,1,5.0,0.990990990990991
+guo,Fixed panel: greedy set cover,1,6.0,0.990990990990991
+guo,Fixed panel: greedy set cover,1,7.0,0.990990990990991
+guo,Fixed panel: greedy set cover,1,8.0,0.990990990990991
+guo,Fixed panel: greedy set cover,1,9.0,1.0
+guo,Fixed panel: greedy set cover,1,10.0,1.0
+guo,Fixed panel: greedy set cover,1,11.0,1.0
+guo,Fixed panel: greedy set cover,1,12.0,1.0
+guo,Fixed panel: greedy set cover,1,13.0,1.0
+guo,Fixed panel: greedy set cover,1,14.0,1.0
+guo,Fixed panel: greedy set cover,1,15.0,1.0
+guo,Fixed panel: greedy set cover,1,16.0,1.0
+guo,Fixed panel: greedy set cover,1,17.0,1.0
+guo,Fixed panel: greedy set cover,1,18.0,1.0
+guo,FLIP adaptive,2,4.820689655172414,1.0
+guo,FLIP adaptive,2,4.793103448275862,1.0
+guo,FLIP adaptive,2,4.724137931034483,1.0
+guo,FLIP adaptive,2,4.655172413793103,1.0
+guo,FLIP adaptive,2,4.586206896551724,1.0
+guo,FLIP adaptive,2,4.517241379310345,1.0
+guo,FLIP adaptive,2,4.448275862068965,1.0
+guo,FLIP adaptive,2,4.372413793103449,1.0
+guo,FLIP adaptive,2,4.303448275862069,1.0
+guo,FLIP adaptive,2,4.23448275862069,1.0
+guo,FLIP adaptive,2,4.165517241379311,1.0
+guo,FLIP adaptive,2,4.096551724137931,1.0
+guo,FLIP adaptive,2,4.027586206896552,1.0
+guo,FLIP adaptive,2,3.9586206896551723,1.0
+guo,FLIP adaptive,2,3.889655172413793,1.0
+guo,FLIP adaptive,2,3.820689655172414,1.0
+guo,FLIP adaptive,2,3.7517241379310344,1.0
+guo,FLIP adaptive,2,3.682758620689655,1.0
+guo,FLIP adaptive,2,3.613793103448276,1.0
+guo,FLIP adaptive,2,3.5448275862068965,1.0
+guo,FLIP adaptive,2,3.475862068965517,1.0
+guo,FLIP adaptive,2,3.406896551724138,1.0
+guo,FLIP adaptive,2,3.3379310344827586,1.0
+guo,FLIP adaptive,2,3.2620689655172415,1.0
+guo,FLIP adaptive,2,3.193103448275862,0.9911504424778761
+guo,FLIP adaptive,2,3.1241379310344826,0.9911504424778761
+guo,FLIP adaptive,2,3.0551724137931036,0.9911504424778761
+guo,FLIP adaptive,2,2.986206896551724,0.9911504424778761
+guo,FLIP adaptive,2,2.9172413793103447,0.9734513274336283
+guo,FLIP adaptive,2,2.8482758620689657,0.9734513274336283
+guo,FLIP adaptive,2,2.779310344827586,0.9734513274336283
+guo,FLIP adaptive,2,2.7103448275862068,0.9734513274336283
+guo,FLIP adaptive,2,2.6413793103448278,0.9646017699115044
+guo,FLIP adaptive,2,2.5724137931034483,0.9646017699115044
+guo,FLIP adaptive,2,2.503448275862069,0.9646017699115044
+guo,FLIP adaptive,2,2.43448275862069,0.9469026548672567
+guo,FLIP adaptive,2,2.3655172413793104,0.9469026548672567
+guo,FLIP adaptive,2,2.296551724137931,0.9469026548672567
+guo,FLIP adaptive,2,2.2275862068965515,0.9380530973451328
+guo,FLIP adaptive,2,2.1517241379310343,0.9380530973451328
+guo,FLIP adaptive,2,2.0827586206896553,0.9380530973451328
+guo,FLIP adaptive,2,2.013793103448276,0.9380530973451328
+guo,FLIP adaptive,2,1.9448275862068964,0.9380530973451328
+guo,FLIP adaptive,2,1.8758620689655172,0.9203539823008849
+guo,FLIP adaptive,2,1.806896551724138,0.9203539823008849
+guo,FLIP adaptive,2,1.7379310344827585,0.911504424778761
+guo,FLIP adaptive,2,1.6689655172413793,0.9026548672566371
+guo,FLIP adaptive,2,1.6,0.9026548672566371
+guo,FLIP adaptive,2,1.5310344827586206,0.9026548672566371
+guo,FLIP adaptive,2,1.4620689655172414,0.8938053097345133
+guo,FLIP adaptive,2,1.393103448275862,0.8761061946902655
+guo,FLIP adaptive,2,1.3241379310344827,0.831858407079646
+guo,FLIP adaptive,2,1.2551724137931035,0.8230088495575221
+guo,FLIP adaptive,2,1.186206896551724,0.8141592920353982
+guo,FLIP adaptive,2,1.1172413793103448,0.8053097345132744
+guo,FLIP adaptive,2,1.0413793103448277,0.7876106194690266
+guo,FLIP adaptive,2,0.9724137931034482,0.7433628318584071
+guo,FLIP adaptive,2,0.903448275862069,0.7079646017699115
+guo,FLIP adaptive,2,0.8344827586206897,0.6814159292035398
+guo,FLIP adaptive,2,0.7655172413793103,0.6106194690265487
+guo,FLIP adaptive,2,0.696551724137931,0.5309734513274336
+guo,FLIP adaptive,2,0.6275862068965518,0.504424778761062
+guo,FLIP adaptive,2,0.5586206896551724,0.4513274336283186
+guo,FLIP adaptive,2,0.4896551724137931,0.4336283185840708
+guo,FLIP adaptive,2,0.41379310344827586,0.36283185840707965
+guo,FLIP adaptive,2,0.35172413793103446,0.31858407079646023
+guo,FLIP adaptive,2,0.2827586206896552,0.24778761061946908
+guo,FLIP adaptive,2,0.21379310344827587,0.20353982300884954
+guo,FLIP adaptive,2,0.14482758620689656,0.1415929203539823
+guo,FLIP adaptive,2,0.07586206896551724,0.06194690265486724
+guo,FLIP adaptive,2,0.0,0.0
+guo,"FLIP adaptive, free covariance",2,4.944827586206896,1.0
+guo,"FLIP adaptive, free covariance",2,4.882758620689655,1.0
+guo,"FLIP adaptive, free covariance",2,4.813793103448276,1.0
+guo,"FLIP adaptive, free covariance",2,4.744827586206896,1.0
+guo,"FLIP adaptive, free covariance",2,4.675862068965517,1.0
+guo,"FLIP adaptive, free covariance",2,4.606896551724138,1.0
+guo,"FLIP adaptive, free covariance",2,4.537931034482758,1.0
+guo,"FLIP adaptive, free covariance",2,4.468965517241379,1.0
+guo,"FLIP adaptive, free covariance",2,4.4,1.0
+guo,"FLIP adaptive, free covariance",2,4.3310344827586205,1.0
+guo,"FLIP adaptive, free covariance",2,4.2620689655172415,1.0
+guo,"FLIP adaptive, free covariance",2,4.1931034482758625,1.0
+guo,"FLIP adaptive, free covariance",2,4.124137931034483,1.0
+guo,"FLIP adaptive, free covariance",2,4.055172413793104,1.0
+guo,"FLIP adaptive, free covariance",2,3.986206896551724,1.0
+guo,"FLIP adaptive, free covariance",2,3.9172413793103447,1.0
+guo,"FLIP adaptive, free covariance",2,3.8482758620689657,1.0
+guo,"FLIP adaptive, free covariance",2,3.779310344827586,1.0
+guo,"FLIP adaptive, free covariance",2,3.7103448275862068,1.0
+guo,"FLIP adaptive, free covariance",2,3.6413793103448278,1.0
+guo,"FLIP adaptive, free covariance",2,3.579310344827586,1.0
+guo,"FLIP adaptive, free covariance",2,3.510344827586207,1.0
+guo,"FLIP adaptive, free covariance",2,3.4413793103448276,1.0
+guo,"FLIP adaptive, free covariance",2,3.372413793103448,1.0
+guo,"FLIP adaptive, free covariance",2,3.303448275862069,1.0
+guo,"FLIP adaptive, free covariance",2,3.2344827586206897,1.0
+guo,"FLIP adaptive, free covariance",2,3.1655172413793102,1.0
+guo,"FLIP adaptive, free covariance",2,3.0965517241379312,1.0
+guo,"FLIP adaptive, free covariance",2,3.027586206896552,1.0
+guo,"FLIP adaptive, free covariance",2,2.9586206896551723,1.0
+guo,"FLIP adaptive, free covariance",2,2.889655172413793,1.0
+guo,"FLIP adaptive, free covariance",2,2.820689655172414,1.0
+guo,"FLIP adaptive, free covariance",2,2.7517241379310344,1.0
+guo,"FLIP adaptive, free covariance",2,2.682758620689655,1.0
+guo,"FLIP adaptive, free covariance",2,2.613793103448276,1.0
+guo,"FLIP adaptive, free covariance",2,2.5448275862068965,1.0
+guo,"FLIP adaptive, free covariance",2,2.475862068965517,0.9823008849557522
+guo,"FLIP adaptive, free covariance",2,2.406896551724138,0.9734513274336283
+guo,"FLIP adaptive, free covariance",2,2.3379310344827586,0.9557522123893806
+guo,"FLIP adaptive, free covariance",2,2.268965517241379,0.9557522123893806
+guo,"FLIP adaptive, free covariance",2,2.2,0.9469026548672567
+guo,"FLIP adaptive, free covariance",2,2.1310344827586207,0.9469026548672567
+guo,"FLIP adaptive, free covariance",2,2.0620689655172413,0.9380530973451328
+guo,"FLIP adaptive, free covariance",2,1.993103448275862,0.9380530973451328
+guo,"FLIP adaptive, free covariance",2,1.9241379310344828,0.9203539823008849
+guo,"FLIP adaptive, free covariance",2,1.8551724137931034,0.911504424778761
+guo,"FLIP adaptive, free covariance",2,1.793103448275862,0.911504424778761
+guo,"FLIP adaptive, free covariance",2,1.7241379310344827,0.9026548672566371
+guo,"FLIP adaptive, free covariance",2,1.6551724137931034,0.9026548672566371
+guo,"FLIP adaptive, free covariance",2,1.5862068965517242,0.9026548672566371
+guo,"FLIP adaptive, free covariance",2,1.5172413793103448,0.8849557522123894
+guo,"FLIP adaptive, free covariance",2,1.4482758620689655,0.8672566371681416
+guo,"FLIP adaptive, free covariance",2,1.3793103448275863,0.8407079646017699
+guo,"FLIP adaptive, free covariance",2,1.3103448275862069,0.8230088495575221
+guo,"FLIP adaptive, free covariance",2,1.2413793103448276,0.8053097345132744
+guo,"FLIP adaptive, free covariance",2,1.1724137931034482,0.7964601769911505
+guo,"FLIP adaptive, free covariance",2,1.103448275862069,0.7787610619469026
+guo,"FLIP adaptive, free covariance",2,1.0344827586206897,0.7433628318584071
+guo,"FLIP adaptive, free covariance",2,0.9655172413793104,0.7168141592920354
+guo,"FLIP adaptive, free covariance",2,0.896551724137931,0.6991150442477876
+guo,"FLIP adaptive, free covariance",2,0.8275862068965517,0.6725663716814159
+guo,"FLIP adaptive, free covariance",2,0.7586206896551724,0.6017699115044248
+guo,"FLIP adaptive, free covariance",2,0.6896551724137931,0.5486725663716814
+guo,"FLIP adaptive, free covariance",2,0.6206896551724138,0.5132743362831859
+guo,"FLIP adaptive, free covariance",2,0.5517241379310345,0.4601769911504425
+guo,"FLIP adaptive, free covariance",2,0.4827586206896552,0.3982300884955752
+guo,"FLIP adaptive, free covariance",2,0.41379310344827586,0.35398230088495575
+guo,"FLIP adaptive, free covariance",2,0.3448275862068966,0.3097345132743363
+guo,"FLIP adaptive, free covariance",2,0.2689655172413793,0.24778761061946908
+guo,"FLIP adaptive, free covariance",2,0.20689655172413793,0.18584070796460173
+guo,"FLIP adaptive, free covariance",2,0.13793103448275862,0.1327433628318584
+guo,"FLIP adaptive, free covariance",2,0.06896551724137931,0.053097345132743334
+guo,"FLIP adaptive, free covariance",2,0.0,0.0
+guo,Ablation: no cross-reactivity (diagonal),2,5.413793103448276,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,5.4,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,5.324137931034483,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,5.255172413793104,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,5.179310344827586,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,5.110344827586207,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,5.041379310344827,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.9655172413793105,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.896551724137931,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.820689655172414,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.751724137931035,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.675862068965517,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.606896551724138,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.537931034482758,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.462068965517242,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.393103448275862,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.317241379310345,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.248275862068965,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.172413793103448,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.103448275862069,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,4.0344827586206895,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,3.9586206896551723,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,3.889655172413793,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,3.8137931034482757,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,3.7448275862068967,1.0
+guo,Ablation: no cross-reactivity (diagonal),2,3.668965517241379,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),2,3.6,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),2,3.5310344827586206,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),2,3.4551724137931035,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),2,3.386206896551724,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),2,3.310344827586207,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),2,3.2413793103448274,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),2,3.1655172413793102,0.9911504424778761
+guo,Ablation: no cross-reactivity (diagonal),2,3.0965517241379312,0.9823008849557522
+guo,Ablation: no cross-reactivity (diagonal),2,3.027586206896552,0.9823008849557522
+guo,Ablation: no cross-reactivity (diagonal),2,2.9517241379310346,0.9734513274336283
+guo,Ablation: no cross-reactivity (diagonal),2,2.882758620689655,0.9646017699115044
+guo,Ablation: no cross-reactivity (diagonal),2,2.806896551724138,0.9557522123893806
+guo,Ablation: no cross-reactivity (diagonal),2,2.7379310344827585,0.9557522123893806
+guo,Ablation: no cross-reactivity (diagonal),2,2.6620689655172414,0.9557522123893806
+guo,Ablation: no cross-reactivity (diagonal),2,2.593103448275862,0.9380530973451328
+guo,Ablation: no cross-reactivity (diagonal),2,2.524137931034483,0.9203539823008849
+guo,Ablation: no cross-reactivity (diagonal),2,2.4482758620689653,0.911504424778761
+guo,Ablation: no cross-reactivity (diagonal),2,2.3793103448275863,0.9026548672566371
+guo,Ablation: no cross-reactivity (diagonal),2,2.303448275862069,0.8938053097345133
+guo,Ablation: no cross-reactivity (diagonal),2,2.2344827586206897,0.8938053097345133
+guo,Ablation: no cross-reactivity (diagonal),2,2.1586206896551725,0.8849557522123894
+guo,Ablation: no cross-reactivity (diagonal),2,2.089655172413793,0.8849557522123894
+guo,Ablation: no cross-reactivity (diagonal),2,2.0206896551724136,0.8849557522123894
+guo,Ablation: no cross-reactivity (diagonal),2,1.9448275862068964,0.8849557522123894
+guo,Ablation: no cross-reactivity (diagonal),2,1.8758620689655172,0.8849557522123894
+guo,Ablation: no cross-reactivity (diagonal),2,1.8,0.8761061946902655
+guo,Ablation: no cross-reactivity (diagonal),2,1.7310344827586206,0.8584070796460177
+guo,Ablation: no cross-reactivity (diagonal),2,1.6551724137931034,0.831858407079646
+guo,Ablation: no cross-reactivity (diagonal),2,1.5862068965517242,0.8141592920353982
+guo,Ablation: no cross-reactivity (diagonal),2,1.5172413793103448,0.7964601769911505
+guo,Ablation: no cross-reactivity (diagonal),2,1.4413793103448276,0.7876106194690266
+guo,Ablation: no cross-reactivity (diagonal),2,1.3724137931034484,0.7787610619469026
+guo,Ablation: no cross-reactivity (diagonal),2,1.296551724137931,0.7345132743362832
+guo,Ablation: no cross-reactivity (diagonal),2,1.2275862068965517,0.7168141592920354
+guo,Ablation: no cross-reactivity (diagonal),2,1.1517241379310346,0.7079646017699115
+guo,Ablation: no cross-reactivity (diagonal),2,1.0827586206896551,0.6902654867256637
+guo,Ablation: no cross-reactivity (diagonal),2,1.013793103448276,0.6725663716814159
+guo,Ablation: no cross-reactivity (diagonal),2,0.9379310344827586,0.6017699115044248
+guo,Ablation: no cross-reactivity (diagonal),2,0.8689655172413793,0.5929203539823009
+guo,Ablation: no cross-reactivity (diagonal),2,0.7931034482758621,0.5575221238938053
+guo,Ablation: no cross-reactivity (diagonal),2,0.7241379310344828,0.5132743362831859
+guo,Ablation: no cross-reactivity (diagonal),2,0.6482758620689655,0.47787610619469023
+guo,Ablation: no cross-reactivity (diagonal),2,0.5793103448275863,0.4336283185840708
+guo,Ablation: no cross-reactivity (diagonal),2,0.503448275862069,0.37168141592920356
+guo,Ablation: no cross-reactivity (diagonal),2,0.43448275862068964,0.3097345132743363
+guo,Ablation: no cross-reactivity (diagonal),2,0.36551724137931035,0.2743362831858407
+guo,Ablation: no cross-reactivity (diagonal),2,0.2896551724137931,0.22123893805309736
+guo,Ablation: no cross-reactivity (diagonal),2,0.2206896551724138,0.16814159292035402
+guo,Ablation: no cross-reactivity (diagonal),2,0.13793103448275862,0.10619469026548678
+guo,Ablation: no cross-reactivity (diagonal),2,0.07586206896551724,0.053097345132743334
+guo,Ablation: no cross-reactivity (diagonal),2,0.0,0.0
+guo,Fixed panel: greedy set cover,2,1.0,0.5132743362831859
+guo,Fixed panel: greedy set cover,2,2.0,0.8495575221238938
+guo,Fixed panel: greedy set cover,2,3.0,0.8761061946902655
+guo,Fixed panel: greedy set cover,2,4.0,0.9292035398230089
+guo,Fixed panel: greedy set cover,2,5.0,0.9557522123893806
+guo,Fixed panel: greedy set cover,2,6.0,0.9734513274336283
+guo,Fixed panel: greedy set cover,2,7.0,1.0
+guo,Fixed panel: greedy set cover,2,8.0,1.0
+guo,Fixed panel: greedy set cover,2,9.0,1.0
+guo,Fixed panel: greedy set cover,2,10.0,1.0
+guo,Fixed panel: greedy set cover,2,11.0,1.0
+guo,Fixed panel: greedy set cover,2,12.0,1.0
+guo,Fixed panel: greedy set cover,2,13.0,1.0
+guo,Fixed panel: greedy set cover,2,14.0,1.0
+guo,Fixed panel: greedy set cover,2,15.0,1.0
+guo,Fixed panel: greedy set cover,2,16.0,1.0
+guo,Fixed panel: greedy set cover,2,17.0,1.0
+guo,Fixed panel: greedy set cover,2,18.0,1.0
+guo,FLIP adaptive,3,5.63448275862069,0.9904761904761905
+guo,FLIP adaptive,3,5.606896551724138,0.9904761904761905
+guo,FLIP adaptive,3,5.524137931034483,0.9904761904761905
+guo,FLIP adaptive,3,5.441379310344828,0.9904761904761905
+guo,FLIP adaptive,3,5.358620689655172,0.9904761904761905
+guo,FLIP adaptive,3,5.268965517241379,0.9904761904761905
+guo,FLIP adaptive,3,5.186206896551724,0.9904761904761905
+guo,FLIP adaptive,3,5.103448275862069,0.9904761904761905
+guo,FLIP adaptive,3,5.020689655172414,0.9904761904761905
+guo,FLIP adaptive,3,4.937931034482759,0.9809523809523809
+guo,FLIP adaptive,3,4.855172413793103,0.9809523809523809
+guo,FLIP adaptive,3,4.772413793103448,0.9809523809523809
+guo,FLIP adaptive,3,4.689655172413793,0.9809523809523809
+guo,FLIP adaptive,3,4.6,0.9809523809523809
+guo,FLIP adaptive,3,4.517241379310345,0.9809523809523809
+guo,FLIP adaptive,3,4.43448275862069,0.9809523809523809
+guo,FLIP adaptive,3,4.3517241379310345,0.9809523809523809
+guo,FLIP adaptive,3,4.268965517241379,0.9809523809523809
+guo,FLIP adaptive,3,4.186206896551724,0.9809523809523809
+guo,FLIP adaptive,3,4.103448275862069,0.9809523809523809
+guo,FLIP adaptive,3,4.020689655172414,0.9809523809523809
+guo,FLIP adaptive,3,3.9310344827586206,0.9809523809523809
+guo,FLIP adaptive,3,3.8482758620689657,0.9809523809523809
+guo,FLIP adaptive,3,3.7655172413793103,0.9809523809523809
+guo,FLIP adaptive,3,3.682758620689655,0.9809523809523809
+guo,FLIP adaptive,3,3.6,0.9809523809523809
+guo,FLIP adaptive,3,3.5172413793103448,0.9809523809523809
+guo,FLIP adaptive,3,3.43448275862069,0.9714285714285714
+guo,FLIP adaptive,3,3.3517241379310345,0.9714285714285714
+guo,FLIP adaptive,3,3.2620689655172415,0.9714285714285714
+guo,FLIP adaptive,3,3.179310344827586,0.9714285714285714
+guo,FLIP adaptive,3,3.0965517241379312,0.9714285714285714
+guo,FLIP adaptive,3,3.013793103448276,0.9619047619047619
+guo,FLIP adaptive,3,2.9310344827586206,0.9523809523809523
+guo,FLIP adaptive,3,2.8482758620689657,0.9428571428571428
+guo,FLIP adaptive,3,2.7655172413793103,0.9428571428571428
+guo,FLIP adaptive,3,2.682758620689655,0.9333333333333333
+guo,FLIP adaptive,3,2.593103448275862,0.9238095238095239
+guo,FLIP adaptive,3,2.510344827586207,0.9238095238095239
+guo,FLIP adaptive,3,2.4275862068965517,0.9238095238095239
+guo,FLIP adaptive,3,2.3448275862068964,0.9047619047619048
+guo,FLIP adaptive,3,2.2620689655172415,0.9047619047619048
+guo,FLIP adaptive,3,2.179310344827586,0.9047619047619048
+guo,FLIP adaptive,3,2.0965517241379312,0.9047619047619048
+guo,FLIP adaptive,3,2.013793103448276,0.9047619047619048
+guo,FLIP adaptive,3,1.9241379310344828,0.8857142857142857
+guo,FLIP adaptive,3,1.8413793103448275,0.8666666666666667
+guo,FLIP adaptive,3,1.7586206896551724,0.8571428571428572
+guo,FLIP adaptive,3,1.6758620689655173,0.819047619047619
+guo,FLIP adaptive,3,1.5931034482758621,0.8095238095238095
+guo,FLIP adaptive,3,1.5103448275862068,0.8095238095238095
+guo,FLIP adaptive,3,1.4275862068965517,0.8
+guo,FLIP adaptive,3,1.3448275862068966,0.7904761904761904
+guo,FLIP adaptive,3,1.2551724137931035,0.7619047619047619
+guo,FLIP adaptive,3,1.1724137931034482,0.7523809523809524
+guo,FLIP adaptive,3,1.089655172413793,0.7428571428571429
+guo,FLIP adaptive,3,1.006896551724138,0.7142857142857143
+guo,FLIP adaptive,3,0.9241379310344827,0.6952380952380952
+guo,FLIP adaptive,3,0.8413793103448276,0.6666666666666667
+guo,FLIP adaptive,3,0.7586206896551724,0.6190476190476191
+guo,FLIP adaptive,3,0.6689655172413793,0.5714285714285714
+guo,FLIP adaptive,3,0.5862068965517241,0.48571428571428577
+guo,FLIP adaptive,3,0.503448275862069,0.419047619047619
+guo,FLIP adaptive,3,0.41379310344827586,0.34285714285714286
+guo,FLIP adaptive,3,0.33793103448275863,0.2761904761904762
+guo,FLIP adaptive,3,0.25517241379310346,0.19047619047619047
+guo,FLIP adaptive,3,0.1724137931034483,0.11428571428571432
+guo,FLIP adaptive,3,0.0896551724137931,0.07619047619047614
+guo,FLIP adaptive,3,0.0,0.0
+guo,"FLIP adaptive, free covariance",3,5.9655172413793105,1.0
+guo,"FLIP adaptive, free covariance",3,5.931034482758621,1.0
+guo,"FLIP adaptive, free covariance",3,5.848275862068966,1.0
+guo,"FLIP adaptive, free covariance",3,5.758620689655173,1.0
+guo,"FLIP adaptive, free covariance",3,5.675862068965517,1.0
+guo,"FLIP adaptive, free covariance",3,5.593103448275862,1.0
+guo,"FLIP adaptive, free covariance",3,5.510344827586207,1.0
+guo,"FLIP adaptive, free covariance",3,5.4206896551724135,1.0
+guo,"FLIP adaptive, free covariance",3,5.337931034482758,1.0
+guo,"FLIP adaptive, free covariance",3,5.255172413793104,0.9904761904761905
+guo,"FLIP adaptive, free covariance",3,5.165517241379311,0.9904761904761905
+guo,"FLIP adaptive, free covariance",3,5.082758620689655,0.9904761904761905
+guo,"FLIP adaptive, free covariance",3,5.0,0.9904761904761905
+guo,"FLIP adaptive, free covariance",3,4.917241379310345,0.9904761904761905
+guo,"FLIP adaptive, free covariance",3,4.827586206896552,0.9904761904761905
+guo,"FLIP adaptive, free covariance",3,4.744827586206896,0.9904761904761905
+guo,"FLIP adaptive, free covariance",3,4.662068965517242,0.9904761904761905
+guo,"FLIP adaptive, free covariance",3,4.5793103448275865,0.9904761904761905
+guo,"FLIP adaptive, free covariance",3,4.489655172413793,0.9904761904761905
+guo,"FLIP adaptive, free covariance",3,4.406896551724138,0.9809523809523809
+guo,"FLIP adaptive, free covariance",3,4.324137931034483,0.9809523809523809
+guo,"FLIP adaptive, free covariance",3,4.23448275862069,0.9809523809523809
+guo,"FLIP adaptive, free covariance",3,4.151724137931034,0.9809523809523809
+guo,"FLIP adaptive, free covariance",3,4.068965517241379,0.9809523809523809
+guo,"FLIP adaptive, free covariance",3,3.986206896551724,0.9809523809523809
+guo,"FLIP adaptive, free covariance",3,3.896551724137931,0.9714285714285714
+guo,"FLIP adaptive, free covariance",3,3.8137931034482757,0.9714285714285714
+guo,"FLIP adaptive, free covariance",3,3.731034482758621,0.9619047619047619
+guo,"FLIP adaptive, free covariance",3,3.6413793103448278,0.9619047619047619
+guo,"FLIP adaptive, free covariance",3,3.5586206896551724,0.9619047619047619
+guo,"FLIP adaptive, free covariance",3,3.475862068965517,0.9619047619047619
+guo,"FLIP adaptive, free covariance",3,3.393103448275862,0.9619047619047619
+guo,"FLIP adaptive, free covariance",3,3.303448275862069,0.9619047619047619
+guo,"FLIP adaptive, free covariance",3,3.220689655172414,0.9619047619047619
+guo,"FLIP adaptive, free covariance",3,3.1379310344827585,0.9619047619047619
+guo,"FLIP adaptive, free covariance",3,3.0551724137931036,0.9523809523809523
+guo,"FLIP adaptive, free covariance",3,2.9655172413793105,0.9523809523809523
+guo,"FLIP adaptive, free covariance",3,2.882758620689655,0.9523809523809523
+guo,"FLIP adaptive, free covariance",3,2.8,0.9428571428571428
+guo,"FLIP adaptive, free covariance",3,2.7103448275862068,0.9428571428571428
+guo,"FLIP adaptive, free covariance",3,2.627586206896552,0.9333333333333333
+guo,"FLIP adaptive, free covariance",3,2.5448275862068965,0.9142857142857143
+guo,"FLIP adaptive, free covariance",3,2.462068965517241,0.9142857142857143
+guo,"FLIP adaptive, free covariance",3,2.372413793103448,0.9142857142857143
+guo,"FLIP adaptive, free covariance",3,2.2896551724137932,0.9047619047619048
+guo,"FLIP adaptive, free covariance",3,2.206896551724138,0.9047619047619048
+guo,"FLIP adaptive, free covariance",3,2.117241379310345,0.8952380952380953
+guo,"FLIP adaptive, free covariance",3,2.0344827586206895,0.8761904761904762
+guo,"FLIP adaptive, free covariance",3,1.9517241379310344,0.8761904761904762
+guo,"FLIP adaptive, free covariance",3,1.8689655172413793,0.8571428571428572
+guo,"FLIP adaptive, free covariance",3,1.7793103448275862,0.8476190476190476
+guo,"FLIP adaptive, free covariance",3,1.696551724137931,0.8285714285714285
+guo,"FLIP adaptive, free covariance",3,1.6137931034482758,0.819047619047619
+guo,"FLIP adaptive, free covariance",3,1.5310344827586206,0.8095238095238095
+guo,"FLIP adaptive, free covariance",3,1.4413793103448276,0.8095238095238095
+guo,"FLIP adaptive, free covariance",3,1.3586206896551725,0.8
+guo,"FLIP adaptive, free covariance",3,1.2758620689655173,0.780952380952381
+guo,"FLIP adaptive, free covariance",3,1.186206896551724,0.780952380952381
+guo,"FLIP adaptive, free covariance",3,1.103448275862069,0.7714285714285715
+guo,"FLIP adaptive, free covariance",3,1.013793103448276,0.7333333333333334
+guo,"FLIP adaptive, free covariance",3,0.9379310344827586,0.7047619047619047
+guo,"FLIP adaptive, free covariance",3,0.8482758620689655,0.638095238095238
+guo,"FLIP adaptive, free covariance",3,0.7655172413793103,0.6190476190476191
+guo,"FLIP adaptive, free covariance",3,0.6827586206896552,0.5333333333333333
+guo,"FLIP adaptive, free covariance",3,0.593103448275862,0.4285714285714286
+guo,"FLIP adaptive, free covariance",3,0.5103448275862069,0.37142857142857144
+guo,"FLIP adaptive, free covariance",3,0.42758620689655175,0.33333333333333337
+guo,"FLIP adaptive, free covariance",3,0.33793103448275863,0.23809523809523814
+guo,"FLIP adaptive, free covariance",3,0.25517241379310346,0.16190476190476188
+guo,"FLIP adaptive, free covariance",3,0.1724137931034483,0.11428571428571432
+guo,"FLIP adaptive, free covariance",3,0.0896551724137931,0.02857142857142858
+guo,"FLIP adaptive, free covariance",3,0.0,0.0
+guo,Ablation: no cross-reactivity (diagonal),3,6.36551724137931,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,6.324137931034483,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,6.241379310344827,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,6.151724137931034,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,6.062068965517241,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,5.979310344827586,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,5.882758620689655,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,5.8068965517241375,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,5.7172413793103445,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,5.63448275862069,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,5.544827586206897,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,5.462068965517242,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,5.372413793103449,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,5.2827586206896555,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,5.2,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,5.110344827586207,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,5.027586206896552,0.9904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,4.937931034482759,0.9809523809523809
+guo,Ablation: no cross-reactivity (diagonal),3,4.855172413793103,0.9809523809523809
+guo,Ablation: no cross-reactivity (diagonal),3,4.76551724137931,0.9809523809523809
+guo,Ablation: no cross-reactivity (diagonal),3,4.682758620689655,0.9809523809523809
+guo,Ablation: no cross-reactivity (diagonal),3,4.593103448275862,0.9809523809523809
+guo,Ablation: no cross-reactivity (diagonal),3,4.503448275862069,0.9809523809523809
+guo,Ablation: no cross-reactivity (diagonal),3,4.4206896551724135,0.9714285714285714
+guo,Ablation: no cross-reactivity (diagonal),3,4.3310344827586205,0.9523809523809523
+guo,Ablation: no cross-reactivity (diagonal),3,4.248275862068965,0.9523809523809523
+guo,Ablation: no cross-reactivity (diagonal),3,4.158620689655172,0.9523809523809523
+guo,Ablation: no cross-reactivity (diagonal),3,4.075862068965518,0.9523809523809523
+guo,Ablation: no cross-reactivity (diagonal),3,3.986206896551724,0.9523809523809523
+guo,Ablation: no cross-reactivity (diagonal),3,3.9034482758620688,0.9142857142857143
+guo,Ablation: no cross-reactivity (diagonal),3,3.8137931034482757,0.9142857142857143
+guo,Ablation: no cross-reactivity (diagonal),3,3.7241379310344827,0.8952380952380953
+guo,Ablation: no cross-reactivity (diagonal),3,3.6413793103448278,0.8952380952380953
+guo,Ablation: no cross-reactivity (diagonal),3,3.5517241379310347,0.8952380952380953
+guo,Ablation: no cross-reactivity (diagonal),3,3.4689655172413794,0.8952380952380953
+guo,Ablation: no cross-reactivity (diagonal),3,3.3793103448275863,0.8952380952380953
+guo,Ablation: no cross-reactivity (diagonal),3,3.296551724137931,0.8952380952380953
+guo,Ablation: no cross-reactivity (diagonal),3,3.206896551724138,0.8952380952380953
+guo,Ablation: no cross-reactivity (diagonal),3,3.1241379310344826,0.8952380952380953
+guo,Ablation: no cross-reactivity (diagonal),3,3.0344827586206895,0.8952380952380953
+guo,Ablation: no cross-reactivity (diagonal),3,2.9448275862068964,0.8952380952380953
+guo,Ablation: no cross-reactivity (diagonal),3,2.8620689655172415,0.8761904761904762
+guo,Ablation: no cross-reactivity (diagonal),3,2.7724137931034485,0.8666666666666667
+guo,Ablation: no cross-reactivity (diagonal),3,2.689655172413793,0.8666666666666667
+guo,Ablation: no cross-reactivity (diagonal),3,2.6,0.8476190476190476
+guo,Ablation: no cross-reactivity (diagonal),3,2.5172413793103448,0.8380952380952381
+guo,Ablation: no cross-reactivity (diagonal),3,2.4275862068965517,0.8380952380952381
+guo,Ablation: no cross-reactivity (diagonal),3,2.3448275862068964,0.8285714285714285
+guo,Ablation: no cross-reactivity (diagonal),3,2.2551724137931033,0.819047619047619
+guo,Ablation: no cross-reactivity (diagonal),3,2.1655172413793102,0.8095238095238095
+guo,Ablation: no cross-reactivity (diagonal),3,2.0827586206896553,0.8
+guo,Ablation: no cross-reactivity (diagonal),3,1.993103448275862,0.780952380952381
+guo,Ablation: no cross-reactivity (diagonal),3,1.910344827586207,0.7714285714285715
+guo,Ablation: no cross-reactivity (diagonal),3,1.8206896551724139,0.7714285714285715
+guo,Ablation: no cross-reactivity (diagonal),3,1.7379310344827585,0.7619047619047619
+guo,Ablation: no cross-reactivity (diagonal),3,1.6482758620689655,0.7619047619047619
+guo,Ablation: no cross-reactivity (diagonal),3,1.5655172413793104,0.7523809523809524
+guo,Ablation: no cross-reactivity (diagonal),3,1.4758620689655173,0.7523809523809524
+guo,Ablation: no cross-reactivity (diagonal),3,1.3862068965517242,0.7333333333333334
+guo,Ablation: no cross-reactivity (diagonal),3,1.303448275862069,0.6952380952380952
+guo,Ablation: no cross-reactivity (diagonal),3,1.2137931034482758,0.6952380952380952
+guo,Ablation: no cross-reactivity (diagonal),3,1.1310344827586207,0.6952380952380952
+guo,Ablation: no cross-reactivity (diagonal),3,1.0413793103448277,0.6476190476190475
+guo,Ablation: no cross-reactivity (diagonal),3,0.9586206896551724,0.5904761904761905
+guo,Ablation: no cross-reactivity (diagonal),3,0.8689655172413793,0.5238095238095238
+guo,Ablation: no cross-reactivity (diagonal),3,0.7862068965517242,0.47619047619047616
+guo,Ablation: no cross-reactivity (diagonal),3,0.696551724137931,0.419047619047619
+guo,Ablation: no cross-reactivity (diagonal),3,0.6068965517241379,0.38095238095238093
+guo,Ablation: no cross-reactivity (diagonal),3,0.5241379310344828,0.32380952380952377
+guo,Ablation: no cross-reactivity (diagonal),3,0.43448275862068964,0.3047619047619048
+guo,Ablation: no cross-reactivity (diagonal),3,0.3448275862068966,0.23809523809523814
+guo,Ablation: no cross-reactivity (diagonal),3,0.2620689655172414,0.19999999999999996
+guo,Ablation: no cross-reactivity (diagonal),3,0.16551724137931034,0.09523809523809523
+guo,Ablation: no cross-reactivity (diagonal),3,0.0896551724137931,0.03809523809523807
+guo,Ablation: no cross-reactivity (diagonal),3,0.0,0.0
+guo,Fixed panel: greedy set cover,3,1.0,0.45714285714285713
+guo,Fixed panel: greedy set cover,3,2.0,0.8
+guo,Fixed panel: greedy set cover,3,3.0,0.9142857142857143
+guo,Fixed panel: greedy set cover,3,4.0,0.9428571428571428
+guo,Fixed panel: greedy set cover,3,5.0,0.9619047619047619
+guo,Fixed panel: greedy set cover,3,6.0,0.9619047619047619
+guo,Fixed panel: greedy set cover,3,7.0,0.9714285714285714
+guo,Fixed panel: greedy set cover,3,8.0,0.9714285714285714
+guo,Fixed panel: greedy set cover,3,9.0,0.9809523809523809
+guo,Fixed panel: greedy set cover,3,10.0,0.9809523809523809
+guo,Fixed panel: greedy set cover,3,11.0,0.9809523809523809
+guo,Fixed panel: greedy set cover,3,12.0,0.9809523809523809
+guo,Fixed panel: greedy set cover,3,13.0,0.9809523809523809
+guo,Fixed panel: greedy set cover,3,14.0,0.9904761904761905
+guo,Fixed panel: greedy set cover,3,15.0,0.9904761904761905
+guo,Fixed panel: greedy set cover,3,16.0,1.0
+guo,Fixed panel: greedy set cover,3,17.0,1.0
+guo,Fixed panel: greedy set cover,3,18.0,1.0

@@ -1,0 +1,25 @@
+dataset,method,alpha,operating,sensitivity,mean_tests,tests_nonsensitised,tests_sensitised
+NHANES III skin prick,"FLIP (adaptive, in-domain)",0.1,lambda=0.1376,0.9182130584192439,2.6443298969072164,3.6233148295003965,1.7958762886597939
+NHANES III skin prick,"FLIP (adaptive, in-domain)",0.05,lambda=0.0745,0.954639175257732,3.2746686303387333,4.868358445678033,1.8934707903780068
+NHANES III skin prick,"FLIP (adaptive, in-domain)",0.025,lambda=0.0329,0.979381443298969,4.070692194403534,6.507533703409992,1.958762886597938
+NHANES III skin prick,"FLIP (adaptive, in-domain)",0.01,lambda=0.0119,0.99106529209622,4.725699558173785,7.889770023790643,1.9835051546391753
+NHANES III skin prick,"FLIP (adaptive, structure transported from serum)",0.1,lambda=0.0970,0.9134020618556701,2.8258468335787925,3.97065820777161,1.833676975945017
+NHANES III skin prick,"FLIP (adaptive, structure transported from serum)",0.05,lambda=0.0382,0.9608247422680413,3.511782032400589,5.3219666931007135,1.942955326460481
+NHANES III skin prick,"FLIP (adaptive, structure transported from serum)",0.025,lambda=0.0053,0.9814432989690721,4.118188512518409,6.574147501982553,1.9896907216494846
+NHANES III skin prick,"FLIP (adaptive, structure transported from serum)",0.01,lambda=0.0009,0.9917525773195877,4.839837997054492,8.099920697858842,2.0144329896907216
+NHANES III skin prick,Ablation: no cross-reactivity (diagonal),0.1,lambda=0.6021,0.9175257731958762,2.9009572901325478,4.109436954797779,1.8536082474226805
+NHANES III skin prick,Ablation: no cross-reactivity (diagonal),0.05,lambda=0.4441,0.9608247422680413,3.6866715758468334,5.666931007137193,1.970446735395189
+NHANES III skin prick,Ablation: no cross-reactivity (diagonal),0.025,lambda=0.3318,0.9745704467353952,4.252577319587629,6.8295003965107055,2.0192439862542955
+NHANES III skin prick,Ablation: no cross-reactivity (diagonal),0.01,lambda=0.1834,0.9924398625429554,4.954712812960236,8.30689928628073,2.049484536082474
+NHANES III skin prick,Fixed panel: greedy set cover,0.1,k=4,0.9388316151202749,4.0,4.0,4.0
+NHANES III skin prick,Fixed panel: greedy set cover,0.05,k=6,0.9759450171821306,6.0,6.0,6.0
+NHANES III skin prick,Fixed panel: greedy set cover,0.025,k=7,0.9848797250859107,7.0,7.0,7.0
+NHANES III skin prick,Fixed panel: greedy set cover,0.01,k=8,0.9917525773195877,8.0,8.0,8.0
+NHANES III skin prick,Fixed panel: most prevalent,0.1,k=4,0.9388316151202749,4.0,4.0,4.0
+NHANES III skin prick,Fixed panel: most prevalent,0.05,k=7,0.9738831615120275,7.0,7.0,7.0
+NHANES III skin prick,Fixed panel: most prevalent,0.025,k=8,0.9917525773195877,8.0,8.0,8.0
+NHANES III skin prick,Fixed panel: most prevalent,0.01,k=8,0.9917525773195877,8.0,8.0,8.0
+NHANES III skin prick,"Sequential, greedy order, stop at first positive",0.1,k=4,0.9388316151202749,2.84720176730486,4.0,1.848109965635739
+NHANES III skin prick,"Sequential, greedy order, stop at first positive",0.05,k=6,0.9759450171821306,3.8302650957290134,6.0,1.949828178694158
+NHANES III skin prick,"Sequential, greedy order, stop at first positive",0.025,k=7,0.9848797250859107,4.307437407952872,7.0,1.9738831615120276
+NHANES III skin prick,"Sequential, greedy order, stop at first positive",0.01,k=8,0.9917525773195877,4.779823269513991,8.0,1.9890034364261169

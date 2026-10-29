@@ -1,0 +1,61 @@
+dataset,mech,reps,n_test_pooled,flip_rate,auc_full,metric,method,value,value_rep_mean
+ckd,MAR,30,1410,0.23120567375886525,1.0,flip AUROC (pooled),Fraction missing,0.7726665610214385,0.7728766065617845
+ckd,MAR,30,1410,0.23120567375886525,1.0,flip AUROC (pooled),Kim et al. 2026,0.7903314807687954,0.8449028837264133
+ckd,MAR,30,1410,0.23120567375886525,1.0,flip AUROC (pooled),Margin only,0.5968662984175854,0.6032279015754248
+ckd,MAR,30,1410,0.23120567375886525,1.0,flip AUROC (pooled),Multiple imputation,0.9039175514454532,0.9008956528586947
+ckd,MAR,30,1410,0.23120567375886525,1.0,flip AUROC (pooled),FLIP,0.7789897109093791,0.780013015677683
+ckd,MAR,30,1410,0.23120567375886525,1.0,accuracy vs outcome,complete testing,0.9106382978723404,
+ckd,MAR,30,1410,0.23120567375886525,1.0,decision error vs complete testing,imputation: missforest,0.23120567375886525,
+ckd,MAR,30,1410,0.23120567375886525,1.0,accuracy vs outcome,imputation: missforest,0.7390070921985815,
+ckd,MAR,30,1410,0.23120567375886525,1.0,decision error vs complete testing,imputation: mean,0.3773049645390071,
+ckd,MAR,30,1410,0.23120567375886525,1.0,accuracy vs outcome,imputation: mean,0.5375886524822695,
+ckd,MAR,30,1410,0.23120567375886525,1.0,decision error vs complete testing,imputation: median,0.3645390070921986,
+ckd,MAR,30,1410,0.23120567375886525,1.0,accuracy vs outcome,imputation: median,0.548936170212766,
+ckd,MAR,30,1410,0.23120567375886525,1.0,decision error vs complete testing,imputation: knn,0.18581560283687942,
+ckd,MAR,30,1410,0.23120567375886525,1.0,accuracy vs outcome,imputation: knn,0.7829787234042553,
+ckd,MAR,30,1410,0.23120567375886525,1.0,decision error vs complete testing,imputation: mice,0.19645390070921986,
+ckd,MAR,30,1410,0.23120567375886525,1.0,accuracy vs outcome,imputation: mice,0.7425531914893617,
+ckd,MAR,30,1410,0.23120567375886525,1.0,decision error vs complete testing,FLIP posterior,0.3028368794326241,
+ckd,MAR,30,1410,0.23120567375886525,1.0,accuracy vs outcome,FLIP posterior,0.6163120567375886,
+ckd,MAR,30,1410,0.23120567375886525,1.0,LTT coverage (alpha=0.05),FLIP,0.0,
+ckd,MAR,30,1410,0.23120567375886525,1.0,LTT coverage (alpha=0.1),FLIP,0.0,
+ckd,MAR,30,1410,0.23120567375886525,1.0,LTT coverage (alpha=0.05),FLIP (posterior decision),0.0,
+ckd,MAR,30,1410,0.23120567375886525,1.0,LTT coverage (alpha=0.1),FLIP (posterior decision),0.0,
+ckd,MAR,30,1410,0.23120567375886525,1.0,LTT coverage (alpha=0.05),Fraction missing,0.0,
+ckd,MAR,30,1410,0.23120567375886525,1.0,LTT coverage (alpha=0.1),Fraction missing,0.0,
+ckd,MAR,30,1410,0.23120567375886525,1.0,LTT coverage (alpha=0.05),Kim et al. 2026,0.0,
+ckd,MAR,30,1410,0.23120567375886525,1.0,LTT coverage (alpha=0.1),Kim et al. 2026,0.02553191489361702,0.1388888888888889
+ckd,MAR,30,1410,0.23120567375886525,1.0,LTT coverage (alpha=0.05),Margin only,0.0,
+ckd,MAR,30,1410,0.23120567375886525,1.0,LTT coverage (alpha=0.1),Margin only,0.0,
+ckd,MAR,30,1410,0.23120567375886525,1.0,LTT coverage (alpha=0.05),Multiple imputation,0.0,
+ckd,MAR,30,1410,0.23120567375886525,1.0,LTT coverage (alpha=0.1),Multiple imputation,0.04893617021276596,0.06967905405405406
+ckd,MNAR,15,705,0.2425531914893617,1.0,flip AUROC (pooled),Fraction missing,0.8033817377401056,0.8076165652731574
+ckd,MNAR,15,705,0.2425531914893617,1.0,flip AUROC (pooled),Kim et al. 2026,0.8265654773638216,0.8679108764250915
+ckd,MNAR,15,705,0.2425531914893617,1.0,flip AUROC (pooled),Margin only,0.6156777712070438,0.602109440845188
+ckd,MNAR,15,705,0.2425531914893617,1.0,flip AUROC (pooled),Multiple imputation,0.9126256652868125,0.9137013232923337
+ckd,MNAR,15,705,0.2425531914893617,1.0,flip AUROC (pooled),FLIP,0.8074391659548372,0.8048959457436576
+ckd,MNAR,15,705,0.2425531914893617,1.0,accuracy vs outcome,complete testing,0.9219858156028369,
+ckd,MNAR,15,705,0.2425531914893617,1.0,decision error vs complete testing,imputation: missforest,0.2425531914893617,
+ckd,MNAR,15,705,0.2425531914893617,1.0,accuracy vs outcome,imputation: missforest,0.7049645390070922,
+ckd,MNAR,15,705,0.2425531914893617,1.0,decision error vs complete testing,imputation: mean,0.375886524822695,
+ckd,MNAR,15,705,0.2425531914893617,1.0,accuracy vs outcome,imputation: mean,0.5460992907801419,
+ckd,MNAR,15,705,0.2425531914893617,1.0,decision error vs complete testing,imputation: median,0.34893617021276596,
+ckd,MNAR,15,705,0.2425531914893617,1.0,accuracy vs outcome,imputation: median,0.573049645390071,
+ckd,MNAR,15,705,0.2425531914893617,1.0,decision error vs complete testing,imputation: knn,0.17588652482269504,
+ckd,MNAR,15,705,0.2425531914893617,1.0,accuracy vs outcome,imputation: knn,0.7773049645390071,
+ckd,MNAR,15,705,0.2425531914893617,1.0,decision error vs complete testing,imputation: mice,0.18723404255319148,
+ckd,MNAR,15,705,0.2425531914893617,1.0,accuracy vs outcome,imputation: mice,0.7489361702127659,
+ckd,MNAR,15,705,0.2425531914893617,1.0,decision error vs complete testing,FLIP posterior,0.28368794326241137,
+ckd,MNAR,15,705,0.2425531914893617,1.0,accuracy vs outcome,FLIP posterior,0.6468085106382979,
+ckd,MNAR,15,705,0.2425531914893617,1.0,LTT coverage (alpha=0.05),FLIP,0.0,
+ckd,MNAR,15,705,0.2425531914893617,1.0,LTT coverage (alpha=0.1),FLIP,0.0,
+ckd,MNAR,15,705,0.2425531914893617,1.0,LTT coverage (alpha=0.05),FLIP (posterior decision),0.0,
+ckd,MNAR,15,705,0.2425531914893617,1.0,LTT coverage (alpha=0.1),FLIP (posterior decision),0.0,
+ckd,MNAR,15,705,0.2425531914893617,1.0,LTT coverage (alpha=0.05),Fraction missing,0.0,
+ckd,MNAR,15,705,0.2425531914893617,1.0,LTT coverage (alpha=0.1),Fraction missing,0.09787234042553192,0.08781512605042018
+ckd,MNAR,15,705,0.2425531914893617,1.0,LTT coverage (alpha=0.05),Kim et al. 2026,0.0,
+ckd,MNAR,15,705,0.2425531914893617,1.0,LTT coverage (alpha=0.1),Kim et al. 2026,0.04964539007092198,0.11428571428571428
+ckd,MNAR,15,705,0.2425531914893617,1.0,LTT coverage (alpha=0.05),Margin only,0.0,
+ckd,MNAR,15,705,0.2425531914893617,1.0,LTT coverage (alpha=0.1),Margin only,0.0,
+ckd,MNAR,15,705,0.2425531914893617,1.0,LTT coverage (alpha=0.05),Multiple imputation,0.0,
+ckd,MNAR,15,705,0.2425531914893617,1.0,LTT coverage (alpha=0.1),Multiple imputation,0.0524822695035461,0.13513513513513514
