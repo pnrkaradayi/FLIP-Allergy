@@ -3,8 +3,7 @@
 Code for the manuscript
 
 > P. Karadayı Ataş. *Cross-Reactivity Makes Unordered Allergen Tests Predictable: Decision-Flip
-> Probabilities with Finite-Sample Guarantees for Incomplete Specific IgE Panels.* Submitted to
-> *Biomedicines* (MDPI), 2026.
+> Probabilities with Finite-Sample Guarantees for Incomplete Specific IgE Panels.
 
 When only part of an allergen panel is ordered, a clinical decision is made without the unordered
 tests. FLIP models the panel with a censored latent Gaussian model whose covariance follows
