@@ -1,7 +1,0 @@
-n_train=3674 n_calib=1794
-censored_allergen_cells_train=0.8819
-latent_minus_naive_median=0.1728
-frac_pairs_larger_after_correction=1.0000
-factor_params=69 free_params=210
-factor_vs_free_offdiag_rmse=0.0752
-transport_spearman=0.8448 transport_pearson=0.9292
