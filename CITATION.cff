@@ -7,8 +7,9 @@ authors:
     given-names: "Pınar"
     affiliation: "Istanbul Arel University"
     email: "pinaratas@arel.edu.tr"
-date-released: "2026-10-29"
+date-released: "2026-11-02"
 license: MIT
+repository-code: "https://github.com/pnrkaradayi/FLIP-Allergy"
 keywords:
   - allergy
   - allergen-specific IgE

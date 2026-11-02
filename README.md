@@ -1,77 +1,80 @@
 # FLIP: decision-flip probabilities for incomplete allergen-specific IgE panels
 
-Code for the manuscript
+Code for the paper
 
-> P. Karadayı Ataş. *Cross-Reactivity Makes Unordered Allergen Tests Predictable: Decision-Flip
-> Probabilities with Finite-Sample Guarantees for Incomplete Specific IgE Panels.
+> Karadayı Ataş P. *Cross-Reactivity Makes Unordered Allergen Tests Predictable: Decision-Flip
+> Probabilities with Finite-Sample Guarantees for Incomplete Specific IgE Panels.* Submitted to
+> *Biomedicines* (MDPI), 2026.
 
-When only part of an allergen panel is ordered, a clinical decision is made without the unordered
-tests. FLIP models the panel with a censored latent Gaussian model whose covariance follows
-cross-reactive protein families (results below the detection limit enter as bounds), and from the
-posterior completions of the unordered tests it computes, for every patient:
+## What FLIP does
 
-* the **FLIP score**, the probability that complete testing would change the issued decision;
-* a **Learn-then-Test acceptance rule** with a finite-sample guarantee on the flip rate among the
-  accepted decisions, calibrated on amputated complete records where the true flips are known;
-* the **value of information** of each unordered panel, used for deferral, test ordering and
-  adaptive testing with a certified sensitivity.
+Allergen-specific IgE (sIgE) tests are ordered selectively, so clinical decisions are often made
+while some panels have not been ordered. Because IgE cross-reacts between homologous proteins,
+the ordered results carry information about the unordered ones. FLIP uses this to answer, for
+each patient: *would complete testing change my decision?*
 
-The method is validated on NHANES 2005–2006 serum sIgE and NHANES III skin prick tests, and compared
-with twelve published allergy studies on their own data (six NHANES re-analyses and six open
-cohorts) and with seven clinical datasets outside allergy.
+1. **Model.** sIgE results are a left-censored multivariate normal vector (values below the
+   0.35 kU/L detection limit are only known to be below it), with a covariance built from
+   cross-reactive protein families (PR-10, profilins, lipocalins, tropomyosins, storage proteins…).
+2. **Completion.** Given the ordered tests, the model draws many plausible complete panels.
+3. **FLIP score.** The share of completions in which the decision changes is the probability that
+   complete testing would flip it.
+4. **Guarantee.** A Learn-then-Test threshold on the FLIP score certifies, with a finite-sample
+   guarantee, that the flip rate among accepted decisions is at most α.
+5. **What to order next.** A censoring-aware value of information ranks the unordered panels, and
+   adaptive testing orders tests one at a time and stops once the miss rate is certified.
+
+## Quick start (no data needed)
+
+```bash
+pip install -r requirements.txt
+python examples/quickstart.py
+```
+
+The example simulates four cross-reactive allergens (two house dust mites, cat, dog). For a
+patient with *D. pteronyssinus* positive and cat negative, it predicts the unordered
+*D. farinae* (P(positive) ≈ 1.00) and dog (≈ 0.14). The decision "mite-sensitised" then has a FLIP
+score of 0.00 (accept), and "not pet-sensitised" a score of 0.14 (order the dog test).
 
 ## Repository layout
 
 ```
-flip_allergy/
-  data_prep/      download NHANES 2005-2006 files; build the NHANES III skin prick extract
-  data_raw/       input data (not stored here; see data_raw/README.md)
-  analysis/       all analyses (a00-a12), core library flipx.py, Gaussian-copula FLIP flipg.py,
-                  loaders for external datasets ext_data.py; run order in analysis/README.md
-  analysis/results/  per-repetition results (CSV) and every number quoted in the text (numbers.json)
-manuscript/
-  figures/, tables/  written by the analysis scripts (generated, not stored here)
+analysis/        all analyses of the paper (run order in analysis/README.md)
+  flipx.py       core library (censored MVN, factor model, completions, FLIP, LTT, VOI)
+  flipg.py       Gaussian-copula version for mixed tables
+  ext_data.py    loaders of the external datasets
+code/            download / build scripts for NHANES 2005-2006 and NHANES III
+data_raw/        empty; where to put each dataset (data_raw/README.md)
+examples/        quickstart on simulated data
+outputs/         figures and LaTeX tables (created when the analyses run)
 ```
 
-## Installation
+## Reproducing the paper
 
-Tested with Python 3.11 on Windows; the code is plain NumPy/SciPy/pandas and runs on Linux and macOS.
+1. Python 3.10 or newer: `pip install -r requirements.txt`.
+2. Data: `python code/00_download_nhanes.py` and `python code/01b_build_nhanes3.py` download the
+   public NHANES files; the external datasets are listed, with their sources and target paths, in
+   [`data_raw/README.md`](data_raw/README.md). No data are included in this repository; the URECA,
+   EAT and LEAP data (ImmPort) require free registration and may not be redistributed.
+3. Analyses: run the scripts in [`analysis/README.md`](analysis/README.md) in the order given.
+   Random seeds are fixed in the code.
 
-```bash
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
+## What was analysed
 
-## Data
-
-All data are public. NHANES files are downloaded by script; the external datasets are listed with
-their download links in [`flip_allergy/data_raw/README.md`](flip_allergy/data_raw/README.md). No
-data file is redistributed in this repository.
-
-```bash
-cd flip_allergy/data_prep
-python 00_download_nhanes.py       # NHANES 2005-2006: sIgE panel, questionnaires, dust (~25 MB)
-python 01b_build_nhanes3.py        # NHANES III skin prick tests (downloads ~280 MB, keeps a small extract)
-```
-
-## Reproducing the results
-
-Run the scripts in `flip_allergy/analysis` in the order given in
-[`flip_allergy/analysis/README.md`](flip_allergy/analysis/README.md). The longest steps are the
-Task 1 repetitions (`a02_risk_decision.py`, about 10 min on 10 cores), the external Task 1 analyses
-(`a09_external_flip.py`, about 2 h) and external adaptive testing (`a10_external_testing.py`, about
-1 h). `a06_tables.py` collects every number quoted in the manuscript into
-`analysis/results/numbers.json`.
-
-The result files in `analysis/results` are the ones behind the submitted manuscript. Run logs,
-per-patient records of the external cohorts and the intermediate pickle files are not included;
-they are recreated by the scripts.
-
-## License
-
-Code: MIT License (see [`LICENSE`](LICENSE)). The datasets keep the terms of their providers.
+* Development: NHANES 2005–2006 serum sIgE (7,266 participants, 19 sIgE + total IgE) and NHANES III
+  skin prick tests (10,841 participants, 10 allergens).
+* Re-analysis of 22 published allergy studies on their own data, each after reproducing its
+  headline result: 11 NHANES analyses and 11 cohorts and trials (Allergen Chip Challenge, MAAS,
+  Graz venom, Chinese paediatric asthma, Moscow biochip, SOS-ALL, Bern, IDEAL, URECA, EAT, LEAP).
+* Supplement: seven clinical datasets outside allergy.
+* Comparators: the missing-data score of Kim et al., multiple and single imputation, distance to
+  the decision threshold, fraction missing, fixed panels (greedy set cover), sequential testing,
+  and ablations of FLIP (no censoring, no cross-reactivity, free covariance).
 
 ## Citation
 
-Please cite the article (reference to be added on publication); see [`CITATION.cff`](CITATION.cff).
+Please cite the paper above (full reference to be added on publication); see `CITATION.cff`.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
