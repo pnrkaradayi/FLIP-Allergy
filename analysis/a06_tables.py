@@ -25,9 +25,9 @@ os.makedirs(TAB, exist_ok=True)
 NUM = {}
 
 LBL = {"Fraction missing": "Fraction of panel missing", "Kim et al. 2026": "Kim et al.~\\cite{kim2026}",
-       "Conditional SD only": "Conditional SD only", "Margin only": "Distance to threshold only",
-       "Multiple imputation": "Multiple imputation (reclassification probability)",
-       "FLIP v1 (Gaussian)": "FLIP v1 (Gaussian, censoring ignored)",
+       "Conditional SD only": "Conditional SD only", "Margin only": "Distance to threshold (confidence score~\\cite{geifman2017})",
+       "Multiple imputation": "Multiple imputation, reclassification probability~\\cite{white2026,mathiszig2022}",
+       "FLIP v1 (Gaussian)": "FLIP v1: conditional Gaussian model~\\cite{hoogland2020}, censoring ignored",
        "FLIP, free covariance": "FLIP, free latent covariance", "FLIP": "\\textbf{FLIP} (censored, cross-reactivity)",
        "FLIP (posterior decision)": "\\textbf{FLIP}, posterior-majority decision"}
 SC_ORDER = ["Fraction missing", "Kim et al. 2026", "Conditional SD only", "Margin only", "Multiple imputation",
@@ -251,6 +251,7 @@ def t_task1():
                                  "repetitions. AURC, area under the risk--coverage curve (\\% flipped among accepted, "
                                  "averaged over coverage 5--100\\%; lower is better). Brier: score after isotonic "
                                  "calibration of every method on the calibration split, $\\times$100 (lower is better). "
+                                 "Comparators: the published missing-data score of Kim et al.~\\cite{kim2026}; the reclassification probability by multiple imputation~\\cite{white2026,mathiszig2022,vanbuuren2011}; the conditional Gaussian distribution of the missing predictors~\\cite{hoogland2020}, here without censoring (FLIP v1); the confidence score of selective classification, i.e., the distance to the threshold~\\cite{geifman2017}; and two simple baselines (fraction of the panel missing, conditional SD). "
                                  "Last column: repetitions in which FLIP had the higher AUROC, paired Wilcoxon test.",
                                  ">{\\raggedright\\arraybackslash}p{4.4cm}CCCCC",
                                  "\\textbf{Score} & \\textbf{AUROC} & \\textbf{AUPRC} & \\textbf{AURC, \\%} & "
@@ -506,7 +507,8 @@ def t_task2():
                                "NHANES 2005--2006 test split (best operating point of each strategy on its "
                                "sensitivity--effort curve). Last two columns: reduction in testing by FLIP (free "
                                "covariance, with total IgE) relative to sequential testing in the greedy order and to "
-                               "the fixed greedy panel, with 95\\% bootstrap intervals (1,000 resamples of persons).",
+                               "the fixed panel chosen by greedy set cover, the method of the panel-optimisation literature~\\cite{gergen2009,sammut2026,kulalert2022}, with 95\\% bootstrap intervals "
+                               "(1,000 resamples of persons).",
                                "c" + "C" * 6 + ">{\\centering\\arraybackslash}p{2.1cm}>{\\centering\\arraybackslash}p{2.1cm}",
                                hdr, rows, wide=True, size="\\scriptsize"))
     cp = pd.read_csv(os.path.join(RES, "t2_spt_curves.csv"))
