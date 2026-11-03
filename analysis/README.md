@@ -27,6 +27,9 @@ python a10_external_testing.py acc maas guo moscow ureca60 ureca120 eat36 leap60
 python a11_external_reproduce.py   # published headline numbers; Graz culprit; heart deployment
 python a14_added_reproduce.py      # Bern, IDEAL, URECA, EAT, LEAP headline numbers
 python a12_external_figures.py     # comparison figures and tables
+python a17_main_tables.py          # compact comparison tables of the main text (certified decisions,
+                                   # posterior decisions, test ordering, tests per study, associations,
+                                   # prediction of unordered tests)
 ```
 
 ## Files
