@@ -348,15 +348,15 @@ REPRO = [  # (group, citation key, study label, data label, [(source csv, study,
      [("lit", "Hoppin 2011", "PPV of hay fever", "PPV of hay fever, \\%"),
       ("lit", "Hoppin 2011", "NPV of any", "NPV of any condition, \\%")]),
     ("Same NHANES data", "zhu2022", "Zhu 2022", "NHANES 2005--06",
-     [("lit", "Zhu 2022", "Spearman", "Spearman $\\rho$, two mite species")]),
+     [("lit", "Zhu 2022", "Spearman", "Spearman $\\rho$, two mite species$^{a}$")]),
     ("Same NHANES data", "mcgowan2019", "McGowan 2019", "NHANES 2005--06, 6--19 y",
-     [("lit", "McGowan 2019", "cockroach", "shrimp--cockroach correlation"),
-      ("lit", "McGowan 2019", "dust-mite", "shrimp--mite correlation")]),
+     [("lit", "McGowan 2019", "cockroach", "shrimp--cockroach correlation$^{b}$"),
+      ("lit", "McGowan 2019", "dust-mite", "shrimp--mite correlation$^{b}$")]),
     ("Same NHANES data", "arbes2005", "Arbes 2005", "NHANES III, 10 SPT",
      [("lit", "Arbes 2005", ">=1 positive", "$\\geq$1 positive skin test, \\%")]),
     ("Same NHANES data", "salo2011", "Salo 2011", "NHANES 2005--06, $\\geq$6 y",
      [("assoc", "Salo 2011", "current hay fever", "current hay fever, \\%"),
-      ("assoc", "Salo 2011", "adjusted OR, current hayfever", "adjusted OR, hay fever vs plant sIgE")]),
+      ("assoc", "Salo 2011", "adjusted OR, current hayfever", "adjusted OR, hay fever vs plant sIgE$^{c}$")]),
     ("Same NHANES data", "shargorodsky2015", "Shargorodsky 2015", "NHANES 2005--06, $\\geq$20 y",
      [("assoc", "Shargorodsky 2015", "inhaled-allergen", "inhaled-allergen sensitisation, \\%"),
       ("assoc", "Shargorodsky 2015", "OR model 1, former", "OR, former vs never smokers"),
@@ -369,11 +369,12 @@ REPRO = [  # (group, citation key, study label, data label, [(source csv, study,
      [("more", "Arbes 2013", "adjusted prevalence of asthma, both", "asthma, atopy and high eosinophils, \\%"),
       ("more", "Arbes 2013", "excess prevalence due to interaction, %", "excess asthma prevalence, interaction, \\%")]),
     ("Same NHANES data", "keet2012", "Keet 2012", "NHANES 2005--06, $<$21 y",
-     [("more", "Keet 2012", "US-born vs foreign-born", "adjusted OR, food sensitisation, US-born")]),
+     [("more", "Keet 2012", "US-born vs foreign-born", "adjusted OR, food sensitisation, US-born$^{d}$")]),
     ("Open allergy data", "martinroche2026", "Martinroche 2026", "Allergen Chip Challenge",
      [("ext", "Martinroche 2026", "sensitised", "sensitised, \\%")]),
     ("Open allergy data", "fontanella2018", "Fontanella 2018", "MAAS, ISAC, 11 y",
-     [("ext", "Fontanella 2018", "sensitised", "sensitised, \\%"),
+     [("ext", "Fontanella 2018", "number of active", "active components, n$^{e}$"),
+      ("ext", "Fontanella 2018", "children sensitised", "sensitised to $\\geq$1 of 44 components, \\%"),
       ("ext", "Fontanella 2018", "AUROC", "AUROC for asthma, penalised LR")]),
     ("Open allergy data", "arztgradwohl2026", "Arzt-Gradwohl 2026", "Graz venom",
      [("ext", "Arzt-Gradwohl 2026", "bee venom sIgE, dual", "bee sIgE sensitivity, dual cut-off, \\%"),
@@ -382,10 +383,10 @@ REPRO = [  # (group, citation key, study label, data label, [(source csv, study,
     ("Open allergy data", "guo2026", "Guo 2026", "Chinese asthmatic children",
      [("ext", "Guo 2026", "D2", "\\emph{D.\\,farinae}, South, \\%"), ("ext", "Guo 2026", "w6", "mugwort, North, \\%")]),
     ("Open allergy data", "smoldovskaya2018", "Smoldovskaya 2018", "Moscow biochip",
-     [("ext", "Smoldovskaya 2018", "Dog dander sIgE, Asthma vs Upper", "OR dog, asthma vs upper airway"),
-      ("ext", "Smoldovskaya 2018", "Cat dander sIgE, Asthma vs Derm", "OR cat, asthma vs dermatitis")]),
+     [("ext", "Smoldovskaya 2018", "Dog dander sIgE, Asthma vs Upper", "OR dog, asthma vs upper airway$^{f}$"),
+      ("ext", "Smoldovskaya 2018", "Cat dander sIgE, Asthma vs Derm", "OR cat, asthma vs dermatitis$^{f}$")]),
     ("Open allergy data", "zhakparov2026", "Zhakparov 2026", "SOS-ALL",
-     [("ext", "Zhakparov 2026", "random-forest", "accuracy for atopic dermatitis$^{a}$")]),
+     [("ext", "Zhakparov 2026", "random-forest", "accuracy for atopic dermatitis$^{g}$")]),
     ("Open allergy data", "bergmannhug2020", "Bergmann-Hug 2020", "Pollen allergy, Bern",
      [("add", "Bergmann-Hug 2020", "pollen-allergic", "venom sIgE, pollen-allergic patients, \\%"),
       ("add", "Bergmann-Hug 2020", "controls", "venom sIgE, non-atopic controls, \\%"),
@@ -423,7 +424,7 @@ REPRO = [  # (group, citation key, study label, data label, [(source csv, study,
 ]
 
 
-def table_reproduction(groups, fname, label, caption):
+def table_reproduction(groups, fname, label, caption, notes=""):
     la = pd.concat([x for x in (rd("lit_assoc.csv"), rd("lit_assoc_visness.csv")) if x is not None])
     la = la[~la.quantity.str.contains("6-19 y", regex=False)]      # FLIP sub-analysis rows, not reproductions
     lm = rd("lit_assoc_more.csv")
@@ -436,7 +437,7 @@ def table_reproduction(groups, fname, label, caption):
         if g not in groups:
             continue
         if g != group:
-            lines.append(r"\midrule" + "\n" + rf"\multicolumn{{4}}{{l}}{{\textit{{{g}}}}} \\")
+            lines.append(r"\midrule" + "\n" + rf"\multicolumn{{5}}{{l}}{{\textit{{{g}}}}} \\")
             group = g
         for k, (s, st, q, lab) in enumerate(items):
             df = src[s]
@@ -446,18 +447,21 @@ def table_reproduction(groups, fname, label, caption):
             if len(r) > 1:                      # several sites in one row
                 pub = " / ".join(fmt(v) for v in r.published)
                 rep = " / ".join(fmt(v) for v in r.reproduced)
+            elif lab.split("$")[0].endswith(", n"):   # counts: 44 and 41, not 41.0
+                pub, rep = (f"{float(v):.0f}" for v in (r.published.iloc[0], r.reproduced.iloc[0]))
             else:
                 pub, rep = fmt(r.published.iloc[0]), fmt(r.reproduced.iloc[0])
             first = rf"{study}~\cite{{{key}}}" if k == 0 else ""
             dlab = data if k == 0 else ""
-            lines.append(f"{first} & {dlab} & {lab} & {pub} $\\rightarrow$ {rep} \\\\")
+            lines.append(f"{first} & {dlab} & {lab} & {pub} & {rep} \\\\")
     body = "\n".join(lines)
     tex = (r"\begin{table}[H]" "\n" rf"\caption{{{caption}\label{{{label}}}}}" "\n"
            r"\begin{adjustwidth}{-\extralength}{0cm}" "\n" r"\scriptsize" "\n"
-           r"\begin{tabularx}{\fulllength}{p{3.3cm}p{3.6cm}Xp{3.3cm}}" "\n" r"\toprule" "\n"
-           r"\textbf{Study} & \textbf{Data} & \textbf{Reported quantity} & \textbf{Published $\rightarrow$ ours} \\"
-           "\n" + body + "\n" r"\bottomrule" "\n" r"\end{tabularx}" "\n" r"\end{adjustwidth}" "\n"
-           r"\end{table}" "\n")
+           r"\begin{tabularx}{\fulllength}{p{3.3cm}p{3.6cm}Xrr}" "\n" r"\toprule" "\n"
+           r"\textbf{Study} & \textbf{Data} & \textbf{Reported quantity} & \textbf{Published} & \textbf{Reproduced} \\"
+           "\n" + body + "\n" r"\bottomrule" "\n" r"\end{tabularx}" "\n"
+           + (rf"\par\smallskip\noindent{{\scriptsize {notes}}}" "\n" if notes else "")
+           + r"\end{adjustwidth}" "\n" r"\end{table}" "\n")
     with open(os.path.join(TAB, fname), "w", encoding="utf-8") as fh:
         fh.write(tex)
     print("  wrote", fname)
@@ -518,6 +522,23 @@ FLIP_CAPTION = (r"The protocol of Task~1 run unchanged on the public data of {wh
                 r"decision error against complete testing of the MissForest-type imputed decision and of the "
                 r"\FLIP{{}} posterior-majority decision. Best value per row in bold.")
 
+LIT_REPRO_CAPTION = (
+    r"Reproduction of the published results, the check carried out before the re-analysis. Published, the headline "
+    r"number reported in the original article; Reproduced, the same number recomputed in this study from the same "
+    r"public data with the study's own definitions. No \FLIP{} computation is involved: the agreement shows that the "
+    r"data, inclusion criteria and variable definitions were applied as in the original studies, so that the \FLIP{} "
+    r"results on these data (Figures~\ref{fig:lit_tests} and~\ref{fig:lit_natural}, Table~\ref{tab:ext_flip}) refer "
+    r"to the same samples. Survey weights are applied for NHANES, as in the original reports. Letters refer to the "
+    r"notes below the table.")
+LIT_REPRO_NOTES = (
+    r"$^{a}$Spearman correlation of the reported values, which include the NHANES fill value for results below the "
+    r"detection limit. $^{b}$Survey-weighted phi coefficients of sensitisation; mite, either \emph{Dermatophagoides} "
+    r"species. $^{c}$Within the published 95\% confidence interval (3.83--5.88). $^{d}$Computed in 3865 participants "
+    r"aged $<$21 years, against 3550 in the original report. $^{e}$Components with sIgE $>$0.30 ISU in $\geq$5\% of "
+    r"sensitised children; all 41 are on the published list of 44, which was used in every analysis. "
+    r"$^{f}$Ours: logistic regression adjusted for age and sex. $^{g}$The published model used questionnaire and "
+    r"antibody data, ours antibodies only.")
+
 if __name__ == "__main__":
     os.makedirs(TAB, exist_ok=True)
     R = fig_tests()
@@ -526,10 +547,7 @@ if __name__ == "__main__":
     fig_natural()
     fig_heart()
     table_reproduction(("Same NHANES data", "Open allergy data"), "tab_lit_repro.tex", "tab:lit_repro",
-                       r"Headline numbers of the twenty-two published allergy studies, reproduced from the same public "
-                       r"data with each study's definitions (published $\rightarrow$ reproduced). Survey weights are "
-                       r"applied for NHANES, as in the original reports. $^{a}$The published model used questionnaire "
-                       r"and antibody data, ours antibodies only.")
+                       LIT_REPRO_CAPTION, LIT_REPRO_NOTES)
     table_reproduction(("Clinical data",), "tab_clin_repro.tex", "tab:clin_repro",
                        r"Headline numbers of the seven clinical studies outside allergy, reproduced from the same "
                        r"public data (published $\rightarrow$ reproduced). $^{b}$Published C4.5, ours CART. "
