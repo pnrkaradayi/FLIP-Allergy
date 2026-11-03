@@ -53,7 +53,8 @@ def table(name, label, caption, colspec, header, rows, size="\\scriptsize", foot
 
 
 SCORE = {"Fraction missing": "Fraction of panel missing", "Kim et al. 2026": "Kim et al.~\\cite{kim2026}",
-         "Margin only": "Distance to threshold", "Multiple imputation": "Multiple imputation",
+         "Margin only": "Distance to threshold~\\cite{geifman2017}",
+         "Multiple imputation": "Multiple imputation~\\cite{white2026,mathiszig2022}",
          "FLIP": "\\textbf{FLIP}", "FLIP (posterior decision)": "\\textbf{FLIP}, posterior-majority decision"}
 
 
@@ -98,8 +99,9 @@ def t_posterior():
                         f"\\textbf{{{mci(g.flip_bayes)}}} & {mci(red, 0)}")
     table("tab_posterior", "tab:posterior",
           "Decision errors with unordered panels: flipped decisions (\\% of test patients; median and "
-          "2.5--97.5th percentile over repetitions) when the decision is issued after single imputation, by "
-          "majority vote over 30 multiple imputations, or from the \\FLIP{} posterior (posterior-majority decision). "
+          "2.5--97.5th percentile over repetitions) when the decision is issued after single imputation with a MissForest-type "
+          "imputer~\\cite{stekhoven2012} (as in Kim et al.~\\cite{kim2026}), by "
+          "majority vote over 30 multiple imputations~\\cite{vanbuuren2011,white2026}, or from the \\FLIP{} posterior (posterior-majority decision). "
           "Last column: reduction relative to single imputation. Other amounts of missingness in Table S10.",
           "llCCCC", "\\textbf{Outcome} & \\textbf{Mechanism} & \\textbf{Single imputation} & "
           "\\textbf{MI majority vote} & \\textbf{FLIP posterior} & \\textbf{Reduction, \\%}", rows,
@@ -119,7 +121,7 @@ def t_ordering():
             ("budget 10%", "One extra panel for 10\\% of patients",
              [("No extra testing", "No extra testing"),
               ("Kim rank + Kim panel", "Patients ranked by Kim et al.\\ score"),
-              ("Margin rank + Kim panel", "Patients ranked by distance to threshold"),
+              ("Margin rank + Kim panel", "Patients ranked by distance to threshold~\\cite{geifman2017}"),
               ("FLIP-VOI: expected flips", "\\textbf{FLIP-VOI}, expected flips"),
               ("FLIP-VOI: certified decisions", "\\textbf{FLIP-VOI}, certified decisions")])):
         rows.append(f"\\multicolumn{{5}}{{l}}{{\\textit{{{head}}}}} \\\\")
@@ -171,7 +173,7 @@ def t_tests_lit():
     table("tab_tests_lit", "tab:tests_lit",
           "Allergen tests per person needed to reach each published study's answer on the study's own data. "
           "Design, tests used in the original study; fixed panel, best single panel chosen by greedy set cover "
-          "(the method of the panel-optimisation literature); sequential, testing in a fixed order until the "
+          "(the method of the panel-optimisation literature~\\cite{gergen2009,sammut2026,kulalert2022}); sequential, testing in a fixed order until the "
           "first positive result. All strategies are certified at a miss rate of at most 5\\% (NHANES: test "
           "split, or rotating four-fold cross-fitting; other cohorts: rotating four-fold cross-fitting); --, not "
           "evaluated. Last column: tests saved by \\FLIP{} relative to the study design.",

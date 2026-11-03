@@ -517,9 +517,10 @@ def table_external_flip(names, fname, label, caption):
 
 FLIP_CAPTION = (r"The protocol of Task~1 run unchanged on the public data of {what} (missing at random, 30 "
                 r"repetitions): test records per repetition, flip rate of the imputed decision, AUROC for detecting "
-                r"the flipped decisions (MI, multiple imputation; Margin, distance to the threshold; Kim, the score "
+                r"the flipped decisions (MI, multiple imputation~\cite{{white2026}}; Margin, distance to the threshold~\cite{{geifman2017}}; "
+                r"Kim, the score "
                 r"of~\cite{{kim2026}}), share of patients certified (\%) at a flip rate $\leq$5\% and $\leq$10\% ($\delta=0.1$), and "
-                r"decision error against complete testing of the MissForest-type imputed decision and of the "
+                r"decision error against complete testing of the MissForest-type~\cite{{stekhoven2012}} imputed decision and of the "
                 r"\FLIP{{}} posterior-majority decision. Best value per row in bold.")
 
 LIT_REPRO_CAPTION = (
